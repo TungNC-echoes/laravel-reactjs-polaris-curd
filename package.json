@@ -27,6 +27,7 @@
     "dependencies": {
         "@shopify/polaris": "^6.3.0",
         "react-bootstrap": "^1.5.2",
+        "react-recaptcha": "^2.3.10",
         "react-router": "^2.8.1",
         "react-router-dom": "^5.2.0",
         "sweetalert2": "^10.16.7"

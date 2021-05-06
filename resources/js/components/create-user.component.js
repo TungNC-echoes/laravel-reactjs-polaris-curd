@@ -4,8 +4,8 @@ import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import axios from 'axios'
-import UsersList from './users-listing.component';
 import Swal from 'sweetalert2';
+import Recaptcha from 'react-recaptcha';
 
 
 export default class CreateUser extends Component {
@@ -19,12 +19,35 @@ export default class CreateUser extends Component {
         this.onChangeUserEmail = this.onChangeUserEmail.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
 
+        this.handleSubscribe = this.handleSubscribe.bind(this);
+        this.recaptchaLoaded = this.recaptchaLoaded.bind(this);
+        this.verifyCallback = this.verifyCallback.bind(this);
         // Setting up state
         this.state = {
             full_name: '',
             address: '',
             phone_number: '',
-            email: ''
+            email: '',
+            isVerified: false
+        }
+    }
+    handleSubscribe() {
+        if (this.state.isVerified) {
+            alert('ok')
+        } else {
+            alert('you must verify')
+        }
+    }
+
+    recaptchaLoaded() {
+        console.log('captcha success loaded')
+    }
+
+    verifyCallback(res) {
+        if(res) {
+            this.setState({
+                isVerified: true
+            })
         }
     }
 
@@ -45,24 +68,25 @@ export default class CreateUser extends Component {
     }
 
     async onSubmit(e) {
-        e.preventDefault()
-        const user = {
-            full_name: this.state.full_name,
-            address: this.state.address,
-            phone_number: this.state.phone_number,
-            email: this.state.email
-        };
-        const res = await axios.post('http://localhost:8000/api/users/', user);
-        debugger
-        if (res.status === 200) {
-            Swal.fire(
-                'Amazing, Good job!',
-                'User Added Successfully',
-                'success'
-            )
-            this.props.history.push('/users-listing?page=1')
-        } else {
-            console.log(res)
+        if (this.state.isVerified) {
+            e.preventDefault()
+            const user = {
+                full_name: this.state.full_name,
+                address: this.state.address,
+                phone_number: this.state.phone_number,
+                email: this.state.email
+            };
+            const res = await axios.post('http://localhost:8000/api/users/', user);
+            if (res.status === 200) {
+                Swal.fire(
+                    'Amazing, Good job!',
+                    'User Added Successfully',
+                    'success'
+                )
+                this.props.history.push('/users-listing?page=1')
+            } else {
+                console.log(res)
+            }
         }
     }
 
@@ -107,7 +131,12 @@ export default class CreateUser extends Component {
 
                 </Row>
 
-
+                <Recaptcha
+                    sitekey="6Lc-D8kaAAAAAFxa0khdRFToL5PQ9JMtL_98JbOx"
+                    render="explicit"
+                    onloadCallback={this.recaptchaLoaded}
+                    verifyCallback={this.verifyCallback}
+                />
                 <Button variant="primary" size="lg" block="block" type="submit">
                     Add Users
                 </Button>
