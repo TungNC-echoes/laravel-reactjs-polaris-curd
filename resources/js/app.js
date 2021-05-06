@@ -21,18 +21,18 @@ function App() {
                     <Container>
 
                         <Navbar.Brand>
-                            <Link to={"/create-expense"} className="nav-link">
-                                Expense manager
+                            <Link to={"/users-listing"} className="nav-link">
+                                User manager
                             </Link>
                         </Navbar.Brand>
 
                         <Nav className="justify-content-end">
                             <Nav>
-                                <Link to={"/create-expense"} className="nav-link">
-                                    Create Expense
+                                <Link to={"/create-user"} className="nav-link">
+                                    Create User
                                 </Link>
-                                <Link to={"/expenses-listing"} className="nav-link">
-                                    Expenses List
+                                <Link to={"/users-listing"} className="nav-link">
+                                    Users List
                                 </Link>
                             </Nav>
                         </Nav>
@@ -46,7 +46,7 @@ function App() {
                     <Col md={12}>
                         <div className="wrapper">
                             <Switch>
-                                <Route exact path='/' component={CreateUser} />
+                                <Route exact path='/' component={UsersList} />
                                 <Route path="/create-user" component={CreateUser} />
                                 <Route path="/edit-user/:id" component={EditUser} />
                                 <Route path="/users-listing" component={UsersList} />

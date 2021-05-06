@@ -103,6 +103,17 @@ function _setPrototypeOf(o, p) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/regenerator/index.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/regenerator-runtime/runtime.js");
+
+
+/***/ }),
+
 /***/ "./node_modules/@restart/hooks/esm/useCommittedRef.js":
 /*!************************************************************!*\
   !*** ./node_modules/@restart/hooks/esm/useCommittedRef.js ***!
@@ -258,6 +269,8096 @@ function useMergedRefs(refA, refB) {
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useMergedRefs);
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-icons/dist/icons/ArrowLeftMinor.svg.mjs":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-icons/dist/icons/ArrowLeftMinor.svg.mjs ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "S": () => (/* binding */ SvgArrowLeftMinor)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+  d: "M17 9H5.414l3.293-3.293a.999.999 0 1 0-1.414-1.414l-5 5a.999.999 0 0 0 0 1.414l5 5a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L5.414 11H17a1 1 0 1 0 0-2z"
+});
+
+var SvgArrowLeftMinor = function SvgArrowLeftMinor(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+    viewBox: "0 0 20 20"
+  }, props), _ref);
+};
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-icons/dist/icons/CaretDownMinor.svg.mjs":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-icons/dist/icons/CaretDownMinor.svg.mjs ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "S": () => (/* binding */ SvgCaretDownMinor)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+  d: "M5 8l5 5 5-5H5z"
+});
+
+var SvgCaretDownMinor = function SvgCaretDownMinor(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+    viewBox: "0 0 20 20"
+  }, props), _ref);
+};
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-icons/dist/icons/CaretUpMinor.svg.mjs":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-icons/dist/icons/CaretUpMinor.svg.mjs ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "S": () => (/* binding */ SvgCaretUpMinor)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+  d: "M15 12l-5-5-5 5h10z"
+});
+
+var SvgCaretUpMinor = function SvgCaretUpMinor(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+    viewBox: "0 0 20 20"
+  }, props), _ref);
+};
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-icons/dist/icons/ChevronLeftMinor.svg.mjs":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-icons/dist/icons/ChevronLeftMinor.svg.mjs ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "S": () => (/* binding */ SvgChevronLeftMinor)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+  d: "M12 16a.997.997 0 0 1-.707-.293l-5-5a.999.999 0 0 1 0-1.414l5-5a.999.999 0 1 1 1.414 1.414L8.414 10l4.293 4.293A.999.999 0 0 1 12 16z"
+});
+
+var SvgChevronLeftMinor = function SvgChevronLeftMinor(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+    viewBox: "0 0 20 20"
+  }, props), _ref);
+};
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-icons/dist/icons/ChevronRightMinor.svg.mjs":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-icons/dist/icons/ChevronRightMinor.svg.mjs ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "S": () => (/* binding */ SvgChevronRightMinor)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+  d: "M8 16a.999.999 0 0 1-.707-1.707L11.586 10 7.293 5.707a.999.999 0 1 1 1.414-1.414l5 5a.999.999 0 0 1 0 1.414l-5 5A.997.997 0 0 1 8 16z"
+});
+
+var SvgChevronRightMinor = function SvgChevronRightMinor(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+    viewBox: "0 0 20 20"
+  }, props), _ref);
+};
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-icons/dist/icons/HorizontalDotsMinor.svg.mjs":
+/*!************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-icons/dist/icons/HorizontalDotsMinor.svg.mjs ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "S": () => (/* binding */ SvgHorizontalDotsMinor)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+  d: "M6 10a2 2 0 1 1-4.001-.001A2 2 0 0 1 6 10zm6 0a2 2 0 1 1-4.001-.001A2 2 0 0 1 12 10zm6 0a2 2 0 1 1-4.001-.001A2 2 0 0 1 18 10z"
+});
+
+var SvgHorizontalDotsMinor = function SvgHorizontalDotsMinor(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+    viewBox: "0 0 20 20"
+  }, props), _ref);
+};
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-icons/dist/icons/SelectMinor.svg.mjs":
+/*!****************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-icons/dist/icons/SelectMinor.svg.mjs ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "S": () => (/* binding */ SvgSelectMinor)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+  d: "M10 16l-4-4h8l-4 4zm0-12l4 4H6l4-4z"
+});
+
+var SvgSelectMinor = function SvgSelectMinor(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+    viewBox: "0 0 20 20"
+  }, props), _ref);
+};
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-tokens/dist-modern/color-factory.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-tokens/dist-modern/color-factory.js ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.colorFactory = void 0;
+const tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/@shopify/polaris-tokens/node_modules/tslib/tslib.es6.js");
+const hsluv_1 = __webpack_require__(/*! hsluv */ "./node_modules/hsluv/hsluv.js");
+const base_1 = __webpack_require__(/*! ./configs/base */ "./node_modules/@shopify/polaris-tokens/dist-modern/configs/base.js");
+function colorFactory(theme, scheme, config = base_1.config) {
+    return Object.assign({}, ...Object.entries(theme).map(([role, hex]) => {
+        if (typeof hex !== 'string') {
+            return null;
+        }
+        const base = hsluv_1.hexToHsluv(hex);
+        const variants = config[role] || [];
+        return Object.assign({}, variants.reduce((accumulator, _a) => {
+            var { name } = _a, settings = tslib_1.__rest(_a, ["name"]);
+            const { hue = base[0], saturation = base[1], lightness = base[2], alpha = 1, } = settings[scheme];
+            const resolve = (value, baseToResolve) => {
+                return typeof value === 'number' ? value : value(baseToResolve);
+            };
+            const [red, green, blue] = hsluv_1.hsluvToRgb([
+                resolve(hue, base[0]),
+                resolve(saturation, base[1]),
+                resolve(lightness, base[2]),
+            ]).map((channel) => Math.round(channel * 255));
+            return Object.assign(Object.assign({}, accumulator), { [name]: `rgba(${red}, ${green}, ${blue}, ${alpha})` });
+        }, {}));
+    }));
+}
+exports.colorFactory = colorFactory;
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-tokens/dist-modern/configs/base.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-tokens/dist-modern/configs/base.js ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.config = void 0;
+const utils_1 = __webpack_require__(/*! ../utils */ "./node_modules/@shopify/polaris-tokens/dist-modern/utils.js");
+exports.config = {
+    surface: [
+        {
+            name: 'background',
+            description: 'For use as a background color, in components such as Page and Frame backgrounds.',
+            light: { lightness: 97 },
+            dark: { lightness: 3.3 },
+            meta: {
+                figmaName: 'Background/Default',
+            },
+        },
+        {
+            name: 'backgroundHovered',
+            description: 'For use when an action or navigation is used on a background.',
+            light: { lightness: 95.5 },
+            dark: { lightness: 3.3 },
+            meta: {
+                figmaName: 'Background/Hovered',
+            },
+        },
+        {
+            name: 'backgroundPressed',
+            description: 'For use when an action or navigation is used on a background.',
+            light: { lightness: 94 },
+            dark: { lightness: 3.3 },
+            meta: {
+                figmaName: 'Background/Pressed',
+            },
+        },
+        {
+            name: 'backgroundSelected',
+            description: 'For use in the selected item in navigation',
+            light: { lightness: 94 },
+            dark: { lightness: 3.3 },
+            meta: {
+                figmaName: 'Background/Selected',
+            },
+        },
+        {
+            name: 'surface',
+            description: 'For use as a background color, in components such as Card, Modal, and Popover.',
+            light: { lightness: 100 },
+            dark: { lightness: 12.7 },
+            meta: {
+                figmaName: 'Surface/Default',
+            },
+        },
+        {
+            name: 'surfaceNeutral',
+            description: 'For use as a background color in neutral badges.',
+            light: { lightness: 91 },
+            dark: { lightness: 21 },
+            meta: {
+                figmaName: 'Surface Neutral/Default',
+            },
+        },
+        {
+            name: 'surfaceNeutralHovered',
+            description: 'For use as a hovered background color in neutral badges.',
+            light: { lightness: 88 },
+            dark: { lightness: 21 },
+            meta: {
+                figmaName: 'Surface Neutral/Hovered',
+            },
+        },
+        {
+            name: 'surfaceNeutralPressed',
+            description: 'For use as a pressed background color in neutral badges.',
+            light: { lightness: 82 },
+            dark: { lightness: 21 },
+            meta: {
+                figmaName: 'Surface Neutral/Pressed',
+            },
+        },
+        {
+            name: 'surfaceNeutralDisabled',
+            description: 'For use as a disabled background color in neutral badges.',
+            light: { lightness: 95.5 },
+            dark: { lightness: 21 },
+            meta: {
+                figmaName: 'Surface Neutral/Disabled',
+            },
+        },
+        {
+            name: 'surfaceNeutralSubdued',
+            description: 'For use as a background color in neutral banners.',
+            light: { lightness: 97 },
+            dark: { lightness: 30 },
+            meta: {
+                figmaName: 'Surface Neutral/Subdued',
+            },
+        },
+        {
+            name: 'surfaceSubdued',
+            description: 'For use as a subdued background color, in components such as Card, Modal, and Popover.',
+            light: { lightness: 98.5 },
+            dark: { lightness: 10 },
+            meta: {
+                figmaName: 'Surface/Subdued',
+            },
+        },
+        {
+            name: 'surfaceDisabled',
+            description: 'For use as a surface color on disabled interactive elements such as option list items and action list items when in a disabled state.',
+            light: { lightness: 98.5 },
+            dark: { lightness: 10 },
+            meta: {
+                figmaName: 'Surface/Disabled',
+            },
+        },
+        {
+            name: 'surfaceHovered',
+            description: 'For use as a surface color on interactive elements such as resource list items and action list items when in a hovered state.',
+            light: { lightness: 97 },
+            dark: { lightness: 20 },
+            meta: {
+                figmaName: 'Surface/Hovered',
+            },
+        },
+        {
+            name: 'surfacePressed',
+            description: 'For use as a surface color on interactive elements such as resource list items and action list items when in a pressed state.',
+            light: { lightness: 95.5 },
+            dark: { lightness: 27 },
+            meta: {
+                figmaName: 'Surface/Pressed',
+            },
+        },
+        {
+            name: 'surfaceDepressed',
+            description: 'For use as a surface color on interactive elements such as resource list items and action list items when in a depressed state.',
+            light: { lightness: 94 },
+            dark: { lightness: 35 },
+            meta: {
+                figmaName: 'Surface/Depressed',
+            },
+        },
+        {
+            name: 'surfaceSearchField',
+            description: 'For use as a background color, in components on surface elements such as SearchField',
+            light: { lightness: 95.5 },
+            dark: { lightness: 20 },
+            meta: {
+                figmaName: 'Surface/SearchField',
+            },
+        },
+        {
+            name: 'backdrop',
+            description: 'For use as the background color of the backdrop component for navigation and modal. This color has an alpha of `0.5`.',
+            light: {
+                hue: 0,
+                saturation: 0,
+                lightness: 0,
+                alpha: 0.5,
+            },
+            dark: {
+                hue: 0,
+                saturation: 0,
+                lightness: 0,
+                alpha: 0.5,
+            },
+            meta: {
+                figmaName: 'Backdrop',
+            },
+        },
+        {
+            name: 'overlay',
+            description: 'For use as the background color of elements which lay on top of surfaces to obscure their contents. This color has an alpha of `0.5`.',
+            light: {
+                hue: 0,
+                saturation: 0,
+                lightness: 100,
+                alpha: 0.5,
+            },
+            dark: {
+                hue: 0,
+                saturation: 0,
+                lightness: 12.7,
+                alpha: 0.5,
+            },
+            meta: {
+                figmaName: 'Overlay',
+            },
+        },
+        {
+            name: 'shadowFromDimLight',
+            description: 'For use in building shadows for modals. This color has an alpha of `0.02`.',
+            light: {
+                lightness: 0,
+                alpha: 0.2,
+            },
+            dark: {
+                lightness: 100,
+                alpha: 0.2,
+            },
+            meta: {
+                figmaName: 'Shadow/From dim light',
+            },
+        },
+        {
+            name: 'shadowFromAmbientLight',
+            description: 'For use in building shadows for popovers, and cards. This color has an alpha of `0.05`.',
+            light: {
+                hue: 180,
+                saturation: 5,
+                lightness: 8,
+                alpha: 0.05,
+            },
+            dark: {
+                hue: 180,
+                saturation: 5,
+                lightness: 8,
+                alpha: 0.05,
+            },
+            meta: {
+                figmaName: 'Shadow/From ambient light',
+            },
+        },
+        {
+            name: 'shadowFromDirectLight',
+            description: 'For use in building shadows for popovers and cards. This color has an alpha of `0.15`.',
+            light: {
+                hue: 0,
+                saturation: 0,
+                lightness: 0,
+                alpha: 0.15,
+            },
+            dark: {
+                hue: 0,
+                saturation: 0,
+                lightness: 100,
+                alpha: 0.15,
+            },
+            meta: {
+                figmaName: 'Shadow/From direct light',
+            },
+        },
+        {
+            name: 'hintFromDirectLight',
+            description: 'For use in building shadows scrollables.',
+            light: {
+                hue: 0,
+                saturation: 0,
+                lightness: 0,
+                alpha: 0.15,
+            },
+            dark: {
+                hue: 0,
+                saturation: 0,
+                lightness: 75,
+                alpha: 0.2,
+            },
+            meta: {
+                figmaName: 'Hint/From direct light',
+            },
+        },
+    ],
+    onSurface: [
+        {
+            name: 'border',
+            description: 'For use as the default border on elements.',
+            light: { lightness: 60 },
+            dark: { lightness: 35 },
+            meta: {
+                figmaName: 'Border/Default',
+            },
+        },
+        {
+            name: 'borderNeutralSubdued',
+            description: 'For use as the border on banners.',
+            light: { lightness: 77 },
+            dark: { lightness: 56 },
+            meta: {
+                figmaName: 'Border Neutral/Subdued',
+            },
+        },
+        {
+            name: 'borderHovered',
+            description: 'Used for borders on hovered interactive elements',
+            light: { lightness: 65 },
+            dark: { lightness: 35 },
+            meta: {
+                figmaName: 'Border/Hovered',
+            },
+        },
+        {
+            name: 'borderDisabled',
+            description: 'Used for disabled borders on interactive elements',
+            light: { lightness: 85 },
+            dark: { lightness: 45 },
+            meta: {
+                figmaName: 'Border/Disabled',
+            },
+        },
+        {
+            name: 'borderSubdued',
+            description: 'For use as a subdued border on elements.',
+            light: {
+                saturation: utils_1.saturationAdjustmentFn(-1),
+                lightness: 81.9,
+            },
+            dark: { lightness: 56 },
+            meta: {
+                figmaName: 'Border/Subdued',
+            },
+        },
+        {
+            name: 'borderDepressed',
+            description: 'For use as a border on depressed elements.',
+            light: {
+                hue: utils_1.hueRotationFn(-45),
+                saturation: utils_1.saturationAdjustmentFn(-4),
+                lightness: 37.7,
+            },
+            dark: {
+                hue: utils_1.hueRotationFn(-45),
+                saturation: utils_1.saturationAdjustmentFn(-4),
+                lightness: 60,
+            },
+            meta: {
+                figmaName: 'Border/Depressed',
+            },
+        },
+        {
+            name: 'borderShadow',
+            description: 'For use as an additional bottom border on elements.',
+            light: {
+                lightness: 73,
+            },
+            dark: {
+                lightness: 40,
+            },
+            meta: {
+                figmaName: 'BorderShadow',
+            },
+        },
+        {
+            name: 'borderShadowSubdued',
+            description: 'For use as an additional, subdued bottom border on elements.',
+            light: {
+                lightness: 77.1,
+            },
+            dark: {
+                lightness: 56,
+            },
+            meta: {
+                figmaName: 'BorderShadow/Subdued',
+            },
+        },
+        {
+            name: 'divider',
+            description: 'For use as a divider between elements.',
+            light: {
+                saturation: utils_1.saturationAdjustmentFn(-1),
+                lightness: 90.1,
+            },
+            dark: {
+                saturation: utils_1.saturationAdjustmentFn(-1),
+                lightness: 30,
+            },
+            meta: {
+                figmaName: 'Divider',
+            },
+        },
+        {
+            name: 'icon',
+            description: 'For use as the fill color of icons.',
+            light: { lightness: 40.1 },
+            dark: { lightness: 70.1 },
+            meta: {
+                figmaName: 'Icon/Default',
+            },
+        },
+        {
+            name: 'iconHovered',
+            description: 'For use as the fill color of hovered icons.',
+            light: { lightness: 10 },
+            dark: { lightness: 90 },
+            meta: {
+                figmaName: 'Icon/Hovered',
+            },
+        },
+        {
+            name: 'iconPressed',
+            description: 'For use as the fill color of pressed icons.',
+            light: { lightness: 30 },
+            dark: { lightness: 70 },
+            meta: {
+                figmaName: 'Icon/Pressed',
+            },
+        },
+        {
+            name: 'iconDisabled',
+            description: 'For use as the fill color of disabled icons.',
+            light: { lightness: 76.9 },
+            dark: { lightness: 36.8 },
+            meta: {
+                figmaName: 'Icon/Disabled',
+            },
+        },
+        {
+            name: 'iconSubdued',
+            description: 'For use as the fill color of subdued icons.',
+            light: { lightness: 59.8 },
+            dark: { lightness: 52.1 },
+            meta: {
+                figmaName: 'Icon/Subdued',
+            },
+        },
+        {
+            name: 'text',
+            description: 'For use as a text color.',
+            light: { lightness: 13.1 },
+            dark: { lightness: 90.8 },
+            meta: {
+                figmaName: 'Text/Default',
+            },
+        },
+        {
+            name: 'textDisabled',
+            description: 'For use as a disabled text color and as a placeholder text color.',
+            light: { lightness: 60 },
+            dark: { lightness: 48.2 },
+            meta: {
+                figmaName: 'Text/Disabled',
+            },
+        },
+        {
+            name: 'textSubdued',
+            description: 'For use as a subdued text color.',
+            light: { lightness: 47.4 },
+            dark: { lightness: 65.1 },
+            meta: {
+                figmaName: 'Text/Subdued',
+            },
+        },
+    ],
+    interactive: [
+        {
+            name: 'interactive',
+            description: 'Used for links, plain buttons, and as the fill color for selected checkboxes and radio buttons.',
+            light: { lightness: 47 },
+            dark: {
+                lightness: 65,
+                saturation: utils_1.saturationAdjustmentFn(11.2),
+                hue: utils_1.hueRotationFn(-7.1),
+            },
+            meta: {
+                figmaName: 'Interactive/Default',
+            },
+        },
+        {
+            name: 'interactiveDisabled',
+            description: 'Used for disabled links and plain buttons.',
+            light: { lightness: 78, saturation: 17 },
+            dark: {
+                lightness: 42,
+            },
+            meta: {
+                figmaName: 'Interactive/Disabled',
+            },
+        },
+        {
+            name: 'interactiveHovered',
+            description: 'Used for hovered links and plain buttons.',
+            light: { lightness: 35 },
+            dark: {
+                lightness: 70,
+                saturation: utils_1.saturationAdjustmentFn(11.2),
+                hue: utils_1.hueRotationFn(-7.1),
+            },
+            meta: {
+                figmaName: 'Interactive/Hovered',
+            },
+        },
+        {
+            name: 'interactivePressed',
+            description: 'Used for pressed links and plain buttons.',
+            light: { lightness: 21 },
+            dark: {
+                lightness: 75,
+                saturation: utils_1.saturationAdjustmentFn(11.2),
+                hue: utils_1.hueRotationFn(-7.1),
+            },
+            meta: {
+                figmaName: 'Interactive/Pressed',
+            },
+        },
+        {
+            name: 'iconInteractive',
+            description: 'For use as an interactive icon fill color',
+            light: { lightness: 47 },
+            dark: {
+                lightness: 65,
+                saturation: utils_1.saturationAdjustmentFn(11.2),
+                hue: utils_1.hueRotationFn(-7.1),
+            },
+            meta: {
+                figmaName: 'Icon/Interactive',
+            },
+        },
+        {
+            name: 'focused',
+            description: 'For use in the focus ring on interactive elements.',
+            light: { lightness: 60, saturation: utils_1.saturationAdjustmentFn(11.2) },
+            dark: { lightness: 42 },
+            meta: {
+                figmaName: 'Focused/Default',
+            },
+        },
+        {
+            name: 'surfaceSelected',
+            description: 'For use as a surface color in selected interactive elements, in components such as action list and resource list.',
+            light: { lightness: 97, hue: utils_1.hueRotationFn(-12) },
+            dark: { lightness: 4 },
+            meta: {
+                figmaName: 'Surface Selected/Default',
+            },
+        },
+        {
+            name: 'surfaceSelectedHovered',
+            description: 'For use as a surface color in selected interactive elements that are hovered, in components such as action list and resource list.',
+            light: { lightness: 96, hue: utils_1.hueRotationFn(-12) },
+            dark: { lightness: 11 },
+            meta: {
+                figmaName: 'Surface Selected/Hovered',
+            },
+        },
+        {
+            name: 'surfaceSelectedPressed',
+            description: 'For use as a surface color in selected interactive elements that are pressed, in components such as action list and resource list.',
+            light: { lightness: 94, hue: utils_1.hueRotationFn(-10) },
+            dark: { lightness: 18 },
+            meta: {
+                figmaName: 'Surface Selected/Pressed',
+            },
+        },
+        {
+            name: 'iconOnInteractive',
+            description: 'For use as a fill color for icons on interactive elements.',
+            light: { lightness: 100 },
+            dark: { lightness: 100 },
+            meta: {
+                figmaName: 'Icon On/Interactive',
+            },
+        },
+        {
+            name: 'textOnInteractive',
+            description: 'For use as a text color on interactive elements.',
+            light: { lightness: 100 },
+            dark: { lightness: 100 },
+            meta: {
+                figmaName: 'Text On/Interactive',
+            },
+        },
+    ],
+    secondary: [
+        {
+            name: 'actionSecondary',
+            description: 'Used for secondary buttons and tertiary buttons, as well as in form elements as a background color and pontentially other secondary surfaces.',
+            light: { lightness: 100 },
+            dark: { lightness: 34 },
+            meta: {
+                figmaName: 'Action Secondary/Default',
+            },
+        },
+        {
+            name: 'actionSecondaryDisabled',
+            description: 'Used as a disabled state for secondary buttons',
+            light: { lightness: 100 },
+            dark: { lightness: 13 },
+            meta: {
+                figmaName: 'Action Secondary/Disabled',
+            },
+        },
+        {
+            name: 'actionSecondaryHovered',
+            description: 'Used as a hovered state for secondary buttons',
+            light: { lightness: 97 },
+            dark: { lightness: 37 },
+            meta: {
+                figmaName: 'Action Secondary/Hovered',
+            },
+        },
+        {
+            name: 'actionSecondaryPressed',
+            description: 'Used as a pressed state for secondary buttons',
+            light: { lightness: 95.5 },
+            dark: { lightness: 42 },
+            meta: {
+                figmaName: 'Action Secondary/Pressed',
+            },
+        },
+        {
+            name: 'actionSecondaryDepressed',
+            description: 'Used as a depressed state for secondary buttons',
+            light: {
+                hue: utils_1.hueRotationFn(4),
+                lightness: 47.4,
+            },
+            dark: {
+                hue: utils_1.hueRotationFn(4),
+                lightness: 53,
+            },
+            meta: {
+                figmaName: 'Action Secondary/Depressed',
+            },
+        },
+    ],
+    primary: [
+        {
+            name: 'actionPrimary',
+            description: 'Used as the background color for primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
+            light: { lightness: 47.3 },
+            dark: { lightness: 47.3 },
+            meta: {
+                figmaName: 'Action Primary/Default',
+            },
+        },
+        {
+            name: 'actionPrimaryDisabled',
+            description: 'Used as the background color for disabled primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
+            light: { lightness: 95, saturation: 0 },
+            dark: { lightness: 32 },
+            meta: {
+                figmaName: 'Action Primary/Disabled',
+            },
+        },
+        {
+            name: 'actionPrimaryHovered',
+            description: 'Used as the background color for hovered primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
+            light: { lightness: 41 },
+            dark: { lightness: 55 },
+            meta: {
+                figmaName: 'Action Primary/Hovered',
+            },
+        },
+        {
+            name: 'actionPrimaryPressed',
+            description: 'Used as the background color for pressed primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
+            light: { lightness: 35 },
+            dark: { lightness: 60 },
+            meta: {
+                figmaName: 'Action Primary/Pressed',
+            },
+        },
+        {
+            name: 'actionPrimaryDepressed',
+            description: 'Used as the background color for pressed primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
+            light: { lightness: 22 },
+            dark: { lightness: 65 },
+            meta: {
+                figmaName: 'Action Primary/Depressed',
+            },
+        },
+        {
+            name: 'iconOnPrimary',
+            description: 'For use as a fill color for icons on primary actions. Not for use in icons on navigation and tabs.',
+            light: { lightness: 100 },
+            dark: { lightness: 98 },
+            meta: {
+                figmaName: 'Icon On/Primary',
+            },
+        },
+        {
+            name: 'textOnPrimary',
+            description: 'For use as a text color on primary actions. Not for use in text on navigation and tabs.',
+            light: { lightness: 100 },
+            dark: { lightness: 100 },
+            meta: {
+                figmaName: 'Text On/Primary',
+            },
+        },
+        {
+            name: 'textPrimary',
+            description: 'For use as primary text color on background. For use in text in components such as Navigation.',
+            light: { lightness: 45.7 },
+            dark: { lightness: 52 },
+            meta: {
+                figmaName: 'Text Primary/Default',
+            },
+        },
+        {
+            name: 'textPrimaryHovered',
+            description: 'For use as primary hovered text color on background. For use in text in components such as Navigation.',
+            light: { lightness: 40 },
+            dark: { lightness: 58 },
+            meta: {
+                figmaName: 'Text Primary/hover',
+            },
+        },
+        {
+            name: 'textPrimaryPressed',
+            description: 'For use as primary pressed text color on background. For use in text in components such as Navigation.',
+            light: { lightness: 34 },
+            dark: { lightness: 64 },
+            meta: {
+                figmaName: 'Text Primary/Pressed',
+            },
+        },
+        {
+            name: 'surfacePrimarySelected',
+            description: 'Used as a surface color to indicate selected interactive states in navigation and tabs.',
+            light: { lightness: 97, saturation: 20 },
+            dark: { lightness: 5, saturation: 30 },
+            meta: {
+                figmaName: 'Surface Primary/Selected',
+            },
+        },
+        {
+            name: 'surfacePrimarySelectedHovered',
+            description: 'Used as a surface color to indicate selected interactive states that are hovered in navigation and tabs.',
+            light: { lightness: 81, saturation: 22 },
+            dark: { lightness: 19, saturation: 22 },
+            meta: {
+                figmaName: 'Surface Primary/Selected Hovered',
+            },
+        },
+        {
+            name: 'surfacePrimarySelectedPressed',
+            description: 'Used as a surface color to indicate selected interactive states that are pressed in navigation and tabs.',
+            light: { lightness: 74, saturation: 22 },
+            dark: { lightness: 26, saturation: 22 },
+            meta: {
+                figmaName: 'Surface Primary/Selected Pressed',
+            },
+        },
+    ],
+    critical: [
+        {
+            name: 'borderCritical',
+            description: 'For use as a border on critical components such as an outline on interactive elements in an error state.',
+            light: { lightness: 60 },
+            dark: { lightness: 50 },
+            meta: {
+                figmaName: 'Border Critical/Default',
+            },
+        },
+        {
+            name: 'borderCriticalSubdued',
+            description: 'For use as a border on critical components such as banners.',
+            light: { lightness: 77, saturation: utils_1.saturationAdjustmentFn(-50) },
+            dark: { lightness: 50 },
+            meta: {
+                figmaName: 'Border Critical/Subdued',
+            },
+        },
+        {
+            name: 'borderCriticalDisabled',
+            description: 'For use as a disabled border on critical components such as banners, and as an outline on interactive elements in an error state.',
+            light: { lightness: 77, saturation: utils_1.saturationAdjustmentFn(2.7) },
+            dark: { lightness: 28 },
+            meta: {
+                figmaName: 'Border Critical/Disabled',
+            },
+        },
+        {
+            name: 'iconCritical',
+            description: 'For use as an icon fill color on top of critical elements.',
+            light: { lightness: 47.3 },
+            dark: { lightness: 48 },
+            meta: {
+                figmaName: 'Icon/Critical',
+            },
+        },
+        {
+            name: 'surfaceCritical',
+            description: 'For use as a surface color on critical elements including badges.',
+            light: { lightness: 88 },
+            dark: { lightness: 12 },
+            meta: {
+                figmaName: 'Surface Critical/Default',
+            },
+        },
+        {
+            name: 'surfaceCriticalSubdued',
+            description: 'For use as a subdued surface color on critical elements including banners.',
+            light: { lightness: 97 },
+            dark: { lightness: 12 },
+            meta: {
+                figmaName: 'Surface Critical/Subdued',
+            },
+        },
+        {
+            name: 'surfaceCriticalSubduedHovered',
+            description: 'For use as a surface color on critical interactive elements including action list items in a hovered state.',
+            light: { lightness: 96 },
+            dark: { lightness: 15, saturation: 60 },
+            meta: {
+                figmaName: 'Surface Critical/Subdued Hovered',
+                figmaDescription: 'Used on action lists',
+            },
+        },
+        {
+            name: 'surfaceCriticalSubduedPressed',
+            description: 'For use as a surface color on critical interactive elements including action list items in a pressed state.',
+            light: { lightness: 94 },
+            dark: { lightness: 22 },
+            meta: {
+                figmaName: 'Surface Critical/Subdued Pressed',
+            },
+        },
+        {
+            name: 'surfaceCriticalSubduedDepressed',
+            description: 'For use as a surface color on critical interactive elements including action list items in a depressed state.',
+            light: { lightness: 82 },
+            dark: { lightness: 29 },
+            meta: {
+                figmaName: 'Surface Critical/Subdued Depressed',
+            },
+        },
+        {
+            name: 'textCritical',
+            description: 'For use as a text color in inert critical elements such as exception list. Not for use as a text color on banners and badges.',
+            light: { lightness: 47.3 },
+            dark: { lightness: 65, saturation: 70 },
+            meta: {
+                figmaName: 'Text/Critical',
+            },
+        },
+        {
+            name: 'actionCritical',
+            description: 'For use as the background color for destructive buttons, and as the background color for error toast messages.',
+            light: { lightness: 47.5 },
+            dark: { lightness: 45 },
+            meta: {
+                figmaName: 'Action Critical/Default',
+            },
+        },
+        {
+            name: 'actionCriticalDisabled',
+            description: 'For use as the background color for disabled destructive buttons, and as the background color for error toast messages.',
+            light: { lightness: 95, saturation: 0 },
+            dark: { lightness: 41 },
+            meta: {
+                figmaName: 'Action Critical/Disabled',
+            },
+        },
+        {
+            name: 'actionCriticalHovered',
+            description: 'For use as the background color for hovered destructive buttons, and as the background color for error toast messages.',
+            light: { lightness: 41, saturation: utils_1.saturationAdjustmentFn(2.7) },
+            dark: { lightness: 50 },
+            meta: {
+                figmaName: 'Action Critical/Hovered',
+            },
+        },
+        {
+            name: 'actionCriticalPressed',
+            description: 'For use as the background color for pressed destructive buttons, and as the background color for error toast messages.',
+            light: { lightness: 35, saturation: utils_1.saturationAdjustmentFn(2.7) },
+            dark: { lightness: 55 },
+            meta: {
+                figmaName: 'Action Critical/Pressed',
+            },
+        },
+        {
+            name: 'actionCriticalDepressed',
+            description: 'For use as the background color for depressed destructive buttons, and as the background color for error toast messages.',
+            light: { lightness: 22, saturation: utils_1.saturationAdjustmentFn(2.7) },
+            dark: { lightness: 60 },
+            meta: {
+                figmaName: 'Action Critical/Depressed',
+            },
+        },
+        {
+            name: 'iconOnCritical',
+            description: 'For use as a fill color for icons on critical actions.',
+            light: { lightness: 100 },
+            dark: { lightness: 98 },
+            meta: {
+                figmaName: 'Icon On/Critical',
+            },
+        },
+        {
+            name: 'textOnCritical',
+            description: 'For use as a text color on critical actions.',
+            light: { lightness: 100 },
+            dark: { lightness: 100 },
+            meta: {
+                figmaName: 'Text On/Critical',
+            },
+        },
+        {
+            name: 'interactiveCritical',
+            description: 'For use as the text color for destructive interactive elements: links, plain buttons, error state of selected checkboxes and radio buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
+            light: { lightness: 47.5 },
+            dark: { lightness: 65 },
+            meta: {
+                figmaName: 'Interactive/Critical',
+            },
+        },
+        {
+            name: 'interactiveCriticalDisabled',
+            description: 'For use as a text color in disabled destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
+            light: { lightness: 72 },
+            dark: { lightness: 78 },
+            meta: {
+                figmaName: 'Interactive/Critical Disabled',
+            },
+        },
+        {
+            name: 'interactiveCriticalHovered',
+            description: 'For use as a text color in hovered destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
+            light: { lightness: 45 },
+            dark: { lightness: 70 },
+            meta: {
+                figmaName: 'Interactive/Critical Hovered',
+            },
+        },
+        {
+            name: 'interactiveCriticalPressed',
+            description: 'For use as a text color in pressed destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
+            light: { lightness: 21 },
+            dark: { lightness: 75 },
+            meta: {
+                figmaName: 'Interactive/Critical Pressed',
+            },
+        },
+    ],
+    warning: [
+        {
+            name: 'borderWarning',
+            description: 'For use as a border on warning components such as...',
+            light: { lightness: 60 },
+            dark: { lightness: 50 },
+            meta: {
+                figmaName: 'Border Warning/Default',
+            },
+        },
+        {
+            name: 'borderWarningSubdued',
+            description: 'For use as a border on warning components such as banners.',
+            light: { lightness: 77, saturation: utils_1.saturationAdjustmentFn(-40) },
+            dark: { lightness: 50 },
+            meta: {
+                figmaName: 'Border Warning/Subdued',
+            },
+        },
+        {
+            name: 'iconWarning',
+            description: 'For use as an icon fill color on top of warning elements.',
+            light: { lightness: 60 },
+            dark: { lightness: 34 },
+            meta: {
+                figmaName: 'Icon/Warning',
+            },
+        },
+        {
+            name: 'surfaceWarning',
+            description: 'For use as a surface color on warning elements including badges.',
+            light: { lightness: 88 },
+            dark: { lightness: 50 },
+            meta: {
+                figmaName: 'Surface Warning/Default',
+                figmaDescription: 'Use for badges',
+            },
+        },
+        {
+            name: 'surfaceWarningSubdued',
+            description: 'For use as a subdued surface color on warning elements including banners.',
+            light: { lightness: 97 },
+            dark: { lightness: 26, saturation: 71 },
+            meta: {
+                figmaName: 'Surface Warning/Subdued',
+                figmaDescription: 'Used for banners',
+            },
+        },
+        {
+            name: 'surfaceWarningSubduedHovered',
+            description: 'For use as a subdued surface color on warning elements including banners.',
+            light: { lightness: 96 },
+            dark: { lightness: 28, saturation: 71 },
+            meta: {
+                figmaName: 'Surface Warning/Subdued Hovered',
+                figmaDescription: 'Used for banners',
+            },
+        },
+        {
+            name: 'surfaceWarningSubduedPressed',
+            description: 'For use as a subdued surface color on warning elements including banners.',
+            light: { lightness: 94 },
+            dark: { lightness: 30, saturation: 71 },
+            meta: {
+                figmaName: 'Surface Warning/Subdued Pressed',
+                figmaDescription: 'Used for banners',
+            },
+        },
+        {
+            name: 'textWarning',
+            description: 'For use as a text color in inert critical elements such as exception list. Not for use as a text color on banners and badges.',
+            light: { lightness: 47.4 },
+            dark: { lightness: 64.9 },
+            meta: {
+                figmaName: 'Text/Warning',
+            },
+        },
+    ],
+    highlight: [
+        {
+            name: 'borderHighlight',
+            description: 'For use as a border on informational components such as...',
+            light: { lightness: 60 },
+            dark: { lightness: 60 },
+            meta: {
+                figmaName: 'Border Highlight/Default',
+            },
+        },
+        {
+            name: 'borderHighlightSubdued',
+            description: 'For use as a border on informational components such as banners.',
+            light: { lightness: 77, saturation: utils_1.saturationAdjustmentFn(-40) },
+            dark: { lightness: 60 },
+            meta: {
+                figmaName: 'Border Highlight/Subdued',
+            },
+        },
+        {
+            name: 'iconHighlight',
+            description: 'For use as an icon fill color on top of informational elements.',
+            light: { lightness: 60, saturation: utils_1.saturationAdjustmentFn(19.6) },
+            dark: { lightness: 42 },
+            meta: {
+                figmaName: 'Icon/Highlight',
+            },
+        },
+        {
+            name: 'surfaceHighlight',
+            description: 'For use as a surface color on information elements including badges.',
+            light: { lightness: 88, saturation: utils_1.saturationAdjustmentFn(-20.4) },
+            dark: { lightness: 40, saturation: 100 },
+            meta: {
+                figmaName: 'Surface Highlight/Default',
+            },
+        },
+        {
+            name: 'surfaceHighlightSubdued',
+            description: 'For use as a surface color on information elements including banners.',
+            light: { lightness: 97, saturation: utils_1.saturationAdjustmentFn(-20.4) },
+            dark: { lightness: 20 },
+            meta: {
+                figmaName: 'Surface Highlight/Subdued',
+            },
+        },
+        {
+            name: 'surfaceHighlightSubduedHovered',
+            description: 'For use as a surface color on information elements including banners.',
+            light: { lightness: 96, saturation: utils_1.saturationAdjustmentFn(-20.4) },
+            dark: { lightness: 22 },
+            meta: {
+                figmaName: 'Surface Highlight/Subdued Hovered',
+            },
+        },
+        {
+            name: 'surfaceHighlightSubduedPressed',
+            description: 'For use as a surface color on information elements including banners.',
+            light: { lightness: 94, saturation: utils_1.saturationAdjustmentFn(-20.4) },
+            dark: { lightness: 25 },
+            meta: {
+                figmaName: 'Surface Highlight/Subdued Pressed',
+            },
+        },
+        {
+            name: 'textHighlight',
+            description: 'For use as a text color in inert informational elements. Not for use as a text color on banners and badges.',
+            light: { lightness: 48 },
+            dark: { lightness: 90 },
+            meta: {
+                figmaName: 'Text/Highlight',
+            },
+        },
+    ],
+    success: [
+        {
+            name: 'borderSuccess',
+            description: 'For use as a border on success components such as text inputs.',
+            light: { lightness: 60 },
+            dark: { lightness: 50 },
+            meta: {
+                figmaName: 'Border Success/Default',
+            },
+        },
+        {
+            name: 'borderSuccessSubdued',
+            description: 'For use as a border on success components such as banners.',
+            light: { lightness: 77, saturation: utils_1.saturationAdjustmentFn(-60) },
+            dark: { lightness: 50 },
+            meta: {
+                figmaName: 'Border Success/Subdued',
+            },
+        },
+        {
+            name: 'iconSuccess',
+            description: 'For use as an icon fill color on top of success elements.',
+            light: { lightness: 47 },
+            dark: { lightness: 35 },
+            meta: {
+                figmaName: 'Icon/Success',
+            },
+        },
+        {
+            name: 'surfaceSuccess',
+            description: 'For use as a surface color on success elements including badges.',
+            light: { lightness: 88, saturation: utils_1.saturationAdjustmentFn(-60) },
+            dark: { lightness: 35 },
+            meta: {
+                figmaName: 'Surface Success/Default',
+            },
+        },
+        {
+            name: 'surfaceSuccessSubdued',
+            description: 'For use as a surface color on information elements including banners.',
+            light: { lightness: 97, saturation: utils_1.saturationAdjustmentFn(-80) },
+            dark: { lightness: 20, saturation: utils_1.saturationAdjustmentFn(-40) },
+            meta: {
+                figmaName: 'Surface Success/Subdued',
+            },
+        },
+        {
+            name: 'surfaceSuccessSubduedHovered',
+            description: 'For use as a surface color on information elements including banners.',
+            light: { lightness: 96, saturation: utils_1.saturationAdjustmentFn(-80) },
+            dark: { lightness: 22, saturation: utils_1.saturationAdjustmentFn(-40) },
+            meta: {
+                figmaName: 'Surface Success/Subdued Hovered',
+            },
+        },
+        {
+            name: 'surfaceSuccessSubduedPressed',
+            description: 'For use as a surface color on information elements including banners.',
+            light: { lightness: 94, saturation: utils_1.saturationAdjustmentFn(-80) },
+            dark: { lightness: 25, saturation: utils_1.saturationAdjustmentFn(-40) },
+            meta: {
+                figmaName: 'Surface Success/Subdued Pressed',
+            },
+        },
+        {
+            name: 'textSuccess',
+            description: 'For use as a text color in inert success elements. Not for use as a text color on banners and badges.',
+            light: { lightness: 47.3 },
+            dark: { lightness: 65, saturation: utils_1.saturationAdjustmentFn(-30) },
+            meta: {
+                figmaName: 'Text/Success',
+            },
+        },
+    ],
+    decorative: [
+        {
+            name: 'decorativeOneIcon',
+            description: 'For use as a decorative icon color that is applied on a decorative surface.',
+            light: {
+                hue: utils_1.hueRotationFn(-4.5),
+                lightness: 40,
+            },
+            dark: {
+                hue: utils_1.hueRotationFn(-4.5),
+                lightness: 80,
+            },
+            meta: {
+                figmaName: 'Decorative/Icon/One',
+            },
+        },
+        {
+            name: 'decorativeOneSurface',
+            description: 'For use as a decorative surface color.',
+            light: {
+                lightness: 84,
+            },
+            dark: {
+                hue: utils_1.hueRotationFn(-2.5),
+                saturation: utils_1.saturationAdjustmentFn(-2),
+                lightness: 46,
+            },
+            meta: {
+                figmaName: 'Decorative/Surface/One',
+            },
+        },
+        {
+            name: 'decorativeOneText',
+            description: 'For use as a decorative text color that is applied on a decorative surface.',
+            light: {
+                hue: utils_1.hueRotationFn(-4.5),
+                lightness: 18,
+            },
+            dark: { lightness: 100 },
+            meta: {
+                figmaName: 'Decorative/Text/One',
+            },
+        },
+        {
+            name: 'decorativeTwoIcon',
+            description: 'For use as a decorative icon color that is applied on a decorative surface.',
+            light: {
+                hue: utils_1.hueRotationFn(305.5),
+                saturation: utils_1.saturationAdjustmentFn(-20),
+                lightness: 40,
+            },
+            dark: {
+                hue: utils_1.hueRotationFn(305.5),
+                saturation: utils_1.saturationAdjustmentFn(-20),
+                lightness: 80,
+            },
+            meta: {
+                figmaName: 'Decorative/Icon/Two',
+            },
+        },
+        {
+            name: 'decorativeTwoSurface',
+            description: 'For use as a decorative surface color.',
+            light: {
+                hue: utils_1.hueRotationFn(-26.5),
+                lightness: 84,
+            },
+            dark: {
+                hue: utils_1.hueRotationFn(-32.5),
+                saturation: utils_1.saturationAdjustmentFn(-4),
+                lightness: 52,
+            },
+            meta: {
+                figmaName: 'Decorative/Surface/Two',
+            },
+        },
+        {
+            name: 'decorativeTwoText',
+            description: 'For use as a decorative text color that is applied on a decorative surface.',
+            light: {
+                hue: utils_1.hueRotationFn(305.5),
+                saturation: utils_1.saturationAdjustmentFn(-20),
+                lightness: 14,
+            },
+            dark: { lightness: 100 },
+            meta: {
+                figmaName: 'Decorative/Text/Two',
+            },
+        },
+        {
+            name: 'decorativeThreeIcon',
+            description: 'For use as a decorative icon color that is applied on a decorative surface.',
+            light: {
+                hue: utils_1.hueRotationFn(87.5),
+                lightness: 40,
+            },
+            dark: {
+                hue: utils_1.hueRotationFn(87.5),
+                lightness: 80,
+            },
+            meta: {
+                figmaName: 'Decorative/Icon/Three',
+            },
+        },
+        {
+            name: 'decorativeThreeSurface',
+            description: 'For use as a decorative surface color.',
+            light: {
+                hue: utils_1.hueRotationFn(87.5),
+                saturation: utils_1.saturationAdjustmentFn(-46),
+                lightness: 85,
+            },
+            dark: {
+                hue: utils_1.hueRotationFn(97.5),
+                lightness: 46,
+            },
+            meta: {
+                figmaName: 'Decorative/Surface/Three',
+            },
+        },
+        {
+            name: 'decorativeThreeText',
+            description: 'For use as a decorative text color that is applied on a decorative surface.',
+            light: {
+                hue: utils_1.hueRotationFn(87.5),
+                lightness: 16,
+            },
+            dark: { lightness: 100 },
+            meta: {
+                figmaName: 'Decorative/Text/Three',
+            },
+        },
+        {
+            name: 'decorativeFourIcon',
+            description: 'For use as a decorative icon color that is applied on a decorative surface.',
+            light: {
+                hue: utils_1.hueRotationFn(133.5),
+                lightness: 40,
+            },
+            dark: {
+                hue: utils_1.hueRotationFn(133.5),
+                lightness: 80,
+            },
+            meta: {
+                figmaName: 'Decorative/Icon/Four',
+            },
+        },
+        {
+            name: 'decorativeFourSurface',
+            description: 'For use as a decorative surface color.',
+            light: {
+                hue: utils_1.hueRotationFn(123.5),
+                saturation: utils_1.saturationAdjustmentFn(-44),
+                lightness: 84,
+            },
+            dark: {
+                hue: utils_1.hueRotationFn(131.5),
+                saturation: utils_1.saturationAdjustmentFn(-5),
+                lightness: 47,
+            },
+            meta: {
+                figmaName: 'Decorative/Surface/Four',
+            },
+        },
+        {
+            name: 'decorativeFourText',
+            description: 'For use as a decorative text color that is applied on a decorative surface.',
+            light: {
+                hue: utils_1.hueRotationFn(133.5),
+                lightness: 16,
+            },
+            dark: { lightness: 100 },
+            meta: {
+                figmaName: 'Decorative/Text/Four',
+            },
+        },
+        {
+            name: 'decorativeFiveIcon',
+            description: 'For use as a decorative icon color that is applied on a decorative surface.',
+            light: {
+                hue: utils_1.hueRotationFn(306.5),
+                saturation: utils_1.saturationAdjustmentFn(-22),
+                lightness: 40,
+            },
+            dark: {
+                hue: utils_1.hueRotationFn(306.5),
+                saturation: utils_1.saturationAdjustmentFn(-22),
+                lightness: 80,
+            },
+            meta: {
+                figmaName: 'Decorative/Icon/Five',
+            },
+        },
+        {
+            name: 'decorativeFiveSurface',
+            description: 'For use as a decorative surface color.',
+            light: {
+                hue: utils_1.hueRotationFn(-53.4),
+                saturation: utils_1.saturationAdjustmentFn(-5.4),
+                lightness: 85.6,
+            },
+            dark: {
+                hue: utils_1.hueRotationFn(306.5),
+                saturation: utils_1.saturationAdjustmentFn(-23),
+                lightness: 45,
+            },
+            meta: {
+                figmaName: 'Decorative/Surface/Five',
+            },
+        },
+        {
+            name: 'decorativeFiveText',
+            description: 'For use as a decorative text color that is applied on a decorative surface.',
+            light: {
+                hue: utils_1.hueRotationFn(306.5),
+                saturation: utils_1.saturationAdjustmentFn(-22),
+                lightness: 16,
+            },
+            dark: { lightness: 100 },
+            meta: {
+                figmaName: 'Decorative/Text/Five',
+            },
+        },
+    ],
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-tokens/dist-modern/index.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-tokens/dist-modern/index.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.mergeConfigs = exports.colorFactory = void 0;
+var color_factory_1 = __webpack_require__(/*! ./color-factory */ "./node_modules/@shopify/polaris-tokens/dist-modern/color-factory.js");
+Object.defineProperty(exports, "colorFactory", ({ enumerable: true, get: function () { return color_factory_1.colorFactory; } }));
+var utils_1 = __webpack_require__(/*! ./utils */ "./node_modules/@shopify/polaris-tokens/dist-modern/utils.js");
+Object.defineProperty(exports, "mergeConfigs", ({ enumerable: true, get: function () { return utils_1.mergeConfigs; } }));
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-tokens/dist-modern/theme/base.json":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-tokens/dist-modern/theme/base.json ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"surface":"#111213","onSurface":"#111213","interactive":"#2e72d2","secondary":"#111213","primary":"#008060","critical":"#d82c0d","warning":"#ffc453","highlight":"#5bcdda","success":"#008060","decorative":"#ffc96b"}');
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-tokens/dist-modern/utils.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-tokens/dist-modern/utils.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.mergeConfigs = exports.saturationAdjustmentFn = exports.hueRotationFn = void 0;
+function hueRotationFn(rotation) {
+    return (hue) => (360 + hue + rotation) % 360;
+}
+exports.hueRotationFn = hueRotationFn;
+function saturationAdjustmentFn(adjustment) {
+    return (saturation) => Math.min(Math.max(saturation + adjustment, 0), 100);
+}
+exports.saturationAdjustmentFn = saturationAdjustmentFn;
+function mergeConfigs(base, extended) {
+    return Object.entries(base).reduce((accumulator, [role, variants]) => {
+        const extendedVariants = extended[role];
+        const mergedVariants = [...variants];
+        if (extendedVariants != null) {
+            extendedVariants.forEach((variant) => {
+                const { name } = variant;
+                const indexToReplace = mergedVariants.findIndex((baseVariant) => baseVariant.name === name);
+                if (indexToReplace === -1) {
+                    mergedVariants.push(variant);
+                }
+                else {
+                    mergedVariants.splice(indexToReplace, 1, variant);
+                }
+            });
+        }
+        return Object.assign(Object.assign({}, accumulator), { [role]: mergedVariants });
+    }, {});
+}
+exports.mergeConfigs = mergeConfigs;
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-tokens/dist/index.esm.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-tokens/dist/index.esm.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "colorPurpleText": () => (/* binding */ colorPurpleText),
+/* harmony export */   "colorPurpleDarker": () => (/* binding */ colorPurpleDarker),
+/* harmony export */   "colorPurpleDark": () => (/* binding */ colorPurpleDark),
+/* harmony export */   "colorPurple": () => (/* binding */ colorPurple),
+/* harmony export */   "colorPurpleLight": () => (/* binding */ colorPurpleLight),
+/* harmony export */   "colorPurpleLighter": () => (/* binding */ colorPurpleLighter),
+/* harmony export */   "colorIndigoText": () => (/* binding */ colorIndigoText),
+/* harmony export */   "colorIndigoDarker": () => (/* binding */ colorIndigoDarker),
+/* harmony export */   "colorIndigoDark": () => (/* binding */ colorIndigoDark),
+/* harmony export */   "colorIndigo": () => (/* binding */ colorIndigo),
+/* harmony export */   "colorIndigoLight": () => (/* binding */ colorIndigoLight),
+/* harmony export */   "colorIndigoLighter": () => (/* binding */ colorIndigoLighter),
+/* harmony export */   "colorBlueText": () => (/* binding */ colorBlueText),
+/* harmony export */   "colorBlueDarker": () => (/* binding */ colorBlueDarker),
+/* harmony export */   "colorBlueDark": () => (/* binding */ colorBlueDark),
+/* harmony export */   "colorBlue": () => (/* binding */ colorBlue),
+/* harmony export */   "colorBlueLight": () => (/* binding */ colorBlueLight),
+/* harmony export */   "colorBlueLighter": () => (/* binding */ colorBlueLighter),
+/* harmony export */   "colorTealText": () => (/* binding */ colorTealText),
+/* harmony export */   "colorTealDarker": () => (/* binding */ colorTealDarker),
+/* harmony export */   "colorTealDark": () => (/* binding */ colorTealDark),
+/* harmony export */   "colorTeal": () => (/* binding */ colorTeal),
+/* harmony export */   "colorTealLight": () => (/* binding */ colorTealLight),
+/* harmony export */   "colorTealLighter": () => (/* binding */ colorTealLighter),
+/* harmony export */   "colorGreenText": () => (/* binding */ colorGreenText),
+/* harmony export */   "colorGreenDarker": () => (/* binding */ colorGreenDarker),
+/* harmony export */   "colorGreenDark": () => (/* binding */ colorGreenDark),
+/* harmony export */   "colorGreen": () => (/* binding */ colorGreen),
+/* harmony export */   "colorGreenLight": () => (/* binding */ colorGreenLight),
+/* harmony export */   "colorGreenLighter": () => (/* binding */ colorGreenLighter),
+/* harmony export */   "colorYellowText": () => (/* binding */ colorYellowText),
+/* harmony export */   "colorYellowDarker": () => (/* binding */ colorYellowDarker),
+/* harmony export */   "colorYellowDark": () => (/* binding */ colorYellowDark),
+/* harmony export */   "colorYellow": () => (/* binding */ colorYellow),
+/* harmony export */   "colorYellowLight": () => (/* binding */ colorYellowLight),
+/* harmony export */   "colorYellowLighter": () => (/* binding */ colorYellowLighter),
+/* harmony export */   "colorOrangeText": () => (/* binding */ colorOrangeText),
+/* harmony export */   "colorOrangeDarker": () => (/* binding */ colorOrangeDarker),
+/* harmony export */   "colorOrangeDark": () => (/* binding */ colorOrangeDark),
+/* harmony export */   "colorOrange": () => (/* binding */ colorOrange),
+/* harmony export */   "colorOrangeLight": () => (/* binding */ colorOrangeLight),
+/* harmony export */   "colorOrangeLighter": () => (/* binding */ colorOrangeLighter),
+/* harmony export */   "colorRedText": () => (/* binding */ colorRedText),
+/* harmony export */   "colorRedDarker": () => (/* binding */ colorRedDarker),
+/* harmony export */   "colorRedDark": () => (/* binding */ colorRedDark),
+/* harmony export */   "colorRed": () => (/* binding */ colorRed),
+/* harmony export */   "colorRedLight": () => (/* binding */ colorRedLight),
+/* harmony export */   "colorRedLighter": () => (/* binding */ colorRedLighter),
+/* harmony export */   "colorInk": () => (/* binding */ colorInk),
+/* harmony export */   "colorInkLight": () => (/* binding */ colorInkLight),
+/* harmony export */   "colorInkLighter": () => (/* binding */ colorInkLighter),
+/* harmony export */   "colorInkLightest": () => (/* binding */ colorInkLightest),
+/* harmony export */   "colorSkyDark": () => (/* binding */ colorSkyDark),
+/* harmony export */   "colorSky": () => (/* binding */ colorSky),
+/* harmony export */   "colorSkyLight": () => (/* binding */ colorSkyLight),
+/* harmony export */   "colorSkyLighter": () => (/* binding */ colorSkyLighter),
+/* harmony export */   "colorBlack": () => (/* binding */ colorBlack),
+/* harmony export */   "colorWhite": () => (/* binding */ colorWhite),
+/* harmony export */   "durationNone": () => (/* binding */ durationNone),
+/* harmony export */   "durationFast": () => (/* binding */ durationFast),
+/* harmony export */   "durationBase": () => (/* binding */ durationBase),
+/* harmony export */   "durationSlow": () => (/* binding */ durationSlow),
+/* harmony export */   "durationSlower": () => (/* binding */ durationSlower),
+/* harmony export */   "durationSlowest": () => (/* binding */ durationSlowest),
+/* harmony export */   "spacingNone": () => (/* binding */ spacingNone),
+/* harmony export */   "spacingExtraTight": () => (/* binding */ spacingExtraTight),
+/* harmony export */   "spacingTight": () => (/* binding */ spacingTight),
+/* harmony export */   "spacingBaseTight": () => (/* binding */ spacingBaseTight),
+/* harmony export */   "spacingBase": () => (/* binding */ spacingBase),
+/* harmony export */   "spacingLoose": () => (/* binding */ spacingLoose),
+/* harmony export */   "spacingExtraLoose": () => (/* binding */ spacingExtraLoose),
+/* harmony export */   "fontStackBase": () => (/* binding */ fontStackBase),
+/* harmony export */   "fontStackMonospace": () => (/* binding */ fontStackMonospace),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const colorPurpleText = 'rgb(80, 73, 90)';
+const colorPurpleDarker = 'rgb(35, 0, 81)';
+const colorPurpleDark = 'rgb(80, 36, 143)';
+const colorPurple = 'rgb(156, 106, 222)';
+const colorPurpleLight = 'rgb(227, 208, 255)';
+const colorPurpleLighter = 'rgb(246, 240, 253)';
+const colorIndigoText = 'rgb(62, 65, 85)';
+const colorIndigoDarker = 'rgb(0, 6, 57)';
+const colorIndigoDark = 'rgb(32, 46, 120)';
+const colorIndigo = 'rgb(92, 106, 196)';
+const colorIndigoLight = 'rgb(179, 188, 245)';
+const colorIndigoLighter = 'rgb(244, 245, 250)';
+const colorBlueText = 'rgb(62, 78, 87)';
+const colorBlueDarker = 'rgb(0, 20, 41)';
+const colorBlueDark = 'rgb(8, 78, 138)';
+const colorBlue = 'rgb(0, 111, 187)';
+const colorBlueLight = 'rgb(180, 225, 250)';
+const colorBlueLighter = 'rgb(235, 245, 250)';
+const colorTealText = 'rgb(64, 83, 82)';
+const colorTealDarker = 'rgb(0, 49, 53)';
+const colorTealDark = 'rgb(0, 132, 142)';
+const colorTeal = 'rgb(71, 193, 191)';
+const colorTealLight = 'rgb(183, 236, 236)';
+const colorTealLighter = 'rgb(224, 245, 245)';
+const colorGreenText = 'rgb(65, 79, 62)';
+const colorGreenDarker = 'rgb(23, 54, 48)';
+const colorGreenDark = 'rgb(16, 128, 67)';
+const colorGreen = 'rgb(80, 184, 60)';
+const colorGreenLight = 'rgb(187, 229, 179)';
+const colorGreenLighter = 'rgb(227, 241, 223)';
+const colorYellowText = 'rgb(89, 81, 48)';
+const colorYellowDarker = 'rgb(87, 59, 0)';
+const colorYellowDark = 'rgb(138, 97, 22)';
+const colorYellow = 'rgb(238, 194, 0)';
+const colorYellowLight = 'rgb(255, 234, 138)';
+const colorYellowLighter = 'rgb(252, 241, 205)';
+const colorOrangeText = 'rgb(89, 68, 48)';
+const colorOrangeDarker = 'rgb(74, 21, 4)';
+const colorOrangeDark = 'rgb(192, 87, 23)';
+const colorOrange = 'rgb(244, 147, 66)';
+const colorOrangeLight = 'rgb(255, 197, 139)';
+const colorOrangeLighter = 'rgb(252, 235, 219)';
+const colorRedText = 'rgb(88, 60, 53)';
+const colorRedDarker = 'rgb(51, 1, 1)';
+const colorRedDark = 'rgb(191, 7, 17)';
+const colorRed = 'rgb(222, 54, 24)';
+const colorRedLight = 'rgb(254, 173, 154)';
+const colorRedLighter = 'rgb(251, 234, 229)';
+const colorInk = 'rgb(33, 43, 54)';
+const colorInkLight = 'rgb(69, 79, 91)';
+const colorInkLighter = 'rgb(99, 115, 129)';
+const colorInkLightest = 'rgb(145, 158, 171)';
+const colorSkyDark = 'rgb(196, 205, 213)';
+const colorSky = 'rgb(223, 227, 232)';
+const colorSkyLight = 'rgb(244, 246, 248)';
+const colorSkyLighter = 'rgb(249, 250, 251)';
+const colorBlack = 'rgb(0, 0, 0)';
+const colorWhite = 'rgb(255, 255, 255)';
+const durationNone = 0;
+const durationFast = 100;
+const durationBase = 200;
+const durationSlow = 300;
+const durationSlower = 400;
+const durationSlowest = 500;
+const spacingNone = 0;
+const spacingExtraTight = '4px';
+const spacingTight = '8px';
+const spacingBaseTight = '12px';
+const spacingBase = '16px';
+const spacingLoose = '20px';
+const spacingExtraLoose = '32px';
+const fontStackBase = "-apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif";
+const fontStackMonospace = "Monaco, Consolas, 'Lucida Console', monospace";
+
+// When this package shipped only CJS, bundlers applied some cjs-to-esm interop
+// dark magic that meant you could access content from index.common.js from an
+// esm file in many ways.
+// The following were all valid ways to access tokens:
+//
+// import {colorInk as namedImport} from '@shopify/polaris-tokens'
+// import * as namespaceImport from '@shopify/polaris-tokens'
+// import defaultImport from '@shopify/polaris-tokens'
+// console.log(colorInk, namespaceImport.colorInk, defaultImport.colorInk)
+//
+// In order to avoid adding this esm file being a breaking change, we must
+// provide a default export to maintain compatibility.
+// This is a deprecated way of accessing tokens. Consumers should use either
+// named imports (`import {colorInk}`) or a namespace import
+// (`import * as tokens`).
+// This default export should be removed in polaris-tokens v3 if we don't
+// remove this file entirely.
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  colorPurpleText,
+  colorPurpleDarker,
+  colorPurpleDark,
+  colorPurple,
+  colorPurpleLight,
+  colorPurpleLighter,
+  colorIndigoText,
+  colorIndigoDarker,
+  colorIndigoDark,
+  colorIndigo,
+  colorIndigoLight,
+  colorIndigoLighter,
+  colorBlueText,
+  colorBlueDarker,
+  colorBlueDark,
+  colorBlue,
+  colorBlueLight,
+  colorBlueLighter,
+  colorTealText,
+  colorTealDarker,
+  colorTealDark,
+  colorTeal,
+  colorTealLight,
+  colorTealLighter,
+  colorGreenText,
+  colorGreenDarker,
+  colorGreenDark,
+  colorGreen,
+  colorGreenLight,
+  colorGreenLighter,
+  colorYellowText,
+  colorYellowDarker,
+  colorYellowDark,
+  colorYellow,
+  colorYellowLight,
+  colorYellowLighter,
+  colorOrangeText,
+  colorOrangeDarker,
+  colorOrangeDark,
+  colorOrange,
+  colorOrangeLight,
+  colorOrangeLighter,
+  colorRedText,
+  colorRedDarker,
+  colorRedDark,
+  colorRed,
+  colorRedLight,
+  colorRedLighter,
+  colorInk,
+  colorInkLight,
+  colorInkLighter,
+  colorInkLightest,
+  colorSkyDark,
+  colorSky,
+  colorSkyLight,
+  colorSkyLighter,
+  colorBlack,
+  colorWhite,
+  durationNone,
+  durationFast,
+  durationBase,
+  durationSlow,
+  durationSlower,
+  durationSlowest,
+  spacingNone,
+  spacingExtraTight,
+  spacingTight,
+  spacingBaseTight,
+  spacingBase,
+  spacingLoose,
+  spacingExtraLoose,
+  fontStackBase,
+  fontStackMonospace,
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-tokens/node_modules/tslib/tslib.es6.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-tokens/node_modules/tslib/tslib.es6.js ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "__extends": () => (/* binding */ __extends),
+/* harmony export */   "__assign": () => (/* binding */ __assign),
+/* harmony export */   "__rest": () => (/* binding */ __rest),
+/* harmony export */   "__decorate": () => (/* binding */ __decorate),
+/* harmony export */   "__param": () => (/* binding */ __param),
+/* harmony export */   "__metadata": () => (/* binding */ __metadata),
+/* harmony export */   "__awaiter": () => (/* binding */ __awaiter),
+/* harmony export */   "__generator": () => (/* binding */ __generator),
+/* harmony export */   "__createBinding": () => (/* binding */ __createBinding),
+/* harmony export */   "__exportStar": () => (/* binding */ __exportStar),
+/* harmony export */   "__values": () => (/* binding */ __values),
+/* harmony export */   "__read": () => (/* binding */ __read),
+/* harmony export */   "__spread": () => (/* binding */ __spread),
+/* harmony export */   "__spreadArrays": () => (/* binding */ __spreadArrays),
+/* harmony export */   "__await": () => (/* binding */ __await),
+/* harmony export */   "__asyncGenerator": () => (/* binding */ __asyncGenerator),
+/* harmony export */   "__asyncDelegator": () => (/* binding */ __asyncDelegator),
+/* harmony export */   "__asyncValues": () => (/* binding */ __asyncValues),
+/* harmony export */   "__makeTemplateObject": () => (/* binding */ __makeTemplateObject),
+/* harmony export */   "__importStar": () => (/* binding */ __importStar),
+/* harmony export */   "__importDefault": () => (/* binding */ __importDefault),
+/* harmony export */   "__classPrivateFieldGet": () => (/* binding */ __classPrivateFieldGet),
+/* harmony export */   "__classPrivateFieldSet": () => (/* binding */ __classPrivateFieldSet)
+/* harmony export */ });
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+/* global Reflect, Promise */
+
+var extendStatics = function(d, b) {
+    extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return extendStatics(d, b);
+};
+
+function __extends(d, b) {
+    extendStatics(d, b);
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+}
+
+var __assign = function() {
+    __assign = Object.assign || function __assign(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    }
+    return __assign.apply(this, arguments);
+}
+
+function __rest(s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+                t[p[i]] = s[p[i]];
+        }
+    return t;
+}
+
+function __decorate(decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+}
+
+function __param(paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+}
+
+function __metadata(metadataKey, metadataValue) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(metadataKey, metadataValue);
+}
+
+function __awaiter(thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+}
+
+function __generator(thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+}
+
+function __createBinding(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}
+
+function __exportStar(m, exports) {
+    for (var p in m) if (p !== "default" && !exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+
+function __values(o) {
+    var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
+    if (m) return m.call(o);
+    if (o && typeof o.length === "number") return {
+        next: function () {
+            if (o && i >= o.length) o = void 0;
+            return { value: o && o[i++], done: !o };
+        }
+    };
+    throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
+}
+
+function __read(o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+}
+
+function __spread() {
+    for (var ar = [], i = 0; i < arguments.length; i++)
+        ar = ar.concat(__read(arguments[i]));
+    return ar;
+}
+
+function __spreadArrays() {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
+
+function __await(v) {
+    return this instanceof __await ? (this.v = v, this) : new __await(v);
+}
+
+function __asyncGenerator(thisArg, _arguments, generator) {
+    if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+    var g = generator.apply(thisArg, _arguments || []), i, q = [];
+    return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i;
+    function verb(n) { if (g[n]) i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; }
+    function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }
+    function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }
+    function fulfill(value) { resume("next", value); }
+    function reject(value) { resume("throw", value); }
+    function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }
+}
+
+function __asyncDelegator(o) {
+    var i, p;
+    return i = {}, verb("next"), verb("throw", function (e) { throw e; }), verb("return"), i[Symbol.iterator] = function () { return this; }, i;
+    function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: n === "return" } : f ? f(v) : v; } : f; }
+}
+
+function __asyncValues(o) {
+    if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+    var m = o[Symbol.asyncIterator], i;
+    return m ? m.call(o) : (o = typeof __values === "function" ? __values(o) : o[Symbol.iterator](), i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i);
+    function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }
+    function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }
+}
+
+function __makeTemplateObject(cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+};
+
+function __importStar(mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result.default = mod;
+    return result;
+}
+
+function __importDefault(mod) {
+    return (mod && mod.__esModule) ? mod : { default: mod };
+}
+
+function __classPrivateFieldGet(receiver, privateMap) {
+    if (!privateMap.has(receiver)) {
+        throw new TypeError("attempted to get private field on non-instance");
+    }
+    return privateMap.get(receiver);
+}
+
+function __classPrivateFieldSet(receiver, privateMap, value) {
+    if (!privateMap.has(receiver)) {
+        throw new TypeError("attempted to set private field on non-instance");
+    }
+    privateMap.set(receiver, value);
+    return value;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "defineProperty": () => (/* binding */ _defineProperty),
+/* harmony export */   "objectSpread2": () => (/* binding */ _objectSpread2),
+/* harmony export */   "objectWithoutProperties": () => (/* binding */ _objectWithoutProperties),
+/* harmony export */   "objectWithoutPropertiesLoose": () => (/* binding */ _objectWithoutPropertiesLoose)
+/* harmony export */ });
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread2(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionList/ActionList.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionList/ActionList.js ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ActionList": () => (/* binding */ ActionList)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ActionList.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionList/ActionList.scss.js");
+/* harmony import */ var _components_Section_Section_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Section/Section.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionList/components/Section/Section.js");
+
+
+
+
+
+function ActionList({
+  items,
+  sections = [],
+  actionRole,
+  onActionAnyItem
+}) {
+  let finalSections = [];
+
+  if (items) {
+    finalSections = [{
+      items
+    }, ...sections];
+  } else if (sections) {
+    finalSections = sections;
+  }
+
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_1__.classNames)(_ActionList_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.ActionList);
+  const hasMultipleSections = finalSections.length > 1;
+  const Element = hasMultipleSections ? 'ul' : 'div';
+  const sectionMarkup = finalSections.map((section, index) => {
+    return section.items.length > 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Section_Section_js__WEBPACK_IMPORTED_MODULE_3__.Section, {
+      key: section.title || index,
+      section: section,
+      hasMultipleSections: hasMultipleSections,
+      actionRole: actionRole,
+      onActionAnyItem: onActionAnyItem
+    }) : null;
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Element, {
+    className: className
+  }, sectionMarkup);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionList/ActionList.scss.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionList/ActionList.scss.js ***!
+  \*****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "ActionList": "Polaris-ActionList",
+  "Section-withoutTitle": "Polaris-ActionList__Section--withoutTitle",
+  "Actions": "Polaris-ActionList__Actions",
+  "Title": "Polaris-ActionList__Title",
+  "Section": "Polaris-ActionList__Section",
+  "Item": "Polaris-ActionList__Item",
+  "active": "Polaris-ActionList--active",
+  "destructive": "Polaris-ActionList--destructive",
+  "disabled": "Polaris-ActionList--disabled",
+  "Prefix": "Polaris-ActionList__Prefix",
+  "Suffix": "Polaris-ActionList__Suffix",
+  "Content": "Polaris-ActionList__Content",
+  "ContentBlock": "Polaris-ActionList__ContentBlock",
+  "ContentBlockInner": "Polaris-ActionList__ContentBlockInner",
+  "Text": "Polaris-ActionList__Text"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionList/components/Item/Item.js":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionList/components/Item/Item.js ***!
+  \**********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Item": () => (/* binding */ Item)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _utilities_focus_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../utilities/focus.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/focus.js");
+/* harmony import */ var _Icon_Icon_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../Icon/Icon.js */ "./node_modules/@shopify/polaris/dist/esm/components/Icon/Icon.js");
+/* harmony import */ var _Scrollable_Scrollable_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../Scrollable/Scrollable.js */ "./node_modules/@shopify/polaris/dist/esm/components/Scrollable/Scrollable.js");
+/* harmony import */ var _UnstyledLink_UnstyledLink_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../UnstyledLink/UnstyledLink.js */ "./node_modules/@shopify/polaris/dist/esm/components/UnstyledLink/UnstyledLink.js");
+/* harmony import */ var _Badge_Badge_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../Badge/Badge.js */ "./node_modules/@shopify/polaris/dist/esm/components/Badge/Badge.js");
+/* harmony import */ var _TextStyle_TextStyle_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../TextStyle/TextStyle.js */ "./node_modules/@shopify/polaris/dist/esm/components/TextStyle/TextStyle.js");
+/* harmony import */ var _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../ActionList.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionList/ActionList.scss.js");
+
+
+
+
+
+
+
+
+
+
+var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Scrollable_Scrollable_js__WEBPACK_IMPORTED_MODULE_1__.Scrollable.ScrollTo, null);
+
+function Item({
+  id,
+  badge,
+  content,
+  accessibilityLabel,
+  helpText,
+  url,
+  onAction,
+  icon,
+  image,
+  prefix,
+  suffix,
+  disabled,
+  external,
+  destructive,
+  ellipsis,
+  active,
+  role
+}) {
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_2__.classNames)(_ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Item, disabled && _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.disabled, destructive && _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.destructive, active && _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.active);
+  let prefixMarkup = null;
+
+  if (prefix) {
+    prefixMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+      className: _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Prefix
+    }, prefix);
+  } else if (icon) {
+    prefixMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+      className: _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Prefix
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Icon_Icon_js__WEBPACK_IMPORTED_MODULE_4__.Icon, {
+      source: icon
+    }));
+  } else if (image) {
+    prefixMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+      role: "presentation",
+      className: _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Prefix,
+      style: {
+        backgroundImage: `url(${image}`
+      }
+    });
+  }
+
+  const contentText = ellipsis && content ? `${content}…` : content;
+  const contentMarkup = helpText ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.ContentBlock
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.ContentBlockInner
+  }, contentText), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_TextStyle_TextStyle_js__WEBPACK_IMPORTED_MODULE_5__.TextStyle, {
+    variation: "subdued"
+  }, helpText)) : contentText;
+  const badgeMarkup = badge && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Suffix
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Badge_Badge_js__WEBPACK_IMPORTED_MODULE_6__.Badge, {
+    status: badge.status
+  }, badge.content));
+  const suffixMarkup = suffix && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Suffix
+  }, suffix);
+  const textMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Text
+  }, contentMarkup);
+  const contentElement = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Content
+  }, prefixMarkup, textMarkup, badgeMarkup, suffixMarkup);
+  const scrollMarkup = active ? _ref : null;
+  const control = url ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_UnstyledLink_UnstyledLink_js__WEBPACK_IMPORTED_MODULE_7__.UnstyledLink, {
+    id: id,
+    url: disabled ? null : url,
+    className: className,
+    external: external,
+    "aria-label": accessibilityLabel,
+    onClick: disabled ? null : onAction
+  }, contentElement) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    id: id,
+    type: "button",
+    className: className,
+    disabled: disabled,
+    "aria-label": accessibilityLabel,
+    onClick: onAction,
+    onMouseUp: _utilities_focus_js__WEBPACK_IMPORTED_MODULE_8__.handleMouseUpByBlurring
+  }, contentElement);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    role: role
+  }, scrollMarkup, control);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionList/components/Section/Section.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionList/components/Section/Section.js ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Section": () => (/* binding */ Section)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../ActionList.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionList/ActionList.scss.js");
+/* harmony import */ var _Item_Item_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Item/Item.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionList/components/Item/Item.js");
+
+
+
+
+
+function Section({
+  section,
+  hasMultipleSections,
+  actionRole,
+  onActionAnyItem
+}) {
+  const handleAction = itemOnAction => {
+    return () => {
+      if (itemOnAction) {
+        itemOnAction();
+      }
+
+      if (onActionAnyItem) {
+        onActionAnyItem();
+      }
+    };
+  };
+
+  const actionMarkup = section.items.map((_ref, index) => {
+    let {
+      content,
+      helpText,
+      onAction
+    } = _ref,
+        item = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__.objectWithoutProperties)(_ref, ["content", "helpText", "onAction"]);
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Item_Item_js__WEBPACK_IMPORTED_MODULE_2__.Item, Object.assign({
+      key: `${content}-${index}`,
+      content: content,
+      helpText: helpText,
+      role: actionRole,
+      onAction: handleAction(onAction)
+    }, item));
+  });
+  const className = section.title ? undefined : _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["Section-withoutTitle"];
+  const titleMarkup = section.title ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Title
+  }, section.title) : null;
+  const sectionRole = actionRole === 'option' ? 'presentation' : undefined;
+  const sectionMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: className
+  }, titleMarkup, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
+    className: _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Actions,
+    role: sectionRole
+  }, actionMarkup));
+  return hasMultipleSections ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: _ActionList_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Section
+  }, sectionMarkup) : sectionMarkup;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/ActionMenu.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/ActionMenu.js ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ActionMenu": () => (/* binding */ ActionMenu),
+/* harmony export */   "hasGroupsWithActions": () => (/* binding */ hasGroupsWithActions)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _components_Actions_Actions_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Actions/Actions.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/Actions/Actions.js");
+/* harmony import */ var _components_RollupActions_RollupActions_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/RollupActions/RollupActions.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/RollupActions/RollupActions.js");
+/* harmony import */ var _ActionMenu_scss_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ActionMenu.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/ActionMenu.scss.js");
+
+
+
+
+
+
+function ActionMenu({
+  actions = [],
+  groups = [],
+  rollup
+}) {
+  if (actions.length === 0 && groups.length === 0) {
+    return null;
+  }
+
+  const actionMenuClassNames = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_1__.classNames)(_ActionMenu_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.ActionMenu, rollup && _ActionMenu_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.rollup);
+  const rollupSections = groups.map(group => convertGroupToSection(group));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: actionMenuClassNames
+  }, rollup ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_RollupActions_RollupActions_js__WEBPACK_IMPORTED_MODULE_3__.RollupActions, {
+    items: actions,
+    sections: rollupSections
+  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Actions_Actions_js__WEBPACK_IMPORTED_MODULE_4__.Actions, {
+    actions: actions,
+    groups: groups
+  }));
+}
+function hasGroupsWithActions(groups = []) {
+  return groups.length === 0 ? false : groups.some(group => group.actions.length > 0);
+}
+
+function convertGroupToSection({
+  title,
+  actions
+}) {
+  return {
+    title,
+    items: actions
+  };
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/ActionMenu.scss.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/ActionMenu.scss.js ***!
+  \*****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "ActionMenu": "Polaris-ActionMenu",
+  "rollup": "Polaris-ActionMenu--rollup"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/Actions/Actions.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/Actions/Actions.js ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Actions": () => (/* binding */ Actions)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/debounce */ "./node_modules/lodash/debounce.js");
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../EventListener/EventListener.js */ "./node_modules/@shopify/polaris/dist/esm/components/EventListener/EventListener.js");
+/* harmony import */ var _utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../utilities/i18n/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/i18n/hooks.js");
+/* harmony import */ var _ButtonGroup_ButtonGroup_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../ButtonGroup/ButtonGroup.js */ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.js");
+/* harmony import */ var _SecondaryAction_SecondaryAction_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../SecondaryAction/SecondaryAction.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/SecondaryAction/SecondaryAction.js");
+/* harmony import */ var _MenuGroup_MenuGroup_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../MenuGroup/MenuGroup.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/MenuGroup/MenuGroup.js");
+/* harmony import */ var _Actions_scss_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Actions.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/Actions/Actions.scss.js");
+
+
+
+
+
+
+
+
+
+
+const ACTION_SPACING = 8;
+function Actions({
+  actions = [],
+  groups = []
+}) {
+  const i18n = (0,_utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_2__.useI18n)();
+  const actionsLayoutRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  const menuGroupWidthRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(0);
+  const availableWidthRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(0);
+  const actionsAndGroupsLengthRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(0);
+  const timesMeasured = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(0);
+  const actionWidthsRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)([]);
+  const [activeMenuGroup, setActiveMenuGroup] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(undefined);
+  const [measuredActions, setMeasuredActions] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({
+    showable: [],
+    rolledUp: []
+  });
+  const defaultRollupGroup = {
+    title: i18n.translate('Polaris.Actions.moreActions'),
+    actions: []
+  };
+  const lastMenuGroup = [...groups].pop();
+  const lastMenuGroupWidth = [...actionWidthsRef.current].pop() || 0;
+  const handleActionsOffsetWidth = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(width => {
+    actionWidthsRef.current = [...actionWidthsRef.current, width];
+  }, []);
+  const handleMenuGroupToggle = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(group => setActiveMenuGroup(activeMenuGroup ? undefined : group), [activeMenuGroup]);
+  const handleMenuGroupClose = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(() => setActiveMenuGroup(undefined), []);
+  const updateActions = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(() => {
+    let actionsAndGroups = [...actions, ...groups];
+
+    if (groups.length > 0) {
+      // We don't want to include actions from the last group
+      // since it is always rendered with its own actions
+      actionsAndGroups = [...actionsAndGroups].slice(0, actionsAndGroups.length - 1);
+    }
+
+    const showable = actionsAndGroups.slice(0, measuredActions.showable.length);
+    const rolledUp = actionsAndGroups.slice(measuredActions.showable.length, actionsAndGroups.length);
+    setMeasuredActions({
+      showable,
+      rolledUp
+    });
+  }, [actions, groups, measuredActions.showable.length]);
+  const measureActions = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(() => {
+    if (actionWidthsRef.current.length === 0 || availableWidthRef.current === 0) {
+      return;
+    }
+
+    const actionsAndGroups = [...actions, ...groups];
+
+    if (actionsAndGroups.length === 1) {
+      setMeasuredActions({
+        showable: actionsAndGroups,
+        rolledUp: []
+      });
+      return;
+    }
+
+    let currentAvailableWidth = availableWidthRef.current;
+    let newShowableActions = [];
+    let newRolledUpActions = [];
+    actionsAndGroups.forEach((action, index) => {
+      const canFitAction = actionWidthsRef.current[index] + menuGroupWidthRef.current + ACTION_SPACING + lastMenuGroupWidth <= currentAvailableWidth;
+
+      if (canFitAction) {
+        currentAvailableWidth -= actionWidthsRef.current[index] + ACTION_SPACING * 2;
+        newShowableActions = [...newShowableActions, action];
+      } else {
+        currentAvailableWidth = 0; // Find last group if it exists and always render it as a rolled up action below
+
+        if (action === lastMenuGroup) return;
+        newRolledUpActions = [...newRolledUpActions, action];
+      }
+    });
+    setMeasuredActions({
+      showable: newShowableActions,
+      rolledUp: newRolledUpActions
+    });
+    timesMeasured.current += 1;
+    actionsAndGroupsLengthRef.current = actionsAndGroups.length;
+  }, [actions, groups, lastMenuGroup, lastMenuGroupWidth]);
+  const handleResize = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => lodash_debounce__WEBPACK_IMPORTED_MODULE_1___default()(() => {
+    if (!actionsLayoutRef.current) return;
+    availableWidthRef.current = actionsLayoutRef.current.offsetWidth; // Set timesMeasured to 0 to allow re-measuring
+
+    timesMeasured.current = 0;
+    measureActions();
+  }, 50, {
+    leading: false,
+    trailing: true
+  }), [measureActions]);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    if (!actionsLayoutRef.current) {
+      return;
+    }
+
+    availableWidthRef.current = actionsLayoutRef.current.offsetWidth;
+
+    if ( // Allow measuring twice
+    // This accounts for the initial paint and re-flow
+    timesMeasured.current >= 2 && [...actions, ...groups].length === actionsAndGroupsLengthRef.current) {
+      updateActions();
+      return;
+    }
+
+    measureActions();
+  }, [actions, groups, measureActions, updateActions]);
+  const actionsMarkup = actions.map(action => {
+    if (measuredActions.showable.length > 0 || measuredActions.rolledUp.includes(action)) return null;
+
+    const {
+      content,
+      onAction
+    } = action,
+          rest = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__.objectWithoutProperties)(action, ["content", "onAction"]);
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SecondaryAction_SecondaryAction_js__WEBPACK_IMPORTED_MODULE_4__.SecondaryAction, Object.assign({
+      key: content,
+      onClick: onAction
+    }, rest, {
+      getOffsetWidth: handleActionsOffsetWidth
+    }), content);
+  });
+  const rollUppableActionsMarkup = measuredActions.showable.length > 0 ? measuredActions.showable.map(action => action.content && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SecondaryAction_SecondaryAction_js__WEBPACK_IMPORTED_MODULE_4__.SecondaryAction, Object.assign({
+    key: action.content
+  }, action, {
+    getOffsetWidth: handleActionsOffsetWidth
+  }), action.content)) : null;
+  const filteredGroups = [...groups, defaultRollupGroup].filter(group => {
+    return groups.length === 0 ? group : group === lastMenuGroup || !measuredActions.rolledUp.some(rolledUpGroup => isMenuGroup(rolledUpGroup) && rolledUpGroup.title === group.title);
+  });
+  const groupsMarkup = filteredGroups.map(group => {
+    const {
+      title,
+      actions: groupActions
+    } = group,
+          rest = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__.objectWithoutProperties)(group, ["title", "actions"]);
+
+    const isDefaultGroup = group === defaultRollupGroup;
+    const isLastMenuGroup = group === lastMenuGroup;
+    const finalRolledUpActions = measuredActions.rolledUp.reduce((memo, action) => {
+      memo.push(...(isMenuGroup(action) ? action.actions : [action]));
+      return memo;
+    }, []);
+
+    if (!isDefaultGroup && !isLastMenuGroup) {
+      // Render a normal MenuGroup with just its actions
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_MenuGroup_MenuGroup_js__WEBPACK_IMPORTED_MODULE_5__.MenuGroup, Object.assign({
+        key: title,
+        title: title,
+        active: title === activeMenuGroup,
+        actions: groupActions
+      }, rest, {
+        onOpen: handleMenuGroupToggle,
+        onClose: handleMenuGroupClose,
+        getOffsetWidth: handleActionsOffsetWidth
+      }));
+    } else if (!isDefaultGroup && isLastMenuGroup) {
+      // render the last, rollup group with its actions and finalRolledupActions
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_MenuGroup_MenuGroup_js__WEBPACK_IMPORTED_MODULE_5__.MenuGroup, Object.assign({
+        key: title,
+        title: title,
+        active: title === activeMenuGroup,
+        actions: [...finalRolledUpActions, ...groupActions]
+      }, rest, {
+        onOpen: handleMenuGroupToggle,
+        onClose: handleMenuGroupClose,
+        getOffsetWidth: handleActionsOffsetWidth
+      }));
+    } else if (isDefaultGroup && groups.length === 0 && finalRolledUpActions.length) {
+      // Render the default group to rollup into if one does not exist
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_MenuGroup_MenuGroup_js__WEBPACK_IMPORTED_MODULE_5__.MenuGroup, Object.assign({
+        key: title,
+        title: title,
+        active: title === activeMenuGroup,
+        actions: finalRolledUpActions
+      }, rest, {
+        onOpen: handleMenuGroupToggle,
+        onClose: handleMenuGroupClose,
+        getOffsetWidth: handleActionsOffsetWidth
+      }));
+    }
+  });
+  const groupedActionsMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ButtonGroup_ButtonGroup_js__WEBPACK_IMPORTED_MODULE_6__.ButtonGroup, {
+    spacing: "extraTight"
+  }, rollUppableActionsMarkup, actionsMarkup, groupsMarkup);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Actions_scss_js__WEBPACK_IMPORTED_MODULE_7__.default.ActionsLayout,
+    ref: actionsLayoutRef
+  }, groupedActionsMarkup, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_8__.EventListener, {
+    event: "resize",
+    handler: handleResize
+  }));
+}
+
+function isMenuGroup(actionOrMenuGroup) {
+  return 'title' in actionOrMenuGroup;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/Actions/Actions.scss.js":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/Actions/Actions.scss.js ***!
+  \*********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "ActionsLayout": "Polaris-ActionMenu-Actions__ActionsLayout"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/MenuGroup/MenuGroup.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/MenuGroup/MenuGroup.js ***!
+  \********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "MenuGroup": () => (/* binding */ MenuGroup)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Popover_Popover_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../Popover/Popover.js */ "./node_modules/@shopify/polaris/dist/esm/components/Popover/Popover.js");
+/* harmony import */ var _ActionList_ActionList_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../ActionList/ActionList.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionList/ActionList.js");
+/* harmony import */ var _SecondaryAction_SecondaryAction_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../SecondaryAction/SecondaryAction.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/SecondaryAction/SecondaryAction.js");
+/* harmony import */ var _MenuGroup_scss_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./MenuGroup.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/MenuGroup/MenuGroup.scss.js");
+
+
+
+
+
+
+function MenuGroup({
+  accessibilityLabel,
+  active,
+  actions,
+  details,
+  title,
+  icon,
+  onClose,
+  onOpen,
+  getOffsetWidth
+}) {
+  const handleClose = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(() => {
+    onClose(title);
+  }, [onClose, title]);
+  const handleOpen = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(() => {
+    onOpen(title);
+  }, [onOpen, title]);
+  const handleOffsetWidth = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(width => {
+    if (!getOffsetWidth) return;
+    getOffsetWidth(width);
+  }, [getOffsetWidth]);
+  const popoverActivator = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SecondaryAction_SecondaryAction_js__WEBPACK_IMPORTED_MODULE_1__.SecondaryAction, {
+    disclosure: true,
+    icon: icon,
+    accessibilityLabel: accessibilityLabel,
+    onClick: handleOpen,
+    getOffsetWidth: handleOffsetWidth
+  }, title);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Popover_Popover_js__WEBPACK_IMPORTED_MODULE_2__.Popover, {
+    active: Boolean(active),
+    activator: popoverActivator,
+    preferredAlignment: "left",
+    onClose: handleClose,
+    hideOnPrint: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ActionList_ActionList_js__WEBPACK_IMPORTED_MODULE_3__.ActionList, {
+    items: actions,
+    onActionAnyItem: handleClose
+  }), details && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _MenuGroup_scss_js__WEBPACK_IMPORTED_MODULE_4__.default.Details
+  }, details));
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/MenuGroup/MenuGroup.scss.js":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/MenuGroup/MenuGroup.scss.js ***!
+  \*************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "Details": "Polaris-ActionMenu-MenuGroup__Details"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/RollupActions/RollupActions.js":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/RollupActions/RollupActions.js ***!
+  \****************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "RollupActions": () => (/* binding */ RollupActions)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../utilities/i18n/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/i18n/hooks.js");
+/* harmony import */ var _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @shopify/polaris-icons */ "./node_modules/@shopify/polaris-icons/dist/icons/HorizontalDotsMinor.svg.mjs");
+/* harmony import */ var _Popover_Popover_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../Popover/Popover.js */ "./node_modules/@shopify/polaris/dist/esm/components/Popover/Popover.js");
+/* harmony import */ var _ActionList_ActionList_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../ActionList/ActionList.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionList/ActionList.js");
+/* harmony import */ var _Button_Button_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../Button/Button.js */ "./node_modules/@shopify/polaris/dist/esm/components/Button/Button.js");
+/* harmony import */ var _utilities_use_toggle_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../utilities/use-toggle.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/use-toggle.js");
+/* harmony import */ var _RollupActions_scss_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./RollupActions.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/RollupActions/RollupActions.scss.js");
+
+
+
+
+
+
+
+
+
+function RollupActions({
+  items = [],
+  sections = []
+}) {
+  const i18n = (0,_utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_1__.useI18n)();
+  const {
+    value: rollupOpen,
+    toggle: toggleRollupOpen
+  } = (0,_utilities_use_toggle_js__WEBPACK_IMPORTED_MODULE_2__.useToggle)(false);
+
+  if (items.length === 0 && sections.length === 0) {
+    return null;
+  }
+
+  const activatorMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _RollupActions_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.RollupActivator
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Button_Button_js__WEBPACK_IMPORTED_MODULE_4__.Button, {
+    outline: true,
+    icon: _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_5__.S,
+    accessibilityLabel: i18n.translate('Polaris.ActionMenu.RollupActions.rollupButton'),
+    onClick: toggleRollupOpen
+  }));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Popover_Popover_js__WEBPACK_IMPORTED_MODULE_6__.Popover, {
+    active: rollupOpen,
+    activator: activatorMarkup,
+    preferredAlignment: "right",
+    onClose: toggleRollupOpen,
+    hideOnPrint: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ActionList_ActionList_js__WEBPACK_IMPORTED_MODULE_7__.ActionList, {
+    items: items,
+    sections: sections,
+    onActionAnyItem: toggleRollupOpen
+  }));
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/RollupActions/RollupActions.scss.js":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/RollupActions/RollupActions.scss.js ***!
+  \*********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "RollupActivator": "Polaris-ActionMenu-RollupActions__RollupActivator"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/SecondaryAction/SecondaryAction.js":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/SecondaryAction/SecondaryAction.js ***!
+  \********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "SecondaryAction": () => (/* binding */ SecondaryAction)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var _Button_Button_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../Button/Button.js */ "./node_modules/@shopify/polaris/dist/esm/components/Button/Button.js");
+/* harmony import */ var _SecondaryAction_scss_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SecondaryAction.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/SecondaryAction/SecondaryAction.scss.js");
+
+
+
+
+
+function SecondaryAction(_ref) {
+  let {
+    children,
+    onAction,
+    getOffsetWidth
+  } = _ref,
+      rest = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__.objectWithoutProperties)(_ref, ["children", "onAction", "getOffsetWidth"]);
+
+  const secondaryActionsRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    var _secondaryActionsRef$;
+
+    if (!getOffsetWidth || !secondaryActionsRef.current) return;
+    getOffsetWidth((_secondaryActionsRef$ = secondaryActionsRef.current) == null ? void 0 : _secondaryActionsRef$.offsetWidth);
+  }, [getOffsetWidth]);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _SecondaryAction_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.SecondaryAction,
+    ref: secondaryActionsRef
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Button_Button_js__WEBPACK_IMPORTED_MODULE_3__.Button, Object.assign({
+    onClick: onAction
+  }, rest), children));
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/SecondaryAction/SecondaryAction.scss.js":
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/components/SecondaryAction/SecondaryAction.scss.js ***!
+  \*************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "SecondaryAction": "Polaris-ActionMenu-SecondaryAction"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Badge/Badge.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Badge/Badge.js ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Badge": () => (/* binding */ Badge)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/i18n/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/i18n/hooks.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _VisuallyHidden_VisuallyHidden_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../VisuallyHidden/VisuallyHidden.js */ "./node_modules/@shopify/polaris/dist/esm/components/VisuallyHidden/VisuallyHidden.js");
+/* harmony import */ var _utilities_within_filter_context_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utilities/within-filter-context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/within-filter-context.js");
+/* harmony import */ var _Badge_scss_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Badge.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Badge/Badge.scss.js");
+
+
+
+
+
+
+
+const PROGRESS_LABELS = {
+  incomplete: 'incomplete',
+  partiallyComplete: 'partiallyComplete',
+  complete: 'complete'
+};
+const STATUS_LABELS = {
+  info: 'info',
+  success: 'success',
+  warning: 'warning',
+  critical: 'critical',
+  attention: 'attention',
+  new: 'new'
+};
+const DEFAULT_SIZE = 'medium';
+function Badge({
+  children,
+  status,
+  progress,
+  size = DEFAULT_SIZE,
+  statusAndProgressLabelOverride
+}) {
+  const i18n = (0,_utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_1__.useI18n)();
+  const withinFilter = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_utilities_within_filter_context_js__WEBPACK_IMPORTED_MODULE_2__.WithinFilterContext);
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_3__.classNames)(_Badge_scss_js__WEBPACK_IMPORTED_MODULE_4__.default.Badge, status && _Badge_scss_js__WEBPACK_IMPORTED_MODULE_4__.default[(0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_3__.variationName)('status', status)], progress && _Badge_scss_js__WEBPACK_IMPORTED_MODULE_4__.default[(0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_3__.variationName)('progress', progress)], size && size !== DEFAULT_SIZE && _Badge_scss_js__WEBPACK_IMPORTED_MODULE_4__.default[(0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_3__.variationName)('size', size)], withinFilter && _Badge_scss_js__WEBPACK_IMPORTED_MODULE_4__.default.withinFilter);
+  let progressLabel = '';
+
+  switch (progress) {
+    case PROGRESS_LABELS.incomplete:
+      progressLabel = i18n.translate('Polaris.Badge.PROGRESS_LABELS.incomplete');
+      break;
+
+    case PROGRESS_LABELS.partiallyComplete:
+      progressLabel = i18n.translate('Polaris.Badge.PROGRESS_LABELS.partiallyComplete');
+      break;
+
+    case PROGRESS_LABELS.complete:
+      progressLabel = i18n.translate('Polaris.Badge.PROGRESS_LABELS.complete');
+      break;
+  }
+
+  let statusLabel = '';
+
+  switch (status) {
+    case STATUS_LABELS.info:
+      statusLabel = i18n.translate('Polaris.Badge.STATUS_LABELS.info');
+      break;
+
+    case STATUS_LABELS.success:
+      statusLabel = i18n.translate('Polaris.Badge.STATUS_LABELS.success');
+      break;
+
+    case STATUS_LABELS.warning:
+      statusLabel = i18n.translate('Polaris.Badge.STATUS_LABELS.warning');
+      break;
+
+    case STATUS_LABELS.critical:
+      statusLabel = i18n.translate('Polaris.Badge.STATUS_LABELS.critical');
+      break;
+
+    case STATUS_LABELS.attention:
+      statusLabel = i18n.translate('Polaris.Badge.STATUS_LABELS.attention');
+      break;
+
+    case STATUS_LABELS.new:
+      statusLabel = i18n.translate('Polaris.Badge.STATUS_LABELS.new');
+      break;
+  }
+
+  const accessibilityLabel = statusAndProgressLabelOverride ? statusAndProgressLabelOverride : i18n.translate('Polaris.Badge.progressAndStatus', {
+    progressLabel,
+    statusLabel
+  });
+  const hasAccessibilityLabel = progressLabel || statusLabel || statusAndProgressLabelOverride;
+  let accessibilityMarkup = hasAccessibilityLabel && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_VisuallyHidden_VisuallyHidden_js__WEBPACK_IMPORTED_MODULE_5__.VisuallyHidden, null, accessibilityLabel);
+
+  if (progressLabel) {
+    accessibilityMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+      className: _Badge_scss_js__WEBPACK_IMPORTED_MODULE_4__.default.Pip
+    }, accessibilityMarkup);
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: className
+  }, accessibilityMarkup, children);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Badge/Badge.scss.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Badge/Badge.scss.js ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "Badge": "Polaris-Badge",
+  "sizeSmall": "Polaris-Badge--sizeSmall",
+  "statusSuccess": "Polaris-Badge--statusSuccess",
+  "statusInfo": "Polaris-Badge--statusInfo",
+  "statusAttention": "Polaris-Badge--statusAttention",
+  "statusWarning": "Polaris-Badge--statusWarning",
+  "statusCritical": "Polaris-Badge--statusCritical",
+  "statusNew": "Polaris-Badge--statusNew",
+  "Pip": "Polaris-Badge__Pip",
+  "progressIncomplete": "Polaris-Badge--progressIncomplete",
+  "progressPartiallyComplete": "Polaris-Badge--progressPartiallyComplete",
+  "progressComplete": "Polaris-Badge--progressComplete",
+  "withinFilter": "Polaris-Badge--withinFilter"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Breadcrumbs/Breadcrumbs.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Breadcrumbs/Breadcrumbs.js ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Breadcrumbs": () => (/* binding */ Breadcrumbs)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @shopify/polaris-icons */ "./node_modules/@shopify/polaris-icons/dist/icons/ArrowLeftMinor.svg.mjs");
+/* harmony import */ var _utilities_focus_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../utilities/focus.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/focus.js");
+/* harmony import */ var _Icon_Icon_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Icon/Icon.js */ "./node_modules/@shopify/polaris/dist/esm/components/Icon/Icon.js");
+/* harmony import */ var _VisuallyHidden_VisuallyHidden_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../VisuallyHidden/VisuallyHidden.js */ "./node_modules/@shopify/polaris/dist/esm/components/VisuallyHidden/VisuallyHidden.js");
+/* harmony import */ var _UnstyledLink_UnstyledLink_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../UnstyledLink/UnstyledLink.js */ "./node_modules/@shopify/polaris/dist/esm/components/UnstyledLink/UnstyledLink.js");
+/* harmony import */ var _Breadcrumbs_scss_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Breadcrumbs.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Breadcrumbs/Breadcrumbs.scss.js");
+
+
+
+
+
+
+
+
+var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Icon_Icon_js__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+  source: _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_2__.S
+});
+
+function Breadcrumbs({
+  breadcrumbs
+}) {
+  const breadcrumb = breadcrumbs[breadcrumbs.length - 1];
+
+  if (breadcrumb == null) {
+    return null;
+  }
+
+  const {
+    content
+  } = breadcrumb;
+  const contentMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _Breadcrumbs_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.ContentWrapper
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _Breadcrumbs_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Icon
+  }, _ref), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_VisuallyHidden_VisuallyHidden_js__WEBPACK_IMPORTED_MODULE_4__.VisuallyHidden, null, content));
+  const breadcrumbMarkup = 'url' in breadcrumb ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_UnstyledLink_UnstyledLink_js__WEBPACK_IMPORTED_MODULE_5__.UnstyledLink, {
+    key: content,
+    url: breadcrumb.url,
+    className: _Breadcrumbs_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Breadcrumb,
+    onMouseUp: _utilities_focus_js__WEBPACK_IMPORTED_MODULE_6__.handleMouseUpByBlurring,
+    "aria-label": breadcrumb.accessibilityLabel
+  }, contentMarkup) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    key: content,
+    className: _Breadcrumbs_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Breadcrumb,
+    onClick: breadcrumb.onAction,
+    onMouseUp: _utilities_focus_js__WEBPACK_IMPORTED_MODULE_6__.handleMouseUpByBlurring,
+    type: "button",
+    "aria-label": breadcrumb.accessibilityLabel
+  }, contentMarkup);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
+    role: "navigation"
+  }, breadcrumbMarkup);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Breadcrumbs/Breadcrumbs.scss.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Breadcrumbs/Breadcrumbs.scss.js ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "Breadcrumb": "Polaris-Breadcrumbs__Breadcrumb",
+  "ContentWrapper": "Polaris-Breadcrumbs__ContentWrapper",
+  "Icon": "Polaris-Breadcrumbs__Icon",
+  "Content": "Polaris-Breadcrumbs__Content"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.js ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ButtonGroup": () => (/* binding */ ButtonGroup)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _utilities_components_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utilities/components.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/components.js");
+/* harmony import */ var _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ButtonGroup.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.scss.js");
+/* harmony import */ var _components_Item_Item_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Item/Item.js */ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/components/Item/Item.js");
+
+
+
+
+
+
+function ButtonGroup({
+  children,
+  spacing,
+  segmented,
+  fullWidth,
+  connectedTop
+}) {
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_1__.classNames)(_ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.ButtonGroup, spacing && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__.default[spacing], segmented && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.segmented, fullWidth && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.fullWidth);
+  const contents = (0,_utilities_components_js__WEBPACK_IMPORTED_MODULE_3__.elementChildren)(children).map((child, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Item_Item_js__WEBPACK_IMPORTED_MODULE_4__.Item, {
+    button: child,
+    key: index
+  }));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: className,
+    "data-buttongroup-segmented": segmented,
+    "data-buttongroup-connected-top": connectedTop,
+    "data-buttongroup-full-width": fullWidth
+  }, contents);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.scss.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.scss.js ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "ButtonGroup": "Polaris-ButtonGroup",
+  "Item": "Polaris-ButtonGroup__Item",
+  "Item-plain": "Polaris-ButtonGroup__Item--plain",
+  "segmented": "Polaris-ButtonGroup--segmented",
+  "Item-focused": "Polaris-ButtonGroup__Item--focused",
+  "fullWidth": "Polaris-ButtonGroup--fullWidth",
+  "extraTight": "Polaris-ButtonGroup--extraTight",
+  "tight": "Polaris-ButtonGroup--tight",
+  "loose": "Polaris-ButtonGroup--loose"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/components/Item/Item.js":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/components/Item/Item.js ***!
+  \***********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Item": () => (/* binding */ Item)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _utilities_use_toggle_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../utilities/use-toggle.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/use-toggle.js");
+/* harmony import */ var _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../ButtonGroup.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.scss.js");
+
+
+
+
+
+function Item({
+  button
+}) {
+  const {
+    value: focused,
+    setTrue: forceTrueFocused,
+    setFalse: forceFalseFocused
+  } = (0,_utilities_use_toggle_js__WEBPACK_IMPORTED_MODULE_1__.useToggle)(false);
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_2__.classNames)(_ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Item, focused && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["Item-focused"], button.props.plain && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["Item-plain"]);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: className,
+    onFocus: forceTrueFocused,
+    onBlur: forceFalseFocused
+  }, button);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Button/Button.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Button/Button.js ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Button": () => (/* binding */ Button)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utilities/i18n/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/i18n/hooks.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @shopify/polaris-icons */ "./node_modules/@shopify/polaris-icons/dist/icons/CaretDownMinor.svg.mjs");
+/* harmony import */ var _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @shopify/polaris-icons */ "./node_modules/@shopify/polaris-icons/dist/icons/SelectMinor.svg.mjs");
+/* harmony import */ var _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @shopify/polaris-icons */ "./node_modules/@shopify/polaris-icons/dist/icons/CaretUpMinor.svg.mjs");
+/* harmony import */ var _utilities_focus_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../utilities/focus.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/focus.js");
+/* harmony import */ var _Icon_Icon_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Icon/Icon.js */ "./node_modules/@shopify/polaris/dist/esm/components/Icon/Icon.js");
+/* harmony import */ var _Spinner_Spinner_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Spinner/Spinner.js */ "./node_modules/@shopify/polaris/dist/esm/components/Spinner/Spinner.js");
+/* harmony import */ var _Popover_Popover_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../Popover/Popover.js */ "./node_modules/@shopify/polaris/dist/esm/components/Popover/Popover.js");
+/* harmony import */ var _ActionList_ActionList_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../ActionList/ActionList.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionList/ActionList.js");
+/* harmony import */ var _UnstyledButton_UnstyledButton_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../UnstyledButton/UnstyledButton.js */ "./node_modules/@shopify/polaris/dist/esm/components/UnstyledButton/UnstyledButton.js");
+/* harmony import */ var _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Button.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Button/Button.scss.js");
+
+
+
+
+
+
+
+
+
+
+
+
+const DEFAULT_SIZE = 'medium';
+
+var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Icon_Icon_js__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+  source: _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_2__.S
+});
+
+function Button({
+  id,
+  children,
+  url,
+  disabled,
+  external,
+  download,
+  submit,
+  loading,
+  pressed,
+  accessibilityLabel,
+  role,
+  ariaControls,
+  ariaExpanded,
+  ariaDescribedBy,
+  onClick,
+  onFocus,
+  onBlur,
+  onKeyDown,
+  onKeyPress,
+  onKeyUp,
+  onMouseEnter,
+  onTouchStart,
+  icon,
+  primary,
+  outline,
+  destructive,
+  disclosure,
+  plain,
+  monochrome,
+  removeUnderline,
+  size = DEFAULT_SIZE,
+  textAlign,
+  fullWidth,
+  connectedDisclosure
+}) {
+  const i18n = (0,_utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_3__.useI18n)();
+  const isDisabled = disabled || loading;
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_4__.classNames)(_Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.Button, primary && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.primary, outline && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.outline, destructive && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.destructive, isDisabled && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.disabled, loading && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.loading, plain && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.plain, pressed && !disabled && !url && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.pressed, monochrome && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.monochrome, size && size !== DEFAULT_SIZE && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default[(0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_4__.variationName)('size', size)], textAlign && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default[(0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_4__.variationName)('textAlign', textAlign)], fullWidth && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.fullWidth, icon && children == null && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.iconOnly, connectedDisclosure && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.connectedDisclosure, removeUnderline && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.removeUnderline);
+  const disclosureMarkup = disclosure ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.Icon
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_4__.classNames)(_Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.DisclosureIcon, loading && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.hidden)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Icon_Icon_js__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+    source: loading ? 'placeholder' : getDisclosureIconSource(disclosure)
+  }))) : null;
+  const iconSource = isIconSource(icon) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Icon_Icon_js__WEBPACK_IMPORTED_MODULE_1__.Icon, {
+    source: loading ? 'placeholder' : icon
+  }) : icon;
+  const iconMarkup = iconSource ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_4__.classNames)(_Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.Icon, loading && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.hidden)
+  }, iconSource) : null;
+  const childMarkup = children ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_4__.classNames)(_Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.Text, removeUnderline && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.removeUnderline)
+  }, children) : null;
+  const spinnerSVGMarkup = loading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.Spinner
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Spinner_Spinner_js__WEBPACK_IMPORTED_MODULE_6__.Spinner, {
+    size: "small",
+    accessibilityLabel: i18n.translate('Polaris.Button.spinnerAccessibilityLabel')
+  })) : null;
+  const [disclosureActive, setDisclosureActive] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  const toggleDisclosureActive = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(() => {
+    setDisclosureActive(disclosureActive => !disclosureActive);
+  }, []);
+  let connectedDisclosureMarkup;
+
+  if (connectedDisclosure) {
+    const connectedDisclosureClassName = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_4__.classNames)(_Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.Button, primary && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.primary, outline && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.outline, size && size !== DEFAULT_SIZE && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default[(0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_4__.variationName)('size', size)], textAlign && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default[(0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_4__.variationName)('textAlign', textAlign)], destructive && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.destructive, connectedDisclosure.disabled && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.disabled, _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.iconOnly, _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.ConnectedDisclosure, monochrome && _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.monochrome);
+    const defaultLabel = i18n.translate('Polaris.Button.connectedDisclosureAccessibilityLabel');
+    const {
+      disabled: _disabled,
+      accessibilityLabel: disclosureLabel = defaultLabel
+    } = connectedDisclosure;
+    const connectedDisclosureActivator = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+      type: "button",
+      className: connectedDisclosureClassName,
+      disabled: _disabled,
+      "aria-label": disclosureLabel,
+      "aria-describedby": ariaDescribedBy,
+      onClick: toggleDisclosureActive,
+      onMouseUp: _utilities_focus_js__WEBPACK_IMPORTED_MODULE_7__.handleMouseUpByBlurring
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+      className: _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.Icon
+    }, _ref));
+    connectedDisclosureMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Popover_Popover_js__WEBPACK_IMPORTED_MODULE_8__.Popover, {
+      active: disclosureActive,
+      onClose: toggleDisclosureActive,
+      activator: connectedDisclosureActivator,
+      preferredAlignment: "right"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ActionList_ActionList_js__WEBPACK_IMPORTED_MODULE_9__.ActionList, {
+      items: connectedDisclosure.actions,
+      onActionAnyItem: toggleDisclosureActive
+    }));
+  }
+
+  const commonProps = {
+    id,
+    className,
+    accessibilityLabel,
+    ariaDescribedBy,
+    role,
+    onClick,
+    onFocus,
+    onBlur,
+    onMouseUp: _utilities_focus_js__WEBPACK_IMPORTED_MODULE_7__.handleMouseUpByBlurring,
+    onMouseEnter,
+    onTouchStart
+  };
+  const linkProps = {
+    url,
+    external,
+    download
+  };
+  const actionProps = {
+    submit,
+    disabled: isDisabled,
+    loading,
+    ariaControls,
+    ariaExpanded,
+    pressed,
+    onKeyDown,
+    onKeyUp,
+    onKeyPress
+  };
+  const buttonMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_UnstyledButton_UnstyledButton_js__WEBPACK_IMPORTED_MODULE_10__.UnstyledButton, Object.assign({}, commonProps, linkProps, actionProps), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.Content
+  }, spinnerSVGMarkup, iconMarkup, childMarkup, disclosureMarkup));
+  return connectedDisclosureMarkup ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Button_scss_js__WEBPACK_IMPORTED_MODULE_5__.default.ConnectedDisclosureWrapper
+  }, buttonMarkup, connectedDisclosureMarkup) : buttonMarkup;
+}
+
+function isIconSource(x) {
+  return typeof x === 'string' || typeof x === 'object' && x.body || typeof x === 'function';
+}
+
+function getDisclosureIconSource(disclosure) {
+  if (disclosure === 'select') {
+    return _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_11__.S;
+  }
+
+  return disclosure === 'up' ? _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_12__.S : _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_2__.S;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Button/Button.scss.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Button/Button.scss.js ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "Button": "Polaris-Button",
+  "pressed": "Polaris-Button--pressed",
+  "disabled": "Polaris-Button--disabled",
+  "connectedDisclosure": "Polaris-Button--connectedDisclosure",
+  "Content": "Polaris-Button__Content",
+  "plain": "Polaris-Button--plain",
+  "textAlignLeft": "Polaris-Button--textAlignLeft",
+  "textAlignCenter": "Polaris-Button--textAlignCenter",
+  "textAlignRight": "Polaris-Button--textAlignRight",
+  "Icon": "Polaris-Button__Icon",
+  "fullWidth": "Polaris-Button--fullWidth",
+  "hidden": "Polaris-Button--hidden",
+  "Spinner": "Polaris-Button__Spinner",
+  "primary": "Polaris-Button--primary",
+  "destructive": "Polaris-Button--destructive",
+  "outline": "Polaris-Button--outline",
+  "loading": "Polaris-Button--loading",
+  "removeUnderline": "Polaris-Button--removeUnderline",
+  "iconOnly": "Polaris-Button--iconOnly",
+  "sizeSlim": "Polaris-Button--sizeSlim",
+  "sizeLarge": "Polaris-Button--sizeLarge",
+  "monochrome": "Polaris-Button--monochrome",
+  "Text": "Polaris-Button__Text",
+  "ConnectedDisclosureWrapper": "Polaris-Button__ConnectedDisclosureWrapper",
+  "ConnectedDisclosure": "Polaris-Button__ConnectedDisclosure"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Button/utils.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Button/utils.js ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "buttonFrom": () => (/* binding */ buttonFrom),
+/* harmony export */   "buttonsFrom": () => (/* binding */ buttonsFrom)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var _Button_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Button.js */ "./node_modules/@shopify/polaris/dist/esm/components/Button/Button.js");
+
+
+
+
+function buttonsFrom(actions, overrides = {}) {
+  if (Array.isArray(actions)) {
+    return actions.map((action, index) => buttonFrom(action, overrides, index));
+  } else {
+    const action = actions;
+    return buttonFrom(action, overrides);
+  }
+}
+function buttonFrom(_ref, overrides, key) {
+  let {
+    content,
+    onAction
+  } = _ref,
+      action = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__.objectWithoutProperties)(_ref, ["content", "onAction"]);
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Button_js__WEBPACK_IMPORTED_MODULE_2__.Button, Object.assign({
+    key: key,
+    onClick: onAction
+  }, action, overrides), content);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/EventListener/EventListener.js":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/EventListener/EventListener.js ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "EventListener": () => (/* binding */ EventListener)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+
+
+
+// see https://github.com/oliviertassinari/react-event-listener/
+class EventListener extends react__WEBPACK_IMPORTED_MODULE_0__.PureComponent {
+  componentDidMount() {
+    this.attachListener();
+  }
+
+  componentDidUpdate(_ref) {
+    let detachProps = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__.objectWithoutProperties)(_ref, ["passive"]);
+
+    this.detachListener(detachProps);
+    this.attachListener();
+  }
+
+  componentWillUnmount() {
+    this.detachListener();
+  }
+
+  render() {
+    return null;
+  }
+
+  attachListener() {
+    const {
+      event,
+      handler,
+      capture,
+      passive
+    } = this.props;
+    window.addEventListener(event, handler, {
+      capture,
+      passive
+    });
+  }
+
+  detachListener(prevProps) {
+    const {
+      event,
+      handler,
+      capture
+    } = prevProps || this.props;
+    window.removeEventListener(event, handler, capture);
+  }
+
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Icon/Icon.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Icon/Icon.js ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Icon": () => (/* binding */ Icon)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _Icon_scss_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Icon.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Icon/Icon.scss.js");
+
+
+
+
+const COLORS_WITH_BACKDROPS = ['base', 'critical', 'highlight', 'success', 'warning'];
+function Icon({
+  source,
+  color,
+  backdrop,
+  accessibilityLabel
+}) {
+  let sourceType;
+
+  if (typeof source === 'function') {
+    sourceType = 'function';
+  } else if (source === 'placeholder') {
+    sourceType = 'placeholder';
+  } else {
+    sourceType = 'external';
+  }
+
+  if (color && sourceType === 'external') {
+    // eslint-disable-next-line no-console
+    console.warn('Recoloring external SVGs is not supported. Set the intended color on your SVG instead.');
+  }
+
+  if (backdrop && color && !COLORS_WITH_BACKDROPS.includes(color)) {
+    // eslint-disable-next-line no-console
+    console.warn(`The ${color} variant does not have a supported backdrop color`);
+  }
+
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_1__.classNames)(_Icon_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.Icon, color && _Icon_scss_js__WEBPACK_IMPORTED_MODULE_2__.default[(0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_1__.variationName)('color', color)], color && _Icon_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.applyColor, backdrop && _Icon_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.hasBackdrop);
+  const SourceComponent = source;
+  const contentMarkup = {
+    function: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(SourceComponent, {
+      className: _Icon_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.Svg,
+      focusable: "false",
+      "aria-hidden": "true"
+    }),
+    placeholder: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      className: _Icon_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.Placeholder
+    }),
+    external: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+      className: _Icon_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.Img,
+      src: `data:image/svg+xml;utf8,${source}`,
+      alt: "",
+      "aria-hidden": "true"
+    })
+  };
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: className,
+    "aria-label": accessibilityLabel
+  }, contentMarkup[sourceType]);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Icon/Icon.scss.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Icon/Icon.scss.js ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "Icon": "Polaris-Icon",
+  "applyColor": "Polaris-Icon--applyColor",
+  "hasBackdrop": "Polaris-Icon--hasBackdrop",
+  "colorBase": "Polaris-Icon--colorBase",
+  "colorSubdued": "Polaris-Icon--colorSubdued",
+  "colorCritical": "Polaris-Icon--colorCritical",
+  "colorInteractive": "Polaris-Icon--colorInteractive",
+  "colorWarning": "Polaris-Icon--colorWarning",
+  "colorHighlight": "Polaris-Icon--colorHighlight",
+  "colorSuccess": "Polaris-Icon--colorSuccess",
+  "colorPrimary": "Polaris-Icon--colorPrimary",
+  "Svg": "Polaris-Icon__Svg",
+  "Img": "Polaris-Icon__Img",
+  "Placeholder": "Polaris-Icon__Placeholder"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/KeypressListener/KeypressListener.js":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/KeypressListener/KeypressListener.js ***!
+  \************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "KeypressListener": () => (/* binding */ KeypressListener)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+function KeypressListener({
+  keyCode,
+  handler,
+  keyEvent = 'keyup'
+}) {
+  const handleKeyEvent = event => {
+    if (event.keyCode === keyCode) {
+      handler(event);
+    }
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    document.addEventListener(keyEvent, handleKeyEvent);
+    return () => {
+      document.removeEventListener(keyEvent, handleKeyEvent);
+    };
+  });
+  return null;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Page/Page.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Page/Page.js ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Page": () => (/* binding */ Page)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _components_Header_Header_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Header/Header.js */ "./node_modules/@shopify/polaris/dist/esm/components/Page/components/Header/Header.js");
+/* harmony import */ var _Page_scss_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Page.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Page/Page.scss.js");
+
+
+
+
+
+
+function Page(_ref) {
+  let {
+    children,
+    fullWidth,
+    narrowWidth
+  } = _ref,
+      rest = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__.objectWithoutProperties)(_ref, ["children", "fullWidth", "narrowWidth"]);
+
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_2__.classNames)(_Page_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Page, fullWidth && _Page_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.fullWidth, narrowWidth && _Page_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.narrowWidth);
+  const hasHeaderContent = rest.title != null && rest.title !== '' || rest.primaryAction != null || rest.secondaryActions != null && rest.secondaryActions.length > 0 || rest.actionGroups != null && rest.actionGroups.length > 0 || rest.breadcrumbs != null && rest.breadcrumbs.length > 0;
+  const headerMarkup = hasHeaderContent ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Header_Header_js__WEBPACK_IMPORTED_MODULE_4__.Header, rest) : null;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: className
+  }, headerMarkup, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Page_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Content
+  }, children));
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Page/Page.scss.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Page/Page.scss.js ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "Page": "Polaris-Page",
+  "fullWidth": "Polaris-Page--fullWidth",
+  "narrowWidth": "Polaris-Page--narrowWidth",
+  "Content": "Polaris-Page__Content"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Page/components/Header/Header.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Page/components/Header/Header.js ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Header": () => (/* binding */ Header),
+/* harmony export */   "isPrimaryAction": () => (/* binding */ isPrimaryAction)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var _utilities_media_query_hooks_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../utilities/media-query/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/media-query/hooks.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _utilities_components_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../../utilities/components.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/components.js");
+/* harmony import */ var _TextStyle_TextStyle_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../TextStyle/TextStyle.js */ "./node_modules/@shopify/polaris/dist/esm/components/TextStyle/TextStyle.js");
+/* harmony import */ var _Button_utils_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../Button/utils.js */ "./node_modules/@shopify/polaris/dist/esm/components/Button/utils.js");
+/* harmony import */ var _ActionMenu_ActionMenu_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../ActionMenu/ActionMenu.js */ "./node_modules/@shopify/polaris/dist/esm/components/ActionMenu/ActionMenu.js");
+/* harmony import */ var _Breadcrumbs_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../Breadcrumbs/Breadcrumbs.js */ "./node_modules/@shopify/polaris/dist/esm/components/Breadcrumbs/Breadcrumbs.js");
+/* harmony import */ var _Pagination_Pagination_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../Pagination/Pagination.js */ "./node_modules/@shopify/polaris/dist/esm/components/Pagination/Pagination.js");
+/* harmony import */ var _components_Title_Title_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Title/Title.js */ "./node_modules/@shopify/polaris/dist/esm/components/Page/components/Header/components/Title/Title.js");
+/* harmony import */ var _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Page/components/Header/Header.scss.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+function isPrimaryAction(x) {
+  return ! /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.isValidElement)(x) && x !== undefined;
+}
+const SHORT_TITLE = 20;
+const REALLY_SHORT_TITLE = 8;
+const LONG_TITLE = 34;
+function Header({
+  title,
+  subtitle,
+  titleMetadata,
+  additionalMetadata,
+  thumbnail,
+  titleHidden = false,
+  primaryAction,
+  pagination,
+  additionalNavigation,
+  breadcrumbs = [],
+  secondaryActions = [],
+  actionGroups = []
+}) {
+  const {
+    isNavigationCollapsed
+  } = (0,_utilities_media_query_hooks_js__WEBPACK_IMPORTED_MODULE_1__.useMediaQuery)();
+  const isSingleRow = !primaryAction && !pagination && !secondaryActions.length && !actionGroups.length;
+  const breadcrumbMarkup = breadcrumbs.length > 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.BreadcrumbWrapper
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Breadcrumbs_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_3__.Breadcrumbs, {
+    breadcrumbs: breadcrumbs
+  })) : null;
+  const paginationMarkup = pagination && !isNavigationCollapsed ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.PaginationWrapper
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Pagination_Pagination_js__WEBPACK_IMPORTED_MODULE_4__.Pagination, pagination)) : null;
+  const additionalNavigationMarkup = additionalNavigation ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.AdditionalNavigationWrapper
+  }, additionalNavigation) : null;
+  const navigationMarkup = breadcrumbMarkup || paginationMarkup || additionalNavigationMarkup ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.Navigation
+  }, breadcrumbMarkup, additionalNavigationMarkup, paginationMarkup) : null;
+  const pageTitleMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.TitleWrapper
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Title_Title_js__WEBPACK_IMPORTED_MODULE_5__.Title, {
+    title: title,
+    subtitle: subtitle,
+    titleMetadata: titleMetadata,
+    thumbnail: thumbnail
+  }));
+  const primaryActionMarkup = primaryAction ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(PrimaryActionMarkup, {
+    primaryAction: primaryAction
+  }) : null;
+  const actionMenuMarkup = secondaryActions.length > 0 || (0,_ActionMenu_ActionMenu_js__WEBPACK_IMPORTED_MODULE_6__.hasGroupsWithActions)(actionGroups) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ActionMenu_ActionMenu_js__WEBPACK_IMPORTED_MODULE_6__.ActionMenu, {
+    actions: secondaryActions,
+    groups: actionGroups,
+    rollup: isNavigationCollapsed
+  }) : null;
+  const additionalMetadataMarkup = additionalMetadata ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.AdditionalMetaData
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_TextStyle_TextStyle_js__WEBPACK_IMPORTED_MODULE_7__.TextStyle, {
+    variation: "subdued"
+  }, additionalMetadata)) : null;
+  const headerClassNames = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_8__.classNames)(_Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.Header, isSingleRow && _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.isSingleRow, titleHidden && _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.titleHidden, navigationMarkup && _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.hasNavigation, actionMenuMarkup && _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.hasActionMenu, isNavigationCollapsed && _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.mobileView, !breadcrumbs.length && _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.noBreadcrumbs, title && title.length < LONG_TITLE && _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.mediumTitle, title && title.length > LONG_TITLE && _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.longTitle);
+  const {
+    slot1,
+    slot2,
+    slot3,
+    slot4,
+    slot5,
+    slot6
+  } = determineLayout({
+    actionMenuMarkup,
+    additionalMetadataMarkup,
+    additionalNavigationMarkup,
+    breadcrumbMarkup,
+    isNavigationCollapsed,
+    pageTitleMarkup,
+    paginationMarkup,
+    primaryActionMarkup,
+    title
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: headerClassNames
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_components_js__WEBPACK_IMPORTED_MODULE_9__.ConditionalRender, {
+    condition: [slot1, slot2, slot3, slot4].some(notNull)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.Row
+  }, slot1, slot2, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_components_js__WEBPACK_IMPORTED_MODULE_9__.ConditionalRender, {
+    condition: [slot3, slot4].some(notNull)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.RightAlign
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_components_js__WEBPACK_IMPORTED_MODULE_9__.ConditionalWrapper, {
+    condition: [slot3, slot4].every(notNull),
+    wrapper: children => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.Actions
+    }, children)
+  }, slot3, slot4))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_components_js__WEBPACK_IMPORTED_MODULE_9__.ConditionalRender, {
+    condition: [slot5, slot6].some(notNull)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.Row
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.LeftAlign
+  }, slot5), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_components_js__WEBPACK_IMPORTED_MODULE_9__.ConditionalRender, {
+    condition: slot6 != null
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.RightAlign
+  }, slot6)))));
+}
+
+function PrimaryActionMarkup({
+  primaryAction
+}) {
+  const {
+    isNavigationCollapsed
+  } = (0,_utilities_media_query_hooks_js__WEBPACK_IMPORTED_MODULE_1__.useMediaQuery)();
+  let content = primaryAction;
+
+  if (isPrimaryAction(primaryAction)) {
+    const primary = primaryAction.primary === undefined ? true : primaryAction.primary;
+    content = (0,_Button_utils_js__WEBPACK_IMPORTED_MODULE_10__.buttonsFrom)(shouldShowIconOnly(isNavigationCollapsed, primaryAction), {
+      primary
+    });
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Header_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.PrimaryActionWrapper
+  }, content);
+}
+
+function shouldShowIconOnly(isMobile, action) {
+  let {
+    content,
+    accessibilityLabel,
+    icon
+  } = action;
+  if (icon == null) return (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_11__.objectSpread2)((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_11__.objectSpread2)({}, action), {}, {
+    icon: undefined
+  });
+
+  if (isMobile) {
+    accessibilityLabel = accessibilityLabel || content;
+    content = undefined;
+  } else {
+    icon = undefined;
+  }
+
+  return (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_11__.objectSpread2)((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_11__.objectSpread2)({}, action), {}, {
+    content,
+    accessibilityLabel,
+    icon
+  });
+}
+
+function notNull(value) {
+  return value != null;
+}
+
+function determineLayout({
+  actionMenuMarkup,
+  additionalMetadataMarkup,
+  additionalNavigationMarkup,
+  breadcrumbMarkup,
+  isNavigationCollapsed,
+  pageTitleMarkup,
+  paginationMarkup,
+  primaryActionMarkup,
+  title
+}) {
+  //    Header Layout
+  // |----------------------------------------------------|
+  // | slot1 | slot2 |                    | slot3 | slot4 |
+  // |----------------------------------------------------|
+  // | slot5 |                                    | slot6 |
+  // |----------------------------------------------------|
+  //
+  const layouts = {
+    mobileCompact: {
+      slots: {
+        slot1: null,
+        slot2: pageTitleMarkup,
+        slot3: actionMenuMarkup,
+        slot4: primaryActionMarkup,
+        slot5: additionalMetadataMarkup,
+        slot6: additionalNavigationMarkup
+      },
+      condition: isNavigationCollapsed && breadcrumbMarkup == null && title != null && title.length <= REALLY_SHORT_TITLE
+    },
+    mobileDefault: {
+      slots: {
+        slot1: breadcrumbMarkup,
+        slot2: pageTitleMarkup,
+        slot3: actionMenuMarkup,
+        slot4: primaryActionMarkup,
+        slot5: additionalMetadataMarkup,
+        slot6: additionalNavigationMarkup
+      },
+      condition: isNavigationCollapsed
+    },
+    desktopCompact: {
+      slots: {
+        slot1: breadcrumbMarkup,
+        slot2: pageTitleMarkup,
+        slot3: actionMenuMarkup,
+        slot4: primaryActionMarkup,
+        slot5: additionalMetadataMarkup,
+        slot6: additionalNavigationMarkup
+      },
+      condition: !isNavigationCollapsed && paginationMarkup == null && actionMenuMarkup == null && title != null && title.length <= SHORT_TITLE
+    },
+    desktopDefault: {
+      slots: {
+        slot1: breadcrumbMarkup,
+        slot2: pageTitleMarkup,
+        slot3: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, actionMenuMarkup, primaryActionMarkup),
+        slot4: paginationMarkup,
+        slot5: additionalMetadataMarkup,
+        slot6: additionalNavigationMarkup
+      },
+      condition: !isNavigationCollapsed
+    }
+  };
+  const layout = Object.values(layouts).find(layout => layout.condition) || layouts.desktopDefault;
+  return layout.slots;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Page/components/Header/Header.scss.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Page/components/Header/Header.scss.js ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "Header": "Polaris-Page-Header",
+  "titleHidden": "Polaris-Page-Header--titleHidden",
+  "TitleWrapper": "Polaris-Page-Header__TitleWrapper",
+  "Navigation": "Polaris-Page-Header__Navigation",
+  "hasActionMenu": "Polaris-Page-Header--hasActionMenu",
+  "mobileView": "Polaris-Page-Header--mobileView",
+  "BreadcrumbWrapper": "Polaris-Page-Header__BreadcrumbWrapper",
+  "PaginationWrapper": "Polaris-Page-Header__PaginationWrapper",
+  "AdditionalNavigationWrapper": "Polaris-Page-Header__AdditionalNavigationWrapper",
+  "MainContent": "Polaris-Page-Header__MainContent",
+  "TitleActionMenuWrapper": "Polaris-Page-Header__TitleActionMenuWrapper",
+  "hasNavigation": "Polaris-Page-Header--hasNavigation",
+  "PrimaryActionWrapper": "Polaris-Page-Header__PrimaryActionWrapper",
+  "ActionMenuWrapper": "Polaris-Page-Header__ActionMenuWrapper",
+  "Row": "Polaris-Page-Header__Row",
+  "RightAlign": "Polaris-Page-Header__RightAlign",
+  "LeftAlign": "Polaris-Page-Header__LeftAlign",
+  "noBreadcrumbs": "Polaris-Page-Header--noBreadcrumbs",
+  "AdditionalMetaData": "Polaris-Page-Header__AdditionalMetaData",
+  "Actions": "Polaris-Page-Header__Actions",
+  "longTitle": "Polaris-Page-Header--longTitle",
+  "mediumTitle": "Polaris-Page-Header--mediumTitle",
+  "isSingleRow": "Polaris-Page-Header--isSingleRow"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Page/components/Header/components/Title/Title.js":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Page/components/Header/components/Title/Title.js ***!
+  \************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Title": () => (/* binding */ Title)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Title_scss_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Title.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Page/components/Header/components/Title/Title.scss.js");
+
+
+
+function Title({
+  title,
+  subtitle,
+  titleMetadata,
+  thumbnail
+}) {
+  const titleMarkup = title ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: _Title_scss_js__WEBPACK_IMPORTED_MODULE_1__.default.Title
+  }, title) : null;
+  const titleMetadataMarkup = titleMetadata ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Title_scss_js__WEBPACK_IMPORTED_MODULE_1__.default.TitleMetadata
+  }, titleMetadata) : null;
+  const wrappedTitleMarkup = titleMetadata ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Title_scss_js__WEBPACK_IMPORTED_MODULE_1__.default.TitleWithMetadataWrapper
+  }, titleMarkup, titleMetadataMarkup) : titleMarkup;
+  const subtitleMarkup = subtitle ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Title_scss_js__WEBPACK_IMPORTED_MODULE_1__.default.SubTitle
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, subtitle)) : null;
+  const thumbnailMarkup = thumbnail ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, thumbnail) : null;
+  const pageTitleClassName = thumbnail ? _Title_scss_js__WEBPACK_IMPORTED_MODULE_1__.default.hasThumbnail : undefined;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: pageTitleClassName
+  }, thumbnailMarkup, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Title_scss_js__WEBPACK_IMPORTED_MODULE_1__.default.TitleAndSubtitleWrapper
+  }, wrappedTitleMarkup, subtitleMarkup));
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Page/components/Header/components/Title/Title.scss.js":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Page/components/Header/components/Title/Title.scss.js ***!
+  \*****************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "Title": "Polaris-Header-Title",
+  "SubTitle": "Polaris-Header-Title__SubTitle",
+  "hasThumbnail": "Polaris-Header-Title--hasThumbnail",
+  "TitleAndSubtitleWrapper": "Polaris-Header-Title__TitleAndSubtitleWrapper",
+  "TitleWithMetadataWrapper": "Polaris-Header-Title__TitleWithMetadataWrapper",
+  "TitleMetadata": "Polaris-Header-Title__TitleMetadata"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Pagination/Pagination.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Pagination/Pagination.js ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Pagination": () => (/* binding */ Pagination)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/i18n/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/i18n/hooks.js");
+/* harmony import */ var _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @shopify/polaris-icons */ "./node_modules/@shopify/polaris-icons/dist/icons/ChevronLeftMinor.svg.mjs");
+/* harmony import */ var _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @shopify/polaris-icons */ "./node_modules/@shopify/polaris-icons/dist/icons/ChevronRightMinor.svg.mjs");
+/* harmony import */ var _KeypressListener_KeypressListener_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../KeypressListener/KeypressListener.js */ "./node_modules/@shopify/polaris/dist/esm/components/KeypressListener/KeypressListener.js");
+/* harmony import */ var _TextStyle_TextStyle_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../TextStyle/TextStyle.js */ "./node_modules/@shopify/polaris/dist/esm/components/TextStyle/TextStyle.js");
+/* harmony import */ var _Button_Button_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Button/Button.js */ "./node_modules/@shopify/polaris/dist/esm/components/Button/Button.js");
+/* harmony import */ var _ButtonGroup_ButtonGroup_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../ButtonGroup/ButtonGroup.js */ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.js");
+/* harmony import */ var _utilities_is_input_focused_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../utilities/is-input-focused.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/is-input-focused.js");
+/* harmony import */ var _Tooltip_Tooltip_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Tooltip/Tooltip.js */ "./node_modules/@shopify/polaris/dist/esm/components/Tooltip/Tooltip.js");
+
+
+
+
+
+
+
+
+
+
+function Pagination({
+  hasNext,
+  hasPrevious,
+  nextURL,
+  previousURL,
+  onNext,
+  onPrevious,
+  nextTooltip,
+  previousTooltip,
+  nextKeys,
+  previousKeys,
+  accessibilityLabel,
+  accessibilityLabels,
+  label
+}) {
+  const i18n = (0,_utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_1__.useI18n)();
+  const node = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createRef)();
+  const navLabel = accessibilityLabel || i18n.translate('Polaris.Pagination.pagination');
+  const previousLabel = (accessibilityLabels == null ? void 0 : accessibilityLabels.previous) || i18n.translate('Polaris.Pagination.previous');
+  const nextLabel = (accessibilityLabels == null ? void 0 : accessibilityLabels.next) || i18n.translate('Polaris.Pagination.next');
+  const prev = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Button_Button_js__WEBPACK_IMPORTED_MODULE_2__.Button, {
+    outline: true,
+    icon: _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_3__.S,
+    accessibilityLabel: previousLabel,
+    url: previousURL,
+    onClick: onPrevious,
+    disabled: !hasPrevious,
+    id: "previousURL"
+  });
+  const constructedPrevious = previousTooltip && hasPrevious ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Tooltip_Tooltip_js__WEBPACK_IMPORTED_MODULE_4__.Tooltip, {
+    activatorWrapper: "span",
+    content: previousTooltip
+  }, prev) : prev;
+  const next = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Button_Button_js__WEBPACK_IMPORTED_MODULE_2__.Button, {
+    outline: true,
+    icon: _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_5__.S,
+    accessibilityLabel: nextLabel,
+    url: nextURL,
+    onClick: onNext,
+    disabled: !hasNext,
+    id: "nextURL"
+  });
+  const constructedNext = nextTooltip && hasNext ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Tooltip_Tooltip_js__WEBPACK_IMPORTED_MODULE_4__.Tooltip, {
+    activatorWrapper: "span",
+    content: nextTooltip
+  }, next) : next;
+  const previousHandler = onPrevious || noop;
+  const previousButtonEvents = previousKeys && (previousURL || onPrevious) && hasPrevious && previousKeys.map(key => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_KeypressListener_KeypressListener_js__WEBPACK_IMPORTED_MODULE_6__.KeypressListener, {
+    key: key,
+    keyCode: key,
+    handler: previousURL ? handleCallback(clickPaginationLink('previousURL', node)) : handleCallback(previousHandler)
+  }));
+  const nextHandler = onNext || noop;
+  const nextButtonEvents = nextKeys && (nextURL || onNext) && hasNext && nextKeys.map(key => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_KeypressListener_KeypressListener_js__WEBPACK_IMPORTED_MODULE_6__.KeypressListener, {
+    key: key,
+    keyCode: key,
+    handler: nextURL ? handleCallback(clickPaginationLink('nextURL', node)) : handleCallback(nextHandler)
+  }));
+  const labelTextMarkup = hasNext && hasPrevious ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_TextStyle_TextStyle_js__WEBPACK_IMPORTED_MODULE_7__.TextStyle, null, label) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_TextStyle_TextStyle_js__WEBPACK_IMPORTED_MODULE_7__.TextStyle, {
+    variation: "subdued"
+  }, label);
+  const labelMarkup = label ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    "aria-live": "polite"
+  }, labelTextMarkup) : null;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
+    "aria-label": navLabel,
+    ref: node
+  }, previousButtonEvents, nextButtonEvents, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ButtonGroup_ButtonGroup_js__WEBPACK_IMPORTED_MODULE_8__.ButtonGroup, {
+    segmented: !label
+  }, constructedPrevious, labelMarkup, constructedNext));
+}
+
+function clickPaginationLink(id, node) {
+  return () => {
+    if (node.current == null) {
+      return;
+    }
+
+    const link = node.current.querySelector(`#${id}`);
+
+    if (link) {
+      link.click();
+    }
+  };
+}
+
+function handleCallback(fn) {
+  return () => {
+    if ((0,_utilities_is_input_focused_js__WEBPACK_IMPORTED_MODULE_9__.isInputFocused)()) {
+      return;
+    }
+
+    fn();
+  };
+}
+
+function noop() {}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Popover/Popover.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Popover/Popover.js ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PopoverCloseSource": () => (/* reexport safe */ _components_PopoverOverlay_PopoverOverlay_js__WEBPACK_IMPORTED_MODULE_1__.PopoverCloseSource),
+/* harmony export */   "Popover": () => (/* binding */ Popover)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var _utilities_unique_id_hooks_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utilities/unique-id/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/hooks.js");
+/* harmony import */ var _shared_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../shared.js */ "./node_modules/@shopify/polaris/dist/esm/components/shared.js");
+/* harmony import */ var _utilities_focus_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utilities/focus.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/focus.js");
+/* harmony import */ var _Portal_Portal_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Portal/Portal.js */ "./node_modules/@shopify/polaris/dist/esm/components/Portal/Portal.js");
+/* harmony import */ var _components_Section_Section_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Section/Section.js */ "./node_modules/@shopify/polaris/dist/esm/components/Popover/components/Section/Section.js");
+/* harmony import */ var _components_Pane_Pane_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Pane/Pane.js */ "./node_modules/@shopify/polaris/dist/esm/components/Popover/components/Pane/Pane.js");
+/* harmony import */ var _components_PopoverOverlay_PopoverOverlay_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/PopoverOverlay/PopoverOverlay.js */ "./node_modules/@shopify/polaris/dist/esm/components/Popover/components/PopoverOverlay/PopoverOverlay.js");
+/* harmony import */ var _set_activator_attributes_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./set-activator-attributes.js */ "./node_modules/@shopify/polaris/dist/esm/components/Popover/set-activator-attributes.js");
+
+
+
+
+
+
+
+
+
+
+
+
+// TypeScript can't generate types that correctly infer the typing of
+// subcomponents so explicitly state the subcomponents in the type definition.
+// Letting this be implicit works in this project but fails in projects that use
+// generated *.d.ts files.
+const Popover = function Popover(_ref) {
+  let {
+    activatorWrapper = 'div',
+    children,
+    onClose,
+    activator,
+    preventFocusOnClose,
+    active,
+    fixed,
+    ariaHaspopup,
+    preferInputActivator = true,
+    colorScheme,
+    zIndexOverride
+  } = _ref,
+      rest = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_2__.objectWithoutProperties)(_ref, ["activatorWrapper", "children", "onClose", "activator", "preventFocusOnClose", "active", "fixed", "ariaHaspopup", "preferInputActivator", "colorScheme", "zIndexOverride"]);
+
+  const [activatorNode, setActivatorNode] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)();
+  const activatorContainer = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  const WrapperComponent = activatorWrapper;
+  const id = (0,_utilities_unique_id_hooks_js__WEBPACK_IMPORTED_MODULE_3__.useUniqueId)('popover');
+  const setAccessibilityAttributes = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(() => {
+    if (activatorContainer.current == null) {
+      return;
+    }
+
+    const firstFocusable = (0,_utilities_focus_js__WEBPACK_IMPORTED_MODULE_4__.findFirstFocusableNodeIncludingDisabled)(activatorContainer.current);
+    const focusableActivator = firstFocusable || activatorContainer.current;
+    const activatorDisabled = 'disabled' in focusableActivator && Boolean(focusableActivator.disabled);
+    (0,_set_activator_attributes_js__WEBPACK_IMPORTED_MODULE_5__.setActivatorAttributes)(focusableActivator, {
+      id,
+      active,
+      ariaHaspopup,
+      activatorDisabled
+    });
+  }, [id, active, ariaHaspopup]);
+
+  const handleClose = source => {
+    onClose(source);
+
+    if (activatorContainer.current == null || preventFocusOnClose) {
+      return;
+    }
+
+    if ((source === _components_PopoverOverlay_PopoverOverlay_js__WEBPACK_IMPORTED_MODULE_1__.PopoverCloseSource.FocusOut || source === _components_PopoverOverlay_PopoverOverlay_js__WEBPACK_IMPORTED_MODULE_1__.PopoverCloseSource.EscapeKeypress) && activatorNode) {
+      const focusableActivator = (0,_utilities_focus_js__WEBPACK_IMPORTED_MODULE_4__.findFirstFocusableNodeIncludingDisabled)(activatorNode) || (0,_utilities_focus_js__WEBPACK_IMPORTED_MODULE_4__.findFirstFocusableNodeIncludingDisabled)(activatorContainer.current) || activatorContainer.current;
+
+      if (!(0,_utilities_focus_js__WEBPACK_IMPORTED_MODULE_4__.focusNextFocusableNode)(focusableActivator, isInPortal)) {
+        focusableActivator.focus();
+      }
+    }
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    if (!activatorNode && activatorContainer.current) {
+      setActivatorNode(activatorContainer.current.firstElementChild);
+    } else if (activatorNode && activatorContainer.current && !activatorContainer.current.contains(activatorNode)) {
+      setActivatorNode(activatorContainer.current.firstElementChild);
+    }
+
+    setAccessibilityAttributes();
+  }, [activatorNode, setAccessibilityAttributes]);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    if (activatorNode && activatorContainer.current) {
+      setActivatorNode(activatorContainer.current.firstElementChild);
+    }
+
+    setAccessibilityAttributes();
+  }, [activatorNode, setAccessibilityAttributes]);
+  const portal = activatorNode ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Portal_Portal_js__WEBPACK_IMPORTED_MODULE_6__.Portal, {
+    idPrefix: "popover"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_PopoverOverlay_PopoverOverlay_js__WEBPACK_IMPORTED_MODULE_1__.PopoverOverlay, Object.assign({
+    id: id,
+    activator: activatorNode,
+    preferInputActivator: preferInputActivator,
+    onClose: handleClose,
+    active: active,
+    fixed: fixed,
+    colorScheme: colorScheme,
+    zIndexOverride: zIndexOverride
+  }, rest), children)) : null;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(WrapperComponent, {
+    ref: activatorContainer
+  }, react__WEBPACK_IMPORTED_MODULE_0__.Children.only(activator), portal);
+};
+
+function isInPortal(element) {
+  let parentElement = element.parentElement;
+
+  while (parentElement) {
+    if (parentElement.matches(_shared_js__WEBPACK_IMPORTED_MODULE_7__.portal.selector)) return false;
+    parentElement = parentElement.parentElement;
+  }
+
+  return true;
+}
+
+Popover.Pane = _components_Pane_Pane_js__WEBPACK_IMPORTED_MODULE_8__.Pane;
+Popover.Section = _components_Section_Section_js__WEBPACK_IMPORTED_MODULE_9__.Section;
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Popover/Popover.scss.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Popover/Popover.scss.js ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "Popover": "Polaris-Popover",
+  "PopoverOverlay": "Polaris-Popover__PopoverOverlay",
+  "PopoverOverlay-entering": "Polaris-Popover__PopoverOverlay--entering",
+  "PopoverOverlay-open": "Polaris-Popover__PopoverOverlay--open",
+  "PopoverOverlay-exiting": "Polaris-Popover__PopoverOverlay--exiting",
+  "measuring": "Polaris-Popover--measuring",
+  "fullWidth": "Polaris-Popover--fullWidth",
+  "Content": "Polaris-Popover__Content",
+  "positionedAbove": "Polaris-Popover--positionedAbove",
+  "Wrapper": "Polaris-Popover__Wrapper",
+  "Content-fullHeight": "Polaris-Popover__Content--fullHeight",
+  "Content-fluidContent": "Polaris-Popover__Content--fluidContent",
+  "Pane": "Polaris-Popover__Pane",
+  "Pane-fixed": "Polaris-Popover__Pane--fixed",
+  "Section": "Polaris-Popover__Section",
+  "FocusTracker": "Polaris-Popover__FocusTracker",
+  "PopoverOverlay-hideOnPrint": "Polaris-Popover__PopoverOverlay--hideOnPrint"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Popover/components/Pane/Pane.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Popover/components/Pane/Pane.js ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Pane": () => (/* binding */ Pane)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _utilities_components_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../utilities/components.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/components.js");
+/* harmony import */ var _Scrollable_Scrollable_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../Scrollable/Scrollable.js */ "./node_modules/@shopify/polaris/dist/esm/components/Scrollable/Scrollable.js");
+/* harmony import */ var _Popover_scss_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Popover.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Popover/Popover.scss.js");
+/* harmony import */ var _Section_Section_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Section/Section.js */ "./node_modules/@shopify/polaris/dist/esm/components/Popover/components/Section/Section.js");
+
+
+
+
+
+
+
+function Pane({
+  fixed,
+  sectioned,
+  children,
+  onScrolledToBottom
+}) {
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_1__.classNames)(_Popover_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.Pane, fixed && _Popover_scss_js__WEBPACK_IMPORTED_MODULE_2__.default["Pane-fixed"]);
+  const content = sectioned ? (0,_utilities_components_js__WEBPACK_IMPORTED_MODULE_3__.wrapWithComponent)(children, _Section_Section_js__WEBPACK_IMPORTED_MODULE_4__.Section, {}) : children;
+  return fixed ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: className
+  }, content) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Scrollable_Scrollable_js__WEBPACK_IMPORTED_MODULE_5__.Scrollable, {
+    hint: true,
+    shadow: true,
+    className: className,
+    onScrolledToBottom: onScrolledToBottom
+  }, content);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Popover/components/PopoverOverlay/PopoverOverlay.js":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Popover/components/PopoverOverlay/PopoverOverlay.js ***!
+  \***************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PopoverCloseSource": () => (/* binding */ PopoverCloseSource),
+/* harmony export */   "PopoverOverlay": () => (/* binding */ PopoverOverlay),
+/* harmony export */   "nodeContainsDescendant": () => (/* binding */ nodeContainsDescendant)
+/* harmony export */ });
+/* harmony import */ var _types_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../types.js */ "./node_modules/@shopify/polaris/dist/esm/types.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _ThemeProvider_ThemeProvider_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../ThemeProvider/ThemeProvider.js */ "./node_modules/@shopify/polaris/dist/esm/components/ThemeProvider/ThemeProvider.js");
+/* harmony import */ var _EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../EventListener/EventListener.js */ "./node_modules/@shopify/polaris/dist/esm/components/EventListener/EventListener.js");
+/* harmony import */ var _shopify_polaris_tokens__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @shopify/polaris-tokens */ "./node_modules/@shopify/polaris-tokens/dist/index.esm.js");
+/* harmony import */ var _shared_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../shared.js */ "./node_modules/@shopify/polaris/dist/esm/components/shared.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _utilities_focus_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../../utilities/focus.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/focus.js");
+/* harmony import */ var _utilities_components_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../../utilities/components.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/components.js");
+/* harmony import */ var _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Popover.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Popover/Popover.scss.js");
+/* harmony import */ var _Pane_Pane_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../Pane/Pane.js */ "./node_modules/@shopify/polaris/dist/esm/components/Popover/components/Pane/Pane.js");
+/* harmony import */ var _KeypressListener_KeypressListener_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../KeypressListener/KeypressListener.js */ "./node_modules/@shopify/polaris/dist/esm/components/KeypressListener/KeypressListener.js");
+/* harmony import */ var _PositionedOverlay_PositionedOverlay_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../PositionedOverlay/PositionedOverlay.js */ "./node_modules/@shopify/polaris/dist/esm/components/PositionedOverlay/PositionedOverlay.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let PopoverCloseSource;
+
+(function (PopoverCloseSource) {
+  PopoverCloseSource[PopoverCloseSource["Click"] = 0] = "Click";
+  PopoverCloseSource[PopoverCloseSource["EscapeKeypress"] = 1] = "EscapeKeypress";
+  PopoverCloseSource[PopoverCloseSource["FocusOut"] = 2] = "FocusOut";
+  PopoverCloseSource[PopoverCloseSource["ScrollOut"] = 3] = "ScrollOut";
+})(PopoverCloseSource || (PopoverCloseSource = {}));
+
+var TransitionStatus;
+
+(function (TransitionStatus) {
+  TransitionStatus["Entering"] = "entering";
+  TransitionStatus["Entered"] = "entered";
+  TransitionStatus["Exiting"] = "exiting";
+  TransitionStatus["Exited"] = "exited";
+})(TransitionStatus || (TransitionStatus = {}));
+
+class PopoverOverlay extends react__WEBPACK_IMPORTED_MODULE_0__.PureComponent {
+  constructor(...args) {
+    super(...args);
+    this.state = {
+      transitionStatus: this.props.active ? TransitionStatus.Entering : TransitionStatus.Exited
+    };
+    this.contentNode = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createRef)();
+    this.enteringTimer = void 0;
+    this.exitingTimer = void 0;
+
+    this.renderPopover = overlayDetails => {
+      const {
+        measuring,
+        desiredHeight,
+        positioning
+      } = overlayDetails;
+      const {
+        id,
+        children,
+        sectioned,
+        fullWidth,
+        fullHeight,
+        fluidContent,
+        hideOnPrint,
+        colorScheme,
+        autofocusTarget
+      } = this.props;
+      const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_2__.classNames)(_Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Popover, positioning === 'above' && _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.positionedAbove, fullWidth && _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.fullWidth, measuring && _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.measuring, hideOnPrint && _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["PopoverOverlay-hideOnPrint"]);
+      const contentStyles = measuring ? undefined : {
+        height: desiredHeight
+      };
+      const contentClassNames = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_2__.classNames)(_Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Content, fullHeight && _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["Content-fullHeight"], fluidContent && _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["Content-fluidContent"]);
+      const content = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        id: id,
+        tabIndex: autofocusTarget === 'none' ? undefined : -1,
+        className: contentClassNames,
+        style: contentStyles,
+        ref: this.contentNode
+      }, renderPopoverContent(children, {
+        sectioned
+      }));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", Object.assign({
+        className: className
+      }, _shared_js__WEBPACK_IMPORTED_MODULE_4__.overlay.props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_5__.EventListener, {
+        event: "click",
+        handler: this.handleClick
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_5__.EventListener, {
+        event: "touchstart",
+        handler: this.handleClick
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_KeypressListener_KeypressListener_js__WEBPACK_IMPORTED_MODULE_6__.KeypressListener, {
+        keyCode: _types_js__WEBPACK_IMPORTED_MODULE_7__.Key.Escape,
+        handler: this.handleEscape
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.FocusTracker // eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex
+        ,
+        tabIndex: 0,
+        onFocus: this.handleFocusFirstItem
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ThemeProvider_ThemeProvider_js__WEBPACK_IMPORTED_MODULE_8__.ThemeProvider, {
+        alwaysRenderCustomProperties: true,
+        theme: {
+          colorScheme
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Wrapper
+      }, content)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.FocusTracker // eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex
+        ,
+        tabIndex: 0,
+        onFocus: this.handleFocusLastItem
+      }));
+    };
+
+    this.handleClick = event => {
+      const target = event.target;
+      const {
+        contentNode,
+        props: {
+          activator,
+          onClose
+        }
+      } = this;
+      const isDescendant = contentNode.current != null && nodeContainsDescendant(contentNode.current, target);
+      const isActivatorDescendant = nodeContainsDescendant(activator, target);
+
+      if (isDescendant || isActivatorDescendant || this.state.transitionStatus !== TransitionStatus.Entered) {
+        return;
+      }
+
+      onClose(PopoverCloseSource.Click);
+    };
+
+    this.handleScrollOut = () => {
+      this.props.onClose(PopoverCloseSource.ScrollOut);
+    };
+
+    this.handleEscape = () => {
+      this.props.onClose(PopoverCloseSource.EscapeKeypress);
+    };
+
+    this.handleFocusFirstItem = () => {
+      this.props.onClose(PopoverCloseSource.FocusOut);
+    };
+
+    this.handleFocusLastItem = () => {
+      this.props.onClose(PopoverCloseSource.FocusOut);
+    };
+  }
+
+  changeTransitionStatus(transitionStatus, cb) {
+    this.setState({
+      transitionStatus
+    }, cb); // Forcing a reflow to enable the animation
+
+    this.contentNode.current && this.contentNode.current.getBoundingClientRect();
+  }
+
+  componentDidMount() {
+    if (this.props.active) {
+      this.focusContent();
+      this.changeTransitionStatus(TransitionStatus.Entered);
+    }
+  }
+
+  componentDidUpdate(oldProps) {
+    if (this.props.active && !oldProps.active) {
+      this.focusContent();
+      this.changeTransitionStatus(TransitionStatus.Entering, () => {
+        this.clearTransitionTimeout();
+        this.enteringTimer = window.setTimeout(() => {
+          this.setState({
+            transitionStatus: TransitionStatus.Entered
+          });
+        }, _shopify_polaris_tokens__WEBPACK_IMPORTED_MODULE_1__.durationBase);
+      });
+    }
+
+    if (!this.props.active && oldProps.active) {
+      this.changeTransitionStatus(TransitionStatus.Exiting, () => {
+        this.clearTransitionTimeout();
+        this.exitingTimer = window.setTimeout(() => {
+          this.setState({
+            transitionStatus: TransitionStatus.Exited
+          });
+        }, _shopify_polaris_tokens__WEBPACK_IMPORTED_MODULE_1__.durationBase);
+      });
+    }
+  }
+
+  componentWillUnmount() {
+    this.clearTransitionTimeout();
+  }
+
+  render() {
+    const {
+      active,
+      activator,
+      fullWidth,
+      preferredPosition = 'below',
+      preferredAlignment = 'center',
+      preferInputActivator = true,
+      fixed,
+      zIndexOverride
+    } = this.props;
+    const {
+      transitionStatus
+    } = this.state;
+    if (transitionStatus === TransitionStatus.Exited && !active) return null;
+    const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_2__.classNames)(_Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.PopoverOverlay, transitionStatus === TransitionStatus.Entering && _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["PopoverOverlay-entering"], transitionStatus === TransitionStatus.Entered && _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["PopoverOverlay-open"], transitionStatus === TransitionStatus.Exiting && _Popover_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["PopoverOverlay-exiting"]);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_PositionedOverlay_PositionedOverlay_js__WEBPACK_IMPORTED_MODULE_9__.PositionedOverlay, {
+      fullWidth: fullWidth,
+      active: active,
+      activator: activator,
+      preferInputActivator: preferInputActivator,
+      preferredPosition: preferredPosition,
+      preferredAlignment: preferredAlignment,
+      render: this.renderPopover.bind(this),
+      fixed: fixed,
+      onScrollOut: this.handleScrollOut,
+      classNames: className,
+      zIndexOverride: zIndexOverride
+    });
+  }
+
+  clearTransitionTimeout() {
+    if (this.enteringTimer) {
+      window.clearTimeout(this.enteringTimer);
+    }
+
+    if (this.exitingTimer) {
+      window.clearTimeout(this.exitingTimer);
+    }
+  }
+
+  focusContent() {
+    const {
+      autofocusTarget = 'container'
+    } = this.props;
+
+    if (autofocusTarget === 'none' || this.contentNode == null) {
+      return;
+    }
+
+    requestAnimationFrame(() => {
+      if (this.contentNode.current == null) {
+        return;
+      }
+
+      const focusableChild = (0,_utilities_focus_js__WEBPACK_IMPORTED_MODULE_10__.findFirstFocusableNode)(this.contentNode.current);
+
+      if (focusableChild && autofocusTarget === 'first-node') {
+        focusableChild.focus({
+          preventScroll: "development" === 'development'
+        });
+      } else {
+        this.contentNode.current.focus({
+          preventScroll: "development" === 'development'
+        });
+      }
+    });
+  } // eslint-disable-next-line @shopify/react-no-multiple-render-methods
+
+
+}
+
+function renderPopoverContent(children, props) {
+  const childrenArray = react__WEBPACK_IMPORTED_MODULE_0__.Children.toArray(children);
+
+  if ((0,_utilities_components_js__WEBPACK_IMPORTED_MODULE_11__.isElementOfType)(childrenArray[0], _Pane_Pane_js__WEBPACK_IMPORTED_MODULE_12__.Pane)) {
+    return childrenArray;
+  }
+
+  return (0,_utilities_components_js__WEBPACK_IMPORTED_MODULE_11__.wrapWithComponent)(childrenArray, _Pane_Pane_js__WEBPACK_IMPORTED_MODULE_12__.Pane, props);
+}
+
+function nodeContainsDescendant(rootNode, descendant) {
+  if (rootNode === descendant) {
+    return true;
+  }
+
+  let parent = descendant.parentNode;
+
+  while (parent != null) {
+    if (parent === rootNode) {
+      return true;
+    }
+
+    parent = parent.parentNode;
+  }
+
+  return false;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Popover/components/Section/Section.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Popover/components/Section/Section.js ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Section": () => (/* binding */ Section)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Popover_scss_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Popover.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Popover/Popover.scss.js");
+
+
+
+function Section({
+  children
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _Popover_scss_js__WEBPACK_IMPORTED_MODULE_1__.default.Section
+  }, children);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Popover/set-activator-attributes.js":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Popover/set-activator-attributes.js ***!
+  \***********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "setActivatorAttributes": () => (/* binding */ setActivatorAttributes)
+/* harmony export */ });
+function setActivatorAttributes(activator, {
+  id,
+  active = false,
+  ariaHaspopup,
+  activatorDisabled = false
+}) {
+  if (!activatorDisabled) {
+    activator.tabIndex = activator.tabIndex || 0;
+  }
+
+  activator.setAttribute('aria-controls', id);
+  activator.setAttribute('aria-owns', id);
+  activator.setAttribute('aria-expanded', String(active));
+
+  if (ariaHaspopup != null) {
+    activator.setAttribute('aria-haspopup', String(ariaHaspopup));
+  }
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Portal/Portal.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Portal/Portal.js ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Portal": () => (/* binding */ Portal)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_unique_id_hooks_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utilities/unique-id/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/hooks.js");
+/* harmony import */ var _utilities_portals_hooks_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utilities/portals/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/portals/hooks.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+
+
+
+
+
+function Portal({
+  children,
+  idPrefix = '',
+  onPortalCreated = noop
+}) {
+  const {
+    container
+  } = (0,_utilities_portals_hooks_js__WEBPACK_IMPORTED_MODULE_2__.usePortalsManager)();
+  const uniqueId = (0,_utilities_unique_id_hooks_js__WEBPACK_IMPORTED_MODULE_3__.useUniqueId)('portal');
+  const portalId = idPrefix !== '' ? `${idPrefix}-${uniqueId}` : uniqueId;
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    onPortalCreated();
+  }, [onPortalCreated]);
+  return container ? /*#__PURE__*/(0,react_dom__WEBPACK_IMPORTED_MODULE_1__.createPortal)( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    "data-portal-id": portalId
+  }, children), container) : null;
+}
+
+function noop() {}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/PositionedOverlay/PositionedOverlay.js":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/PositionedOverlay/PositionedOverlay.js ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PositionedOverlay": () => (/* binding */ PositionedOverlay)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var _EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../EventListener/EventListener.js */ "./node_modules/@shopify/polaris/dist/esm/components/EventListener/EventListener.js");
+/* harmony import */ var _shared_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../shared.js */ "./node_modules/@shopify/polaris/dist/esm/components/shared.js");
+/* harmony import */ var _utilities_geometry_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/geometry.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/geometry.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _Scrollable_Scrollable_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Scrollable/Scrollable.js */ "./node_modules/@shopify/polaris/dist/esm/components/Scrollable/Scrollable.js");
+/* harmony import */ var _utilities_math_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utilities/math.js */ "./node_modules/@shopify/polaris/dist/esm/components/PositionedOverlay/utilities/math.js");
+/* harmony import */ var _PositionedOverlay_scss_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./PositionedOverlay.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/PositionedOverlay/PositionedOverlay.scss.js");
+
+
+
+
+
+
+
+
+
+
+const OBSERVER_CONFIG = {
+  childList: true,
+  subtree: true
+};
+class PositionedOverlay extends react__WEBPACK_IMPORTED_MODULE_0__.PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = {
+      measuring: true,
+      activatorRect: (0,_utilities_geometry_js__WEBPACK_IMPORTED_MODULE_1__.getRectForNode)(this.props.activator),
+      right: undefined,
+      left: undefined,
+      top: 0,
+      height: 0,
+      width: null,
+      positioning: 'below',
+      zIndex: null,
+      outsideScrollableContainer: false,
+      lockPosition: false
+    };
+    this.overlay = null;
+    this.scrollableContainer = null;
+    this.observer = void 0;
+
+    this.overlayDetails = () => {
+      const {
+        measuring,
+        left,
+        right,
+        positioning,
+        height,
+        activatorRect
+      } = this.state;
+      return {
+        measuring,
+        left,
+        right,
+        desiredHeight: height,
+        positioning,
+        activatorRect
+      };
+    };
+
+    this.setOverlay = node => {
+      this.overlay = node;
+    };
+
+    this.handleMeasurement = () => {
+      const {
+        lockPosition,
+        top
+      } = this.state;
+      this.observer.disconnect();
+      this.setState(({
+        left,
+        top,
+        right
+      }) => ({
+        left,
+        right,
+        top,
+        height: 0,
+        positioning: 'below',
+        measuring: true
+      }), () => {
+        if (this.overlay == null || this.scrollableContainer == null) {
+          return;
+        }
+
+        const {
+          activator,
+          preferredPosition = 'below',
+          preferredAlignment = 'center',
+          onScrollOut,
+          fullWidth,
+          fixed,
+          preferInputActivator = true
+        } = this.props;
+        const preferredActivator = preferInputActivator ? activator.querySelector('input') || activator : activator;
+        const activatorRect = (0,_utilities_geometry_js__WEBPACK_IMPORTED_MODULE_1__.getRectForNode)(preferredActivator);
+        const currentOverlayRect = (0,_utilities_geometry_js__WEBPACK_IMPORTED_MODULE_1__.getRectForNode)(this.overlay);
+        const scrollableElement = isDocument(this.scrollableContainer) ? document.body : this.scrollableContainer;
+        const scrollableContainerRect = (0,_utilities_geometry_js__WEBPACK_IMPORTED_MODULE_1__.getRectForNode)(scrollableElement);
+        const overlayRect = fullWidth ? new _utilities_geometry_js__WEBPACK_IMPORTED_MODULE_1__.Rect((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_2__.objectSpread2)((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_2__.objectSpread2)({}, currentOverlayRect), {}, {
+          width: activatorRect.width
+        })) : currentOverlayRect; // If `body` is 100% height, it still acts as though it were not constrained to that size. This adjusts for that.
+
+        if (scrollableElement === document.body) {
+          scrollableContainerRect.height = document.body.scrollHeight;
+        }
+
+        const overlayMargins = this.overlay.firstElementChild && this.overlay.firstChild instanceof HTMLElement ? getMarginsForNode(this.overlay.firstElementChild) : {
+          activator: 0,
+          container: 0,
+          horizontal: 0
+        };
+        const containerRect = (0,_utilities_math_js__WEBPACK_IMPORTED_MODULE_3__.windowRect)();
+        const zIndexForLayer = getZIndexForLayerFromNode(activator);
+        const zIndex = zIndexForLayer == null ? zIndexForLayer : zIndexForLayer + 1;
+        const verticalPosition = (0,_utilities_math_js__WEBPACK_IMPORTED_MODULE_3__.calculateVerticalPosition)(activatorRect, overlayRect, overlayMargins, scrollableContainerRect, containerRect, preferredPosition, fixed);
+        const horizontalPosition = (0,_utilities_math_js__WEBPACK_IMPORTED_MODULE_3__.calculateHorizontalPosition)(activatorRect, overlayRect, containerRect, overlayMargins, preferredAlignment);
+        this.setState({
+          measuring: false,
+          activatorRect: (0,_utilities_geometry_js__WEBPACK_IMPORTED_MODULE_1__.getRectForNode)(activator),
+          left: preferredAlignment !== 'right' ? horizontalPosition : undefined,
+          right: preferredAlignment === 'right' ? horizontalPosition : undefined,
+          top: lockPosition ? top : verticalPosition.top,
+          lockPosition: Boolean(fixed),
+          height: verticalPosition.height || 0,
+          width: fullWidth ? overlayRect.width : null,
+          positioning: verticalPosition.positioning,
+          outsideScrollableContainer: onScrollOut != null && (0,_utilities_math_js__WEBPACK_IMPORTED_MODULE_3__.rectIsOutsideOfRect)(activatorRect, (0,_utilities_math_js__WEBPACK_IMPORTED_MODULE_3__.intersectionWithViewport)(scrollableContainerRect)),
+          zIndex
+        }, () => {
+          if (!this.overlay) return;
+          this.observer.observe(this.overlay, OBSERVER_CONFIG);
+        });
+      });
+    };
+
+    this.observer = new MutationObserver(this.handleMeasurement);
+  }
+
+  componentDidMount() {
+    this.scrollableContainer = _Scrollable_Scrollable_js__WEBPACK_IMPORTED_MODULE_4__.Scrollable.forNode(this.props.activator);
+
+    if (this.scrollableContainer && !this.props.fixed) {
+      this.scrollableContainer.addEventListener('scroll', this.handleMeasurement);
+    }
+
+    this.handleMeasurement();
+  }
+
+  componentWillUnmount() {
+    if (this.scrollableContainer && !this.props.fixed) {
+      this.scrollableContainer.removeEventListener('scroll', this.handleMeasurement);
+    }
+  }
+
+  componentDidUpdate() {
+    const {
+      outsideScrollableContainer,
+      top
+    } = this.state;
+    const {
+      onScrollOut,
+      active
+    } = this.props;
+
+    if (active && onScrollOut != null && top !== 0 && outsideScrollableContainer) {
+      onScrollOut();
+    }
+  }
+
+  render() {
+    const {
+      left,
+      right,
+      top,
+      zIndex,
+      width
+    } = this.state;
+    const {
+      render,
+      fixed,
+      preventInteraction,
+      classNames: propClassNames,
+      zIndexOverride
+    } = this.props;
+    const style = {
+      top: top == null || isNaN(top) ? undefined : top,
+      left: left == null || isNaN(left) ? undefined : left,
+      right: right == null || isNaN(right) ? undefined : right,
+      width: width == null || isNaN(width) ? undefined : width,
+      zIndex: zIndexOverride || zIndex || undefined
+    };
+    const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_5__.classNames)(_PositionedOverlay_scss_js__WEBPACK_IMPORTED_MODULE_6__.default.PositionedOverlay, fixed && _PositionedOverlay_scss_js__WEBPACK_IMPORTED_MODULE_6__.default.fixed, preventInteraction && _PositionedOverlay_scss_js__WEBPACK_IMPORTED_MODULE_6__.default.preventInteraction, propClassNames);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      className: className,
+      style: style,
+      ref: this.setOverlay
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_7__.EventListener, {
+      event: "resize",
+      handler: this.handleMeasurement
+    }), render(this.overlayDetails()));
+  }
+
+}
+
+function getMarginsForNode(node) {
+  const nodeStyles = window.getComputedStyle(node);
+  return {
+    activator: parseFloat(nodeStyles.marginTop || '0'),
+    container: parseFloat(nodeStyles.marginBottom || '0'),
+    horizontal: parseFloat(nodeStyles.marginLeft || '0')
+  };
+}
+
+function getZIndexForLayerFromNode(node) {
+  const layerNode = node.closest(_shared_js__WEBPACK_IMPORTED_MODULE_8__.layer.selector) || document.body;
+  const zIndex = layerNode === document.body ? 'auto' : parseInt(window.getComputedStyle(layerNode).zIndex || '0', 10);
+  return zIndex === 'auto' || isNaN(zIndex) ? null : zIndex;
+}
+
+function isDocument(node) {
+  return node === document;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/PositionedOverlay/PositionedOverlay.scss.js":
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/PositionedOverlay/PositionedOverlay.scss.js ***!
+  \*******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "PositionedOverlay": "Polaris-PositionedOverlay",
+  "fixed": "Polaris-PositionedOverlay--fixed",
+  "calculating": "Polaris-PositionedOverlay--calculating",
+  "preventInteraction": "Polaris-PositionedOverlay--preventInteraction"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/PositionedOverlay/utilities/math.js":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/PositionedOverlay/utilities/math.js ***!
+  \***********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "calculateHorizontalPosition": () => (/* binding */ calculateHorizontalPosition),
+/* harmony export */   "calculateVerticalPosition": () => (/* binding */ calculateVerticalPosition),
+/* harmony export */   "intersectionWithViewport": () => (/* binding */ intersectionWithViewport),
+/* harmony export */   "rectIsOutsideOfRect": () => (/* binding */ rectIsOutsideOfRect),
+/* harmony export */   "windowRect": () => (/* binding */ windowRect)
+/* harmony export */ });
+/* harmony import */ var _utilities_geometry_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../utilities/geometry.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/geometry.js");
+
+
+function calculateVerticalPosition(activatorRect, overlayRect, overlayMargins, scrollableContainerRect, containerRect, preferredPosition, fixed) {
+  const activatorTop = activatorRect.top;
+  const activatorBottom = activatorTop + activatorRect.height;
+  const spaceAbove = activatorRect.top;
+  const spaceBelow = containerRect.height - activatorRect.top - activatorRect.height;
+  const desiredHeight = overlayRect.height;
+  const verticalMargins = overlayMargins.activator + overlayMargins.container;
+  const minimumSpaceToScroll = overlayMargins.container;
+  const distanceToTopScroll = activatorRect.top - Math.max(scrollableContainerRect.top, 0);
+  const distanceToBottomScroll = containerRect.top + Math.min(containerRect.height, scrollableContainerRect.top + scrollableContainerRect.height) - (activatorRect.top + activatorRect.height);
+  const enoughSpaceFromTopScroll = distanceToTopScroll >= minimumSpaceToScroll;
+  const enoughSpaceFromBottomScroll = distanceToBottomScroll >= minimumSpaceToScroll;
+  const heightIfBelow = Math.min(spaceBelow, desiredHeight);
+  const heightIfAbove = Math.min(spaceAbove, desiredHeight);
+  const containerRectTop = fixed ? 0 : containerRect.top;
+  const positionIfAbove = {
+    height: heightIfAbove - verticalMargins,
+    top: activatorTop + containerRectTop - heightIfAbove,
+    positioning: 'above'
+  };
+  const positionIfBelow = {
+    height: heightIfBelow - verticalMargins,
+    top: activatorBottom + containerRectTop,
+    positioning: 'below'
+  };
+
+  if (preferredPosition === 'above') {
+    return (enoughSpaceFromTopScroll || distanceToTopScroll >= distanceToBottomScroll && !enoughSpaceFromBottomScroll) && (spaceAbove > desiredHeight || spaceAbove > spaceBelow) ? positionIfAbove : positionIfBelow;
+  }
+
+  if (preferredPosition === 'below') {
+    return (enoughSpaceFromBottomScroll || distanceToBottomScroll >= distanceToTopScroll && !enoughSpaceFromTopScroll) && (spaceBelow > desiredHeight || spaceBelow > spaceAbove) ? positionIfBelow : positionIfAbove;
+  }
+
+  if (enoughSpaceFromTopScroll && enoughSpaceFromBottomScroll) {
+    return spaceAbove > spaceBelow ? positionIfAbove : positionIfBelow;
+  }
+
+  return distanceToTopScroll > minimumSpaceToScroll ? positionIfAbove : positionIfBelow;
+}
+function calculateHorizontalPosition(activatorRect, overlayRect, containerRect, overlayMargins, preferredAlignment) {
+  const maximum = containerRect.width - overlayRect.width;
+
+  if (preferredAlignment === 'left') {
+    return Math.min(maximum, Math.max(0, activatorRect.left - overlayMargins.horizontal));
+  } else if (preferredAlignment === 'right') {
+    const activatorRight = containerRect.width - (activatorRect.left + activatorRect.width);
+    return Math.min(maximum, Math.max(0, activatorRight - overlayMargins.horizontal));
+  }
+
+  return Math.min(maximum, Math.max(0, activatorRect.center.x - overlayRect.width / 2));
+}
+function rectIsOutsideOfRect(inner, outer) {
+  const {
+    center
+  } = inner;
+  return center.y < outer.top || center.y > outer.top + outer.height;
+}
+function intersectionWithViewport(rect, viewport = windowRect()) {
+  const top = Math.max(rect.top, 0);
+  const left = Math.max(rect.left, 0);
+  const bottom = Math.min(rect.top + rect.height, viewport.height);
+  const right = Math.min(rect.left + rect.width, viewport.width);
+  return new _utilities_geometry_js__WEBPACK_IMPORTED_MODULE_0__.Rect({
+    top,
+    left,
+    height: bottom - top,
+    width: right - left
+  });
+}
+function windowRect() {
+  return new _utilities_geometry_js__WEBPACK_IMPORTED_MODULE_0__.Rect({
+    top: window.scrollY,
+    left: window.scrollX,
+    height: window.innerHeight,
+    width: document.body.clientWidth
+  });
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Scrollable/Scrollable.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Scrollable/Scrollable.js ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Scrollable": () => (/* binding */ Scrollable)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/debounce */ "./node_modules/lodash/debounce.js");
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _utilities_sticky_manager_context_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../utilities/sticky-manager/context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/sticky-manager/context.js");
+/* harmony import */ var _shared_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../shared.js */ "./node_modules/@shopify/polaris/dist/esm/components/shared.js");
+/* harmony import */ var _utilities_sticky_manager_sticky_manager_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utilities/sticky-manager/sticky-manager.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/sticky-manager/sticky-manager.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _context_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./context.js */ "./node_modules/@shopify/polaris/dist/esm/components/Scrollable/context.js");
+/* harmony import */ var _components_ScrollTo_ScrollTo_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/ScrollTo/ScrollTo.js */ "./node_modules/@shopify/polaris/dist/esm/components/Scrollable/components/ScrollTo/ScrollTo.js");
+/* harmony import */ var _Scrollable_scss_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Scrollable.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Scrollable/Scrollable.scss.js");
+
+
+
+
+
+
+
+
+
+
+
+const MAX_SCROLL_DISTANCE = 100;
+const DELTA_THRESHOLD = 0.2;
+const DELTA_PERCENTAGE = 0.2;
+const EVENTS_TO_LOCK = ['scroll', 'touchmove', 'wheel'];
+const PREFERS_REDUCED_MOTION = prefersReducedMotion();
+class Scrollable extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
+  constructor(...args) {
+    super(...args);
+    this.state = {
+      topShadow: false,
+      bottomShadow: false,
+      scrollPosition: 0,
+      canScroll: false
+    };
+    this.stickyManager = new _utilities_sticky_manager_sticky_manager_js__WEBPACK_IMPORTED_MODULE_2__.StickyManager();
+    this.scrollArea = null;
+    this.handleResize = lodash_debounce__WEBPACK_IMPORTED_MODULE_1___default()(() => {
+      this.handleScroll();
+    }, 50, {
+      trailing: true
+    });
+
+    this.setScrollArea = scrollArea => {
+      this.scrollArea = scrollArea;
+    };
+
+    this.handleScroll = () => {
+      const {
+        scrollArea
+      } = this;
+      const {
+        shadow,
+        onScrolledToBottom
+      } = this.props;
+
+      if (scrollArea == null) {
+        return;
+      }
+
+      const {
+        scrollTop,
+        clientHeight,
+        scrollHeight
+      } = scrollArea;
+      const shouldBottomShadow = Boolean(shadow && !(scrollTop + clientHeight >= scrollHeight));
+      const shouldTopShadow = Boolean(shadow && scrollTop > 0);
+      const canScroll = scrollHeight > clientHeight;
+      const hasScrolledToBottom = scrollHeight - scrollTop === clientHeight;
+
+      if (canScroll && hasScrolledToBottom && onScrolledToBottom) {
+        onScrolledToBottom();
+      }
+
+      this.setState({
+        topShadow: shouldTopShadow,
+        bottomShadow: shouldBottomShadow,
+        scrollPosition: scrollTop,
+        canScroll
+      });
+    };
+
+    this.scrollHint = () => {
+      const {
+        scrollArea
+      } = this;
+
+      if (scrollArea == null) {
+        return;
+      }
+
+      const {
+        clientHeight,
+        scrollHeight
+      } = scrollArea;
+
+      if (PREFERS_REDUCED_MOTION || this.state.scrollPosition > 0 || scrollHeight <= clientHeight) {
+        return;
+      }
+
+      const scrollDistance = scrollHeight - clientHeight;
+      this.toggleLock();
+      this.setState({
+        scrollPosition: scrollDistance > MAX_SCROLL_DISTANCE ? MAX_SCROLL_DISTANCE : scrollDistance
+      }, () => {
+        window.requestAnimationFrame(this.scrollStep);
+      });
+    };
+
+    this.scrollStep = () => {
+      this.setState(({
+        scrollPosition
+      }) => {
+        const delta = scrollPosition * DELTA_PERCENTAGE;
+        return {
+          scrollPosition: delta < DELTA_THRESHOLD ? 0 : scrollPosition - delta
+        };
+      }, () => {
+        if (this.state.scrollPosition > 0) {
+          window.requestAnimationFrame(this.scrollStep);
+        } else {
+          this.toggleLock(false);
+        }
+      });
+    };
+
+    this.scrollToPosition = scrollY => {
+      this.setState({
+        scrollPosition: scrollY
+      });
+    };
+  }
+
+  static forNode(node) {
+    const closestElement = node.closest(_shared_js__WEBPACK_IMPORTED_MODULE_3__.scrollable.selector);
+    return closestElement instanceof HTMLElement ? closestElement : document;
+  }
+
+  componentDidMount() {
+    if (this.scrollArea == null) {
+      return;
+    }
+
+    this.stickyManager.setContainer(this.scrollArea);
+    this.scrollArea.addEventListener('scroll', () => {
+      window.requestAnimationFrame(this.handleScroll);
+    });
+    window.addEventListener('resize', this.handleResize);
+    window.requestAnimationFrame(() => {
+      this.handleScroll();
+
+      if (this.props.hint) {
+        this.scrollHint();
+      }
+    });
+  }
+
+  componentWillUnmount() {
+    if (this.scrollArea == null) {
+      return;
+    }
+
+    this.scrollArea.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener('resize', this.handleResize);
+    this.stickyManager.removeScrollListener();
+  }
+
+  componentDidUpdate() {
+    const {
+      scrollPosition
+    } = this.state;
+
+    if (scrollPosition && this.scrollArea && scrollPosition > 0) {
+      this.scrollArea.scrollTop = scrollPosition;
+    }
+  }
+
+  render() {
+    const {
+      topShadow,
+      bottomShadow,
+      canScroll
+    } = this.state;
+
+    const _this$props = this.props,
+          {
+      children,
+      className,
+      horizontal,
+      vertical = true,
+      shadow,
+      hint,
+      focusable,
+      onScrolledToBottom
+    } = _this$props,
+          rest = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_4__.objectWithoutProperties)(_this$props, ["children", "className", "horizontal", "vertical", "shadow", "hint", "focusable", "onScrolledToBottom"]);
+
+    const finalClassName = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_5__.classNames)(className, _Scrollable_scss_js__WEBPACK_IMPORTED_MODULE_6__.default.Scrollable, vertical && _Scrollable_scss_js__WEBPACK_IMPORTED_MODULE_6__.default.vertical, horizontal && _Scrollable_scss_js__WEBPACK_IMPORTED_MODULE_6__.default.horizontal, topShadow && _Scrollable_scss_js__WEBPACK_IMPORTED_MODULE_6__.default.hasTopShadow, bottomShadow && _Scrollable_scss_js__WEBPACK_IMPORTED_MODULE_6__.default.hasBottomShadow, vertical && canScroll && _Scrollable_scss_js__WEBPACK_IMPORTED_MODULE_6__.default.verticalHasScrolling);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_context_js__WEBPACK_IMPORTED_MODULE_7__.ScrollableContext.Provider, {
+      value: this.scrollToPosition
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_sticky_manager_context_js__WEBPACK_IMPORTED_MODULE_8__.StickyManagerContext.Provider, {
+      value: this.stickyManager
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", Object.assign({
+      className: finalClassName
+    }, _shared_js__WEBPACK_IMPORTED_MODULE_3__.scrollable.props, rest, {
+      ref: this.setScrollArea // eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex
+      ,
+      tabIndex: focusable ? 0 : undefined
+    }), children)));
+  }
+
+  toggleLock(shouldLock = true) {
+    const {
+      scrollArea
+    } = this;
+
+    if (scrollArea == null) {
+      return;
+    }
+
+    EVENTS_TO_LOCK.forEach(eventName => {
+      if (shouldLock) {
+        scrollArea.addEventListener(eventName, prevent);
+      } else {
+        scrollArea.removeEventListener(eventName, prevent);
+      }
+    });
+  }
+
+}
+Scrollable.ScrollTo = _components_ScrollTo_ScrollTo_js__WEBPACK_IMPORTED_MODULE_9__.ScrollTo;
+
+function prevent(evt) {
+  evt.preventDefault();
+}
+
+function prefersReducedMotion() {
+  try {
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  } catch (err) {
+    return false;
+  }
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Scrollable/Scrollable.scss.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Scrollable/Scrollable.scss.js ***!
+  \*****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "Scrollable": "Polaris-Scrollable",
+  "horizontal": "Polaris-Scrollable--horizontal",
+  "vertical": "Polaris-Scrollable--vertical",
+  "verticalHasScrolling": "Polaris-Scrollable--verticalHasScrolling",
+  "hasTopShadow": "Polaris-Scrollable--hasTopShadow",
+  "hasBottomShadow": "Polaris-Scrollable--hasBottomShadow"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Scrollable/components/ScrollTo/ScrollTo.js":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Scrollable/components/ScrollTo/ScrollTo.js ***!
+  \******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ScrollTo": () => (/* binding */ ScrollTo)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_unique_id_hooks_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../utilities/unique-id/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/hooks.js");
+/* harmony import */ var _context_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../context.js */ "./node_modules/@shopify/polaris/dist/esm/components/Scrollable/context.js");
+
+
+
+
+function ScrollTo() {
+  const anchorNode = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  const scrollToPosition = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_js__WEBPACK_IMPORTED_MODULE_1__.ScrollableContext);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    if (!scrollToPosition || !anchorNode.current) {
+      return;
+    }
+
+    scrollToPosition(anchorNode.current.offsetTop);
+  }, [scrollToPosition]);
+  const id = (0,_utilities_unique_id_hooks_js__WEBPACK_IMPORTED_MODULE_2__.useUniqueId)(`ScrollTo`); // eslint-disable-next-line jsx-a11y/anchor-is-valid
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    id: id,
+    ref: anchorNode
+  });
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Scrollable/context.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Scrollable/context.js ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ScrollableContext": () => (/* binding */ ScrollableContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+const ScrollableContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(undefined);
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Spinner/Spinner.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Spinner/Spinner.js ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Spinner": () => (/* binding */ Spinner)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _utilities_use_is_after_initial_mount_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/use-is-after-initial-mount.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/use-is-after-initial-mount.js");
+/* harmony import */ var _VisuallyHidden_VisuallyHidden_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../VisuallyHidden/VisuallyHidden.js */ "./node_modules/@shopify/polaris/dist/esm/components/VisuallyHidden/VisuallyHidden.js");
+/* harmony import */ var _Spinner_scss_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Spinner.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Spinner/Spinner.scss.js");
+
+
+
+
+
+
+
+var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+  viewBox: "0 0 44 44",
+  xmlns: "http://www.w3.org/2000/svg"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+  d: "M15.542 1.487A21.507 21.507 0 00.5 22c0 11.874 9.626 21.5 21.5 21.5 9.847 0 18.364-6.675 20.809-16.072a1.5 1.5 0 00-2.904-.756C37.803 34.755 30.473 40.5 22 40.5 11.783 40.5 3.5 32.217 3.5 22c0-8.137 5.3-15.247 12.942-17.65a1.5 1.5 0 10-.9-2.863z"
+}));
+
+var _ref2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+  viewBox: "0 0 20 20",
+  xmlns: "http://www.w3.org/2000/svg"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+  d: "M7.229 1.173a9.25 9.25 0 1011.655 11.412 1.25 1.25 0 10-2.4-.698 6.75 6.75 0 11-8.506-8.329 1.25 1.25 0 10-.75-2.385z"
+}));
+
+function Spinner({
+  size = 'large',
+  accessibilityLabel,
+  hasFocusableParent
+}) {
+  const isAfterInitialMount = (0,_utilities_use_is_after_initial_mount_js__WEBPACK_IMPORTED_MODULE_1__.useIsAfterInitialMount)();
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_2__.classNames)(_Spinner_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Spinner, size && _Spinner_scss_js__WEBPACK_IMPORTED_MODULE_3__.default[(0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_2__.variationName)('size', size)]);
+  const spinnerSVGMarkup = size === 'large' ? _ref : _ref2;
+
+  const spanAttributes = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_4__.objectSpread2)({}, !hasFocusableParent && {
+    role: 'status'
+  });
+
+  const accessibilityLabelMarkup = (isAfterInitialMount || !hasFocusableParent) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_VisuallyHidden_VisuallyHidden_js__WEBPACK_IMPORTED_MODULE_5__.VisuallyHidden, null, accessibilityLabel);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: className
+  }, spinnerSVGMarkup), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", spanAttributes, accessibilityLabelMarkup));
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Spinner/Spinner.scss.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Spinner/Spinner.scss.js ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "Spinner": "Polaris-Spinner",
+  "loading": "Polaris-Spinner--loading",
+  "sizeSmall": "Polaris-Spinner--sizeSmall",
+  "sizeLarge": "Polaris-Spinner--sizeLarge"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/TextStyle/TextStyle.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/TextStyle/TextStyle.js ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "TextStyle": () => (/* binding */ TextStyle)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _TextStyle_scss_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TextStyle.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/TextStyle/TextStyle.scss.js");
+
+
+
+
+var VariationValue;
+
+(function (VariationValue) {
+  VariationValue["Positive"] = "positive";
+  VariationValue["Negative"] = "negative";
+  VariationValue["Strong"] = "strong";
+  VariationValue["Subdued"] = "subdued";
+  VariationValue["Code"] = "code";
+})(VariationValue || (VariationValue = {}));
+
+function TextStyle({
+  variation,
+  children
+}) {
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_1__.classNames)(variation && _TextStyle_scss_js__WEBPACK_IMPORTED_MODULE_2__.default[(0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_1__.variationName)('variation', variation)], variation === VariationValue.Code && _TextStyle_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.code);
+  const Element = variationElement(variation);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Element, {
+    className: className
+  }, children);
+}
+
+function variationElement(variation) {
+  return variation === VariationValue.Code ? 'code' : 'span';
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/TextStyle/TextStyle.scss.js":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/TextStyle/TextStyle.scss.js ***!
+  \***************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "variationPositive": "Polaris-TextStyle--variationPositive",
+  "variationNegative": "Polaris-TextStyle--variationNegative",
+  "variationCode": "Polaris-TextStyle--variationCode",
+  "variationStrong": "Polaris-TextStyle--variationStrong",
+  "variationSubdued": "Polaris-TextStyle--variationSubdued"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ThemeProvider/ThemeProvider.js":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ThemeProvider/ThemeProvider.js ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ThemeProvider": () => (/* binding */ ThemeProvider)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var _shopify_polaris_tokens_dist_modern_theme_base_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @shopify/polaris-tokens/dist-modern/theme/base.json */ "./node_modules/@shopify/polaris-tokens/dist-modern/theme/base.json");
+/* harmony import */ var _utilities_theme_context_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utilities/theme/context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/theme/context.js");
+/* harmony import */ var _utilities_theme_utils_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utilities/theme/utils.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/theme/utils.js");
+/* harmony import */ var _utilities_theme_tokens_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../utilities/theme/tokens.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/theme/tokens.js");
+
+
+
+
+
+
+
+function ThemeProvider({
+  theme: themeConfig = {},
+  alwaysRenderCustomProperties = false,
+  children
+}) {
+  const parentContext = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_utilities_theme_context_js__WEBPACK_IMPORTED_MODULE_2__.ThemeContext);
+  const isParentThemeProvider = parentContext === undefined;
+  const parentColorScheme = parentContext && parentContext.colorScheme && parentContext.colorScheme;
+  const parentColors = parentContext && parentContext.colors && parentContext.colors;
+  const [customProperties, theme] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => {
+    const {
+      colors,
+      colorScheme
+    } = themeConfig,
+          rest = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__.objectWithoutProperties)(themeConfig, ["colors", "colorScheme"]);
+
+    const processedThemeConfig = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__.objectSpread2)((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__.objectSpread2)((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__.objectSpread2)({}, rest), {
+      colorScheme: getColorScheme(colorScheme, parentColorScheme)
+    }), {}, {
+      colors: (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__.objectSpread2)((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__.objectSpread2)((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__.objectSpread2)({}, isParentThemeProvider && _shopify_polaris_tokens_dist_modern_theme_base_json__WEBPACK_IMPORTED_MODULE_1__), parentColors != null && parentColors), colors)
+    });
+
+    const customProperties = (0,_utilities_theme_utils_js__WEBPACK_IMPORTED_MODULE_4__.buildCustomProperties)(processedThemeConfig, _utilities_theme_tokens_js__WEBPACK_IMPORTED_MODULE_5__.Tokens);
+    const theme = (0,_utilities_theme_utils_js__WEBPACK_IMPORTED_MODULE_4__.buildThemeContext)(processedThemeConfig, customProperties);
+    return [customProperties, theme];
+  }, [isParentThemeProvider, parentColorScheme, parentColors, themeConfig]); // We want these values to be empty string instead of `undefined` when not set.
+  // Otherwise, setting a style property to `undefined` does not remove it from the DOM.
+
+  const backgroundColor = customProperties['--p-background'] || '';
+  const color = customProperties['--p-text'] || '';
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    if (isParentThemeProvider) {
+      document.body.style.backgroundColor = backgroundColor;
+      document.body.style.color = color;
+    }
+  }, [backgroundColor, color, isParentThemeProvider]);
+  let style;
+
+  if (isParentThemeProvider) {
+    style = customProperties;
+  } else if (alwaysRenderCustomProperties || !isParentThemeProvider && parentContext.cssCustomProperties !== (0,_utilities_theme_utils_js__WEBPACK_IMPORTED_MODULE_4__.toString)(customProperties)) {
+    style = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__.objectSpread2)((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__.objectSpread2)({}, customProperties), {
+      color
+    });
+  } else {
+    style = {
+      color
+    };
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_theme_context_js__WEBPACK_IMPORTED_MODULE_2__.ThemeContext.Provider, {
+    value: theme
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    style: style
+  }, children));
+}
+
+function getColorScheme(colorScheme, parentColorScheme) {
+  if (colorScheme == null) {
+    return parentColorScheme || 'light';
+  } else if (colorScheme === 'inverse') {
+    return parentColorScheme === 'dark' || parentColorScheme === undefined ? 'light' : 'dark';
+  } else {
+    return colorScheme;
+  }
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Tooltip/Tooltip.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Tooltip/Tooltip.js ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Tooltip": () => (/* binding */ Tooltip)
+/* harmony export */ });
+/* harmony import */ var _types_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../types.js */ "./node_modules/@shopify/polaris/dist/esm/types.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_unique_id_hooks_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utilities/unique-id/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/hooks.js");
+/* harmony import */ var _utilities_focus_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utilities/focus.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/focus.js");
+/* harmony import */ var _Portal_Portal_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Portal/Portal.js */ "./node_modules/@shopify/polaris/dist/esm/components/Portal/Portal.js");
+/* harmony import */ var _utilities_use_toggle_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/use-toggle.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/use-toggle.js");
+/* harmony import */ var _components_TooltipOverlay_TooltipOverlay_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/TooltipOverlay/TooltipOverlay.js */ "./node_modules/@shopify/polaris/dist/esm/components/Tooltip/components/TooltipOverlay/TooltipOverlay.js");
+
+
+
+
+
+
+
+
+function Tooltip({
+  children,
+  content,
+  dismissOnMouseOut,
+  active: originalActive,
+  preferredPosition = 'below',
+  activatorWrapper = 'span',
+  accessibilityLabel
+}) {
+  const WrapperComponent = activatorWrapper;
+  const {
+    value: active,
+    setTrue: handleFocus,
+    setFalse: handleBlur
+  } = (0,_utilities_use_toggle_js__WEBPACK_IMPORTED_MODULE_1__.useToggle)(Boolean(originalActive));
+  const [activatorNode, setActivatorNode] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null);
+  const id = (0,_utilities_unique_id_hooks_js__WEBPACK_IMPORTED_MODULE_2__.useUniqueId)('TooltipContent');
+  const activatorContainer = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  const mouseEntered = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(false);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    const firstFocusable = activatorContainer.current ? (0,_utilities_focus_js__WEBPACK_IMPORTED_MODULE_3__.findFirstFocusableNode)(activatorContainer.current) : null;
+    const accessibilityNode = firstFocusable || activatorContainer.current;
+    if (!accessibilityNode) return;
+    accessibilityNode.tabIndex = 0;
+    accessibilityNode.setAttribute('aria-describedby', id);
+    accessibilityNode.setAttribute('data-polaris-tooltip-activator', 'true');
+  }, [id, children]);
+  const handleKeyUp = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(event => {
+    if (event.keyCode !== _types_js__WEBPACK_IMPORTED_MODULE_4__.Key.Escape) return;
+    handleBlur();
+  }, [handleBlur]);
+  const portal = activatorNode ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Portal_Portal_js__WEBPACK_IMPORTED_MODULE_5__.Portal, {
+    idPrefix: "tooltip"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_TooltipOverlay_TooltipOverlay_js__WEBPACK_IMPORTED_MODULE_6__.TooltipOverlay, {
+    id: id,
+    preferredPosition: preferredPosition,
+    activator: activatorNode,
+    active: active,
+    accessibilityLabel: accessibilityLabel,
+    onClose: noop,
+    preventInteraction: dismissOnMouseOut
+  }, content)) : null;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(WrapperComponent, {
+    onFocus: handleFocus,
+    onBlur: handleBlur,
+    onMouseLeave: handleMouseLeave,
+    onMouseOver: handleMouseEnterFix,
+    onClick: stopPropagation,
+    ref: setActivator,
+    onKeyUp: handleKeyUp
+  }, children, portal);
+
+  function setActivator(node) {
+    const activatorContainerRef = activatorContainer;
+
+    if (node == null) {
+      activatorContainerRef.current = null;
+      setActivatorNode(null);
+      return;
+    }
+
+    node.firstElementChild instanceof HTMLElement && setActivatorNode(node.firstElementChild);
+    activatorContainerRef.current = node;
+  }
+
+  function handleMouseEnter() {
+    mouseEntered.current = true;
+    handleFocus();
+  }
+
+  function handleMouseLeave() {
+    mouseEntered.current = false;
+    handleBlur();
+  } // https://github.com/facebook/react/issues/10109
+  // Mouseenter event not triggered when cursor moves from disabled button
+
+
+  function handleMouseEnterFix() {
+    !mouseEntered.current && handleMouseEnter();
+  }
+}
+
+function noop() {}
+
+function stopPropagation(event) {
+  event.stopPropagation();
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Tooltip/components/TooltipOverlay/TooltipOverlay.js":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Tooltip/components/TooltipOverlay/TooltipOverlay.js ***!
+  \***************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "TooltipOverlay": () => (/* binding */ TooltipOverlay)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../utilities/i18n/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/i18n/hooks.js");
+/* harmony import */ var _shared_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../shared.js */ "./node_modules/@shopify/polaris/dist/esm/components/shared.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _PositionedOverlay_PositionedOverlay_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../PositionedOverlay/PositionedOverlay.js */ "./node_modules/@shopify/polaris/dist/esm/components/PositionedOverlay/PositionedOverlay.js");
+/* harmony import */ var _TooltipOverlay_scss_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TooltipOverlay.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/Tooltip/components/TooltipOverlay/TooltipOverlay.scss.js");
+
+
+
+
+
+
+
+function TooltipOverlay({
+  active,
+  activator,
+  preferredPosition = 'below',
+  preventInteraction,
+  id,
+  children,
+  accessibilityLabel
+}) {
+  const i18n = (0,_utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_1__.useI18n)();
+  const markup = active ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_PositionedOverlay_PositionedOverlay_js__WEBPACK_IMPORTED_MODULE_2__.PositionedOverlay, {
+    active: active,
+    activator: activator,
+    preferredPosition: preferredPosition,
+    preventInteraction: preventInteraction,
+    render: renderTooltip
+  }) : null;
+  return markup;
+
+  function renderTooltip(overlayDetails) {
+    const {
+      measuring,
+      desiredHeight,
+      positioning
+    } = overlayDetails;
+    const containerClassName = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_3__.classNames)(_TooltipOverlay_scss_js__WEBPACK_IMPORTED_MODULE_4__.default.TooltipOverlay, measuring && _TooltipOverlay_scss_js__WEBPACK_IMPORTED_MODULE_4__.default.measuring, positioning === 'above' && _TooltipOverlay_scss_js__WEBPACK_IMPORTED_MODULE_4__.default.positionedAbove);
+    const contentStyles = measuring ? undefined : {
+      minHeight: desiredHeight
+    };
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", Object.assign({
+      className: containerClassName
+    }, _shared_js__WEBPACK_IMPORTED_MODULE_5__.layer.props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      id: id,
+      role: "tooltip",
+      className: _TooltipOverlay_scss_js__WEBPACK_IMPORTED_MODULE_4__.default.Content,
+      style: contentStyles,
+      "aria-label": accessibilityLabel ? i18n.translate('Polaris.TooltipOverlay.accessibilityLabel', {
+        label: accessibilityLabel
+      }) : undefined
+    }, children));
+  }
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/Tooltip/components/TooltipOverlay/TooltipOverlay.scss.js":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/Tooltip/components/TooltipOverlay/TooltipOverlay.scss.js ***!
+  \********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "TooltipOverlay": "Polaris-Tooltip-TooltipOverlay",
+  "measuring": "Polaris-Tooltip-TooltipOverlay--measuring",
+  "positionedAbove": "Polaris-Tooltip-TooltipOverlay--positionedAbove",
+  "Content": "Polaris-Tooltip-TooltipOverlay__Content"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/UnstyledButton/UnstyledButton.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/UnstyledButton/UnstyledButton.js ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "UnstyledButton": () => (/* binding */ UnstyledButton)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var _utilities_focus_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utilities/focus.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/focus.js");
+/* harmony import */ var _UnstyledLink_UnstyledLink_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../UnstyledLink/UnstyledLink.js */ "./node_modules/@shopify/polaris/dist/esm/components/UnstyledLink/UnstyledLink.js");
+
+
+
+
+
+function UnstyledButton(_ref) {
+  let {
+    id,
+    children,
+    className,
+    url,
+    external,
+    download,
+    submit,
+    disabled,
+    loading,
+    pressed,
+    accessibilityLabel,
+    role,
+    ariaControls,
+    ariaExpanded,
+    ariaDescribedBy,
+    onClick,
+    onFocus,
+    onBlur,
+    onKeyDown,
+    onKeyPress,
+    onKeyUp,
+    onMouseEnter,
+    onTouchStart
+  } = _ref,
+      rest = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__.objectWithoutProperties)(_ref, ["id", "children", "className", "url", "external", "download", "submit", "disabled", "loading", "pressed", "accessibilityLabel", "role", "ariaControls", "ariaExpanded", "ariaDescribedBy", "onClick", "onFocus", "onBlur", "onKeyDown", "onKeyPress", "onKeyUp", "onMouseEnter", "onTouchStart"]);
+
+  let buttonMarkup;
+  const commonProps = {
+    id,
+    className,
+    'aria-label': accessibilityLabel
+  };
+
+  const interactiveProps = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__.objectSpread2)((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_1__.objectSpread2)({}, commonProps), {}, {
+    role,
+    onClick,
+    onFocus,
+    onBlur,
+    onMouseUp: _utilities_focus_js__WEBPACK_IMPORTED_MODULE_2__.handleMouseUpByBlurring,
+    onMouseEnter,
+    onTouchStart
+  });
+
+  if (url) {
+    buttonMarkup = disabled ?
+    /*#__PURE__*/
+    // Render an `<a>` so toggling disabled/enabled state changes only the
+    // `href` attribute instead of replacing the whole element.
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", commonProps, children) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_UnstyledLink_UnstyledLink_js__WEBPACK_IMPORTED_MODULE_3__.UnstyledLink, Object.assign({}, interactiveProps, {
+      url: url,
+      external: external,
+      download: download
+    }, rest), children);
+  } else {
+    buttonMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", Object.assign({}, interactiveProps, {
+      type: submit ? 'submit' : 'button',
+      disabled: disabled,
+      "aria-busy": loading ? true : undefined,
+      "aria-controls": ariaControls,
+      "aria-expanded": ariaExpanded,
+      "aria-describedby": ariaDescribedBy,
+      "aria-pressed": pressed,
+      onKeyDown: onKeyDown,
+      onKeyUp: onKeyUp,
+      onKeyPress: onKeyPress
+    }, rest), children);
+  }
+
+  return buttonMarkup;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/UnstyledLink/UnstyledLink.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/UnstyledLink/UnstyledLink.js ***!
+  \****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "UnstyledLink": () => (/* binding */ UnstyledLink)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var _shared_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../shared.js */ "./node_modules/@shopify/polaris/dist/esm/components/shared.js");
+/* harmony import */ var _utilities_link_hooks_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/link/hooks.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/link/hooks.js");
+
+
+
+
+
+// that the interface defining the props is defined in this file, not imported
+// from elsewhere. This silly workaround ensures that the Props Explorer table
+// is generated correctly.
+
+// Wrapping forwardRef in a memo gets a name set since
+// https://github.com/facebook/react/issues/16722
+// but eslint-plugin-react doesn't know that just yet
+// eslint-disable-next-line react/display-name
+const UnstyledLink = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.memo)( /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function UnstyledLink(props, _ref) {
+  const LinkComponent = (0,_utilities_link_hooks_js__WEBPACK_IMPORTED_MODULE_1__.useLink)();
+
+  if (LinkComponent) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(LinkComponent, Object.assign({}, _shared_js__WEBPACK_IMPORTED_MODULE_2__.unstyled.props, props));
+  }
+
+  const {
+    external,
+    url
+  } = props,
+        rest = (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__.objectWithoutProperties)(props, ["external", "url"]);
+
+  const target = external ? '_blank' : undefined;
+  const rel = external ? 'noopener noreferrer' : undefined;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", Object.assign({
+    target: target
+  }, rest, {
+    href: url,
+    rel: rel
+  }, _shared_js__WEBPACK_IMPORTED_MODULE_2__.unstyled.props));
+}));
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/VisuallyHidden/VisuallyHidden.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/VisuallyHidden/VisuallyHidden.js ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "VisuallyHidden": () => (/* binding */ VisuallyHidden)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _VisuallyHidden_scss_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./VisuallyHidden.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/VisuallyHidden/VisuallyHidden.scss.js");
+
+
+
+function VisuallyHidden({
+  children
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _VisuallyHidden_scss_js__WEBPACK_IMPORTED_MODULE_1__.default.VisuallyHidden
+  }, children);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/VisuallyHidden/VisuallyHidden.scss.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/VisuallyHidden/VisuallyHidden.scss.js ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "VisuallyHidden": "Polaris-VisuallyHidden"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/shared.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/shared.js ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "DATA_ATTRIBUTE": () => (/* binding */ DATA_ATTRIBUTE),
+/* harmony export */   "dataPolarisTopBar": () => (/* binding */ dataPolarisTopBar),
+/* harmony export */   "headerCell": () => (/* binding */ headerCell),
+/* harmony export */   "layer": () => (/* binding */ layer),
+/* harmony export */   "overlay": () => (/* binding */ overlay),
+/* harmony export */   "portal": () => (/* binding */ portal),
+/* harmony export */   "scrollable": () => (/* binding */ scrollable),
+/* harmony export */   "unstyled": () => (/* binding */ unstyled)
+/* harmony export */ });
+const scrollable = {
+  props: {
+    'data-polaris-scrollable': true
+  },
+  selector: '[data-polaris-scrollable]'
+};
+const overlay = {
+  props: {
+    'data-polaris-overlay': true
+  },
+  selector: '[data-polaris-overlay]'
+};
+const layer = {
+  props: {
+    'data-polaris-layer': true
+  },
+  selector: '[data-polaris-layer]'
+};
+const unstyled = {
+  props: {
+    'data-polaris-unstyled': true
+  },
+  selector: '[data-polaris-unstyled]'
+};
+const dataPolarisTopBar = {
+  props: {
+    'data-polaris-top-bar': true
+  },
+  selector: '[data-polaris-top-bar]'
+};
+const headerCell = {
+  props: {
+    'data-polaris-header-cell': true
+  },
+  selector: '[data-polaris-header-cell]'
+};
+const portal = {
+  props: ['data-portal-id'],
+  selector: '[data-portal-id]'
+};
+const DATA_ATTRIBUTE = {
+  overlay,
+  layer
+};
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/types.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/types.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Key": () => (/* binding */ Key)
+/* harmony export */ });
+let Key;
+
+(function (Key) {
+  Key[Key["Backspace"] = 8] = "Backspace";
+  Key[Key["Tab"] = 9] = "Tab";
+  Key[Key["Enter"] = 13] = "Enter";
+  Key[Key["Shift"] = 16] = "Shift";
+  Key[Key["Ctrl"] = 17] = "Ctrl";
+  Key[Key["Alt"] = 18] = "Alt";
+  Key[Key["Pause"] = 19] = "Pause";
+  Key[Key["CapsLock"] = 20] = "CapsLock";
+  Key[Key["Escape"] = 27] = "Escape";
+  Key[Key["Space"] = 32] = "Space";
+  Key[Key["PageUp"] = 33] = "PageUp";
+  Key[Key["PageDown"] = 34] = "PageDown";
+  Key[Key["End"] = 35] = "End";
+  Key[Key["Home"] = 36] = "Home";
+  Key[Key["LeftArrow"] = 37] = "LeftArrow";
+  Key[Key["UpArrow"] = 38] = "UpArrow";
+  Key[Key["RightArrow"] = 39] = "RightArrow";
+  Key[Key["DownArrow"] = 40] = "DownArrow";
+  Key[Key["Insert"] = 45] = "Insert";
+  Key[Key["Delete"] = 46] = "Delete";
+  Key[Key["Key0"] = 48] = "Key0";
+  Key[Key["Key1"] = 49] = "Key1";
+  Key[Key["Key2"] = 50] = "Key2";
+  Key[Key["Key3"] = 51] = "Key3";
+  Key[Key["Key4"] = 52] = "Key4";
+  Key[Key["Key5"] = 53] = "Key5";
+  Key[Key["Key6"] = 54] = "Key6";
+  Key[Key["Key7"] = 55] = "Key7";
+  Key[Key["Key8"] = 56] = "Key8";
+  Key[Key["Key9"] = 57] = "Key9";
+  Key[Key["KeyA"] = 65] = "KeyA";
+  Key[Key["KeyB"] = 66] = "KeyB";
+  Key[Key["KeyC"] = 67] = "KeyC";
+  Key[Key["KeyD"] = 68] = "KeyD";
+  Key[Key["KeyE"] = 69] = "KeyE";
+  Key[Key["KeyF"] = 70] = "KeyF";
+  Key[Key["KeyG"] = 71] = "KeyG";
+  Key[Key["KeyH"] = 72] = "KeyH";
+  Key[Key["KeyI"] = 73] = "KeyI";
+  Key[Key["KeyJ"] = 74] = "KeyJ";
+  Key[Key["KeyK"] = 75] = "KeyK";
+  Key[Key["KeyL"] = 76] = "KeyL";
+  Key[Key["KeyM"] = 77] = "KeyM";
+  Key[Key["KeyN"] = 78] = "KeyN";
+  Key[Key["KeyO"] = 79] = "KeyO";
+  Key[Key["KeyP"] = 80] = "KeyP";
+  Key[Key["KeyQ"] = 81] = "KeyQ";
+  Key[Key["KeyR"] = 82] = "KeyR";
+  Key[Key["KeyS"] = 83] = "KeyS";
+  Key[Key["KeyT"] = 84] = "KeyT";
+  Key[Key["KeyU"] = 85] = "KeyU";
+  Key[Key["KeyV"] = 86] = "KeyV";
+  Key[Key["KeyW"] = 87] = "KeyW";
+  Key[Key["KeyX"] = 88] = "KeyX";
+  Key[Key["KeyY"] = 89] = "KeyY";
+  Key[Key["KeyZ"] = 90] = "KeyZ";
+  Key[Key["LeftMeta"] = 91] = "LeftMeta";
+  Key[Key["RightMeta"] = 92] = "RightMeta";
+  Key[Key["Select"] = 93] = "Select";
+  Key[Key["Numpad0"] = 96] = "Numpad0";
+  Key[Key["Numpad1"] = 97] = "Numpad1";
+  Key[Key["Numpad2"] = 98] = "Numpad2";
+  Key[Key["Numpad3"] = 99] = "Numpad3";
+  Key[Key["Numpad4"] = 100] = "Numpad4";
+  Key[Key["Numpad5"] = 101] = "Numpad5";
+  Key[Key["Numpad6"] = 102] = "Numpad6";
+  Key[Key["Numpad7"] = 103] = "Numpad7";
+  Key[Key["Numpad8"] = 104] = "Numpad8";
+  Key[Key["Numpad9"] = 105] = "Numpad9";
+  Key[Key["Multiply"] = 106] = "Multiply";
+  Key[Key["Add"] = 107] = "Add";
+  Key[Key["Subtract"] = 109] = "Subtract";
+  Key[Key["Decimal"] = 110] = "Decimal";
+  Key[Key["Divide"] = 111] = "Divide";
+  Key[Key["F1"] = 112] = "F1";
+  Key[Key["F2"] = 113] = "F2";
+  Key[Key["F3"] = 114] = "F3";
+  Key[Key["F4"] = 115] = "F4";
+  Key[Key["F5"] = 116] = "F5";
+  Key[Key["F6"] = 117] = "F6";
+  Key[Key["F7"] = 118] = "F7";
+  Key[Key["F8"] = 119] = "F8";
+  Key[Key["F9"] = 120] = "F9";
+  Key[Key["F10"] = 121] = "F10";
+  Key[Key["F11"] = 122] = "F11";
+  Key[Key["F12"] = 123] = "F12";
+  Key[Key["NumLock"] = 144] = "NumLock";
+  Key[Key["ScrollLock"] = 145] = "ScrollLock";
+  Key[Key["Semicolon"] = 186] = "Semicolon";
+  Key[Key["Equals"] = 187] = "Equals";
+  Key[Key["Comma"] = 188] = "Comma";
+  Key[Key["Dash"] = 189] = "Dash";
+  Key[Key["Period"] = 190] = "Period";
+  Key[Key["ForwardSlash"] = 191] = "ForwardSlash";
+  Key[Key["GraveAccent"] = 192] = "GraveAccent";
+  Key[Key["OpenBracket"] = 219] = "OpenBracket";
+  Key[Key["BackSlash"] = 220] = "BackSlash";
+  Key[Key["CloseBracket"] = 221] = "CloseBracket";
+  Key[Key["SingleQuote"] = 222] = "SingleQuote";
+})(Key || (Key = {}));
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/breakpoints.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/breakpoints.js ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "navigationBarCollapsed": () => (/* binding */ navigationBarCollapsed),
+/* harmony export */   "stackedContent": () => (/* binding */ stackedContent)
+/* harmony export */ });
+const Breakpoints = {
+  navigationBarCollapsed: '768px',
+  stackedContent: '1043px'
+};
+const noWindowMatches = {
+  media: '',
+  addListener: noop,
+  removeListener: noop,
+  matches: false,
+  onchange: noop,
+  addEventListener: noop,
+  removeEventListener: noop,
+  dispatchEvent: _ => true
+};
+
+function noop() {}
+
+function navigationBarCollapsed() {
+  return typeof window === 'undefined' ? noWindowMatches : window.matchMedia(`(max-width: ${Breakpoints.navigationBarCollapsed})`);
+}
+function stackedContent() {
+  return typeof window === 'undefined' ? noWindowMatches : window.matchMedia(`(max-width: ${Breakpoints.stackedContent})`);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/components.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/components.js ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ConditionalRender": () => (/* binding */ ConditionalRender),
+/* harmony export */   "ConditionalWrapper": () => (/* binding */ ConditionalWrapper),
+/* harmony export */   "elementChildren": () => (/* binding */ elementChildren),
+/* harmony export */   "isElementOfType": () => (/* binding */ isElementOfType),
+/* harmony export */   "wrapWithComponent": () => (/* binding */ wrapWithComponent)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+// `Component`. If `props` is passed, those will be added as props on the
+// wrapped component. If `element` is null, the component is not wrapped.
+
+function wrapWithComponent(element, Component, props) {
+  if (element == null) {
+    return null;
+  }
+
+  return isElementOfType(element, Component) ? element : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Component, props, element);
+} // In development, we compare based on the name of the function because
+// React Hot Loader proxies React components in order to make updates. In
+// production we can simply compare the components for equality.
+
+const isComponent =  true ? hotReloadComponentCheck : 0; // Checks whether `element` is a React element of type `Component` (or one of
+// the passed components, if `Component` is an array of React components).
+
+function isElementOfType(element, Component) {
+  var _element$props;
+
+  if (element == null || ! /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.isValidElement)(element) || typeof element.type === 'string') {
+    return false;
+  }
+
+  const {
+    type: defaultType
+  } = element; // Type override allows components to bypass default wrapping behavior. Ex: Stack, ResourceList...
+  // See https://github.com/Shopify/app-extension-libs/issues/996#issuecomment-710437088
+
+  const overrideType = (_element$props = element.props) == null ? void 0 : _element$props.__type__;
+  const type = overrideType || defaultType;
+  const Components = Array.isArray(Component) ? Component : [Component];
+  return Components.some(AComponent => typeof type !== 'string' && isComponent(AComponent, type));
+} // Returns all children that are valid elements as an array. Can optionally be
+// filtered by passing `predicate`.
+
+function elementChildren(children, predicate = () => true) {
+  return react__WEBPACK_IMPORTED_MODULE_0__.Children.toArray(children).filter(child => /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.isValidElement)(child) && predicate(child));
+}
+function ConditionalWrapper({
+  condition,
+  wrapper,
+  children
+}) {
+  return condition ? wrapper(children) : children;
+}
+function ConditionalRender({
+  condition,
+  children
+}) {
+  return condition ? children : null;
+}
+
+function hotReloadComponentCheck(AComponent, AnotherComponent) {
+  const componentName = AComponent.name;
+  const anotherComponentName = AnotherComponent.displayName;
+  return AComponent === AnotherComponent || Boolean(componentName) && componentName === anotherComponentName;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/css.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "classNames": () => (/* binding */ classNames),
+/* harmony export */   "variationName": () => (/* binding */ variationName)
+/* harmony export */ });
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ');
+}
+function variationName(name, value) {
+  return `${name}${value.charAt(0).toUpperCase()}${value.slice(1)}`;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/errors.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/errors.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "MissingAppProviderError": () => (/* binding */ MissingAppProviderError)
+/* harmony export */ });
+class MissingAppProviderError extends Error {
+  constructor(message = '') {
+    super(`${message ? `${message} ` : message}Your application must be wrapped in an <AppProvider> component. See https://polaris.shopify.com/components/structure/app-provider for implementation instructions.`);
+    this.name = 'MissingAppProviderError';
+  }
+
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/focus.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/focus.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "findFirstFocusableNode": () => (/* binding */ findFirstFocusableNode),
+/* harmony export */   "findFirstFocusableNodeIncludingDisabled": () => (/* binding */ findFirstFocusableNodeIncludingDisabled),
+/* harmony export */   "findFirstKeyboardFocusableNode": () => (/* binding */ findFirstKeyboardFocusableNode),
+/* harmony export */   "findLastKeyboardFocusableNode": () => (/* binding */ findLastKeyboardFocusableNode),
+/* harmony export */   "focusFirstFocusableNode": () => (/* binding */ focusFirstFocusableNode),
+/* harmony export */   "focusFirstKeyboardFocusableNode": () => (/* binding */ focusFirstKeyboardFocusableNode),
+/* harmony export */   "focusLastKeyboardFocusableNode": () => (/* binding */ focusLastKeyboardFocusableNode),
+/* harmony export */   "focusNextFocusableNode": () => (/* binding */ focusNextFocusableNode),
+/* harmony export */   "handleMouseUpByBlurring": () => (/* binding */ handleMouseUpByBlurring),
+/* harmony export */   "nextFocusableNode": () => (/* binding */ nextFocusableNode)
+/* harmony export */ });
+/* harmony import */ var _is_element_in_viewport_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./is-element-in-viewport.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/is-element-in-viewport.js");
+
+
+const FOCUSABLE_SELECTOR = 'a,frame,iframe,input:not([type=hidden]):not(:disabled),select:not(:disabled),textarea:not(:disabled),button:not(:disabled),*[tabindex]';
+const KEYBOARD_FOCUSABLE_SELECTORS = 'a,frame,iframe,input:not([type=hidden]):not(:disabled),select:not(:disabled),textarea:not(:disabled),button:not(:disabled),*[tabindex]:not([tabindex="-1"])';
+const handleMouseUpByBlurring = ({
+  currentTarget
+}) => currentTarget.blur();
+function nextFocusableNode(node, filter) {
+  const allFocusableElements = [...document.querySelectorAll(FOCUSABLE_SELECTOR)];
+  const sliceLocation = allFocusableElements.indexOf(node) + 1;
+  const focusableElementsAfterNode = allFocusableElements.slice(sliceLocation);
+
+  for (const focusableElement of focusableElementsAfterNode) {
+    if ((0,_is_element_in_viewport_js__WEBPACK_IMPORTED_MODULE_0__.isElementInViewport)(focusableElement) && (!filter || filter && filter(focusableElement))) {
+      return focusableElement;
+    }
+  }
+
+  return null;
+}
+function findFirstFocusableNode(element, onlyDescendants = true) {
+  if (!onlyDescendants && matches(element, FOCUSABLE_SELECTOR)) {
+    return element;
+  }
+
+  return element.querySelector(FOCUSABLE_SELECTOR);
+} // Popover needs to be able to find its activator even if it is disabled, which FOCUSABLE_SELECTOR doesn't support.
+
+function findFirstFocusableNodeIncludingDisabled(element) {
+  const focusableSelector = `a,button,frame,iframe,input:not([type=hidden]),select,textarea,*[tabindex]`;
+
+  if (matches(element, focusableSelector)) {
+    return element;
+  }
+
+  return element.querySelector(focusableSelector);
+}
+function focusFirstFocusableNode(element, onlyDescendants = true) {
+  var _findFirstFocusableNo;
+
+  (_findFirstFocusableNo = findFirstFocusableNode(element, onlyDescendants)) == null ? void 0 : _findFirstFocusableNo.focus();
+}
+function focusNextFocusableNode(node, filter) {
+  const nextFocusable = nextFocusableNode(node, filter);
+
+  if (nextFocusable && nextFocusable instanceof HTMLElement) {
+    nextFocusable.focus();
+    return true;
+  }
+
+  return false;
+}
+function findFirstKeyboardFocusableNode(element, onlyDescendants = true) {
+  if (!onlyDescendants && matches(element, KEYBOARD_FOCUSABLE_SELECTORS)) {
+    return element;
+  }
+
+  return element.querySelector(KEYBOARD_FOCUSABLE_SELECTORS);
+}
+function focusFirstKeyboardFocusableNode(element, onlyDescendants = true) {
+  const firstFocusable = findFirstKeyboardFocusableNode(element, onlyDescendants);
+
+  if (firstFocusable) {
+    firstFocusable.focus();
+    return true;
+  }
+
+  return false;
+}
+function findLastKeyboardFocusableNode(element, onlyDescendants = true) {
+  if (!onlyDescendants && matches(element, KEYBOARD_FOCUSABLE_SELECTORS)) {
+    return element;
+  }
+
+  const allFocusable = element.querySelectorAll(KEYBOARD_FOCUSABLE_SELECTORS);
+  return allFocusable[allFocusable.length - 1];
+}
+function focusLastKeyboardFocusableNode(element, onlyDescendants = true) {
+  const lastFocusable = findLastKeyboardFocusableNode(element, onlyDescendants);
+
+  if (lastFocusable) {
+    lastFocusable.focus();
+    return true;
+  }
+
+  return false;
+}
+
+function matches(node, selector) {
+  if (node.matches) {
+    return node.matches(selector);
+  }
+
+  const matches = (node.ownerDocument || document).querySelectorAll(selector);
+  let i = matches.length;
+
+  while (--i >= 0 && matches.item(i) !== node) return i > -1;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/geometry.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/geometry.js ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Rect": () => (/* binding */ Rect),
+/* harmony export */   "getRectForNode": () => (/* binding */ getRectForNode)
+/* harmony export */ });
+class Rect {
+  static get zero() {
+    return new Rect();
+  }
+
+  constructor({
+    top = 0,
+    left = 0,
+    width = 0,
+    height = 0
+  } = {}) {
+    this.top = void 0;
+    this.left = void 0;
+    this.width = void 0;
+    this.height = void 0;
+    this.top = top;
+    this.left = left;
+    this.width = width;
+    this.height = height;
+  }
+
+  get center() {
+    return {
+      x: this.left + this.width / 2,
+      y: this.top + this.height / 2
+    };
+  }
+
+}
+function getRectForNode(node) {
+  if (!(node instanceof Element)) {
+    return new Rect({
+      width: window.innerWidth,
+      height: window.innerHeight
+    });
+  }
+
+  const rect = node.getBoundingClientRect();
+  return new Rect({
+    top: rect.top,
+    left: rect.left,
+    width: rect.width,
+    height: rect.height
+  });
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/i18n/context.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/i18n/context.js ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "I18nContext": () => (/* binding */ I18nContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+const I18nContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(undefined);
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/i18n/hooks.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/i18n/hooks.js ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "useI18n": () => (/* binding */ useI18n)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _errors_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../errors.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/errors.js");
+/* harmony import */ var _context_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/i18n/context.js");
+
+
+
+
+function useI18n() {
+  const i18n = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_js__WEBPACK_IMPORTED_MODULE_1__.I18nContext);
+
+  if (!i18n) {
+    throw new _errors_js__WEBPACK_IMPORTED_MODULE_2__.MissingAppProviderError('No i18n was provided.');
+  }
+
+  return i18n;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/is-element-in-viewport.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/is-element-in-viewport.js ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "isElementInViewport": () => (/* binding */ isElementInViewport)
+/* harmony export */ });
+function isElementInViewport(element) {
+  const {
+    top,
+    left,
+    bottom,
+    right
+  } = element.getBoundingClientRect();
+  return top >= 0 && right <= window.innerWidth && bottom <= window.innerHeight && left >= 0;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/is-input-focused.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/is-input-focused.js ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "isInputFocused": () => (/* binding */ isInputFocused)
+/* harmony export */ });
+var EditableTarget;
+
+(function (EditableTarget) {
+  EditableTarget["Input"] = "INPUT";
+  EditableTarget["Textarea"] = "TEXTAREA";
+  EditableTarget["Select"] = "SELECT";
+  EditableTarget["ContentEditable"] = "contenteditable";
+})(EditableTarget || (EditableTarget = {}));
+
+function isInputFocused() {
+  if (document == null || document.activeElement == null) {
+    return false;
+  }
+
+  const {
+    tagName
+  } = document.activeElement;
+  return tagName === EditableTarget.Input || tagName === EditableTarget.Textarea || tagName === EditableTarget.Select || document.activeElement.hasAttribute(EditableTarget.ContentEditable);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/link/context.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/link/context.js ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "LinkContext": () => (/* binding */ LinkContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+const LinkContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(undefined);
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/link/hooks.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/link/hooks.js ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "useLink": () => (/* binding */ useLink)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _context_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/link/context.js");
+
+
+
+function useLink() {
+  return (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_js__WEBPACK_IMPORTED_MODULE_1__.LinkContext);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/media-query/context.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/media-query/context.js ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "MediaQueryContext": () => (/* binding */ MediaQueryContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+const MediaQueryContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(undefined);
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/media-query/hooks.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/media-query/hooks.js ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "useMediaQuery": () => (/* binding */ useMediaQuery)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _context_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/media-query/context.js");
+
+
+
+function useMediaQuery() {
+  const mediaQuery = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_js__WEBPACK_IMPORTED_MODULE_1__.MediaQueryContext);
+
+  if (!mediaQuery) {
+    throw new Error('No mediaQuery was provided. Your application must be wrapped in an <AppProvider> component. See https://polaris.shopify.com/components/structure/app-provider for implementation instructions.');
+  }
+
+  return mediaQuery;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/portals/context.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/portals/context.js ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PortalsManagerContext": () => (/* binding */ PortalsManagerContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+const PortalsManagerContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(undefined);
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/portals/hooks.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/portals/hooks.js ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "usePortalsManager": () => (/* binding */ usePortalsManager)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _context_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/portals/context.js");
+
+
+
+function usePortalsManager() {
+  const portalsManager = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_js__WEBPACK_IMPORTED_MODULE_1__.PortalsManagerContext);
+
+  if (!portalsManager) {
+    throw new Error('No portals manager was provided. Your application must be wrapped in an <AppProvider> component. See https://polaris.shopify.com/components/structure/app-provider for implementation instructions.');
+  }
+
+  return portalsManager;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/sticky-manager/context.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/sticky-manager/context.js ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "StickyManagerContext": () => (/* binding */ StickyManagerContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+const StickyManagerContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(undefined);
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/sticky-manager/sticky-manager.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/sticky-manager/sticky-manager.js ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "StickyManager": () => (/* binding */ StickyManager)
+/* harmony export */ });
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/debounce */ "./node_modules/lodash/debounce.js");
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _breakpoints_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../breakpoints.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/breakpoints.js");
+/* harmony import */ var _shopify_polaris_tokens__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @shopify/polaris-tokens */ "./node_modules/@shopify/polaris-tokens/dist/index.esm.js");
+/* harmony import */ var _components_shared_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/shared.js */ "./node_modules/@shopify/polaris/dist/esm/components/shared.js");
+/* harmony import */ var _geometry_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../geometry.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/geometry.js");
+
+
+
+
+
+
+const SIXTY_FPS = 1000 / 60;
+class StickyManager {
+  constructor(container) {
+    this.stickyItems = [];
+    this.stuckItems = [];
+    this.container = null;
+    this.topBarOffset = 0;
+    this.handleResize = lodash_debounce__WEBPACK_IMPORTED_MODULE_0___default()(() => {
+      this.manageStickyItems();
+    }, SIXTY_FPS, {
+      leading: true,
+      trailing: true,
+      maxWait: SIXTY_FPS
+    });
+    this.handleScroll = lodash_debounce__WEBPACK_IMPORTED_MODULE_0___default()(() => {
+      this.manageStickyItems();
+    }, SIXTY_FPS, {
+      leading: true,
+      trailing: true,
+      maxWait: SIXTY_FPS
+    });
+
+    if (container) {
+      this.setContainer(container);
+    }
+  }
+
+  registerStickyItem(stickyItem) {
+    this.stickyItems.push(stickyItem);
+  }
+
+  unregisterStickyItem(nodeToRemove) {
+    const nodeIndex = this.stickyItems.findIndex(({
+      stickyNode
+    }) => nodeToRemove === stickyNode);
+    this.stickyItems.splice(nodeIndex, 1);
+  }
+
+  setContainer(el) {
+    this.container = el;
+
+    if (isDocument(el)) {
+      this.setTopBarOffset(el);
+    }
+
+    this.container.addEventListener('scroll', this.handleScroll);
+    window.addEventListener('resize', this.handleResize);
+    this.manageStickyItems();
+  }
+
+  removeScrollListener() {
+    if (this.container) {
+      this.container.removeEventListener('scroll', this.handleScroll);
+      window.removeEventListener('resize', this.handleResize);
+    }
+  }
+
+  manageStickyItems() {
+    if (this.stickyItems.length <= 0) {
+      return;
+    }
+
+    const scrollTop = this.container ? scrollTopFor(this.container) : 0;
+    const containerTop = (0,_geometry_js__WEBPACK_IMPORTED_MODULE_2__.getRectForNode)(this.container).top + this.topBarOffset;
+    this.stickyItems.forEach(stickyItem => {
+      const {
+        handlePositioning
+      } = stickyItem;
+      const {
+        sticky,
+        top,
+        left,
+        width
+      } = this.evaluateStickyItem(stickyItem, scrollTop, containerTop);
+      this.updateStuckItems(stickyItem, sticky);
+      handlePositioning(sticky, top, left, width);
+    });
+  }
+
+  evaluateStickyItem(stickyItem, scrollTop, containerTop) {
+    const {
+      stickyNode,
+      placeHolderNode,
+      boundingElement,
+      offset,
+      disableWhenStacked
+    } = stickyItem;
+
+    if (disableWhenStacked && (0,_breakpoints_js__WEBPACK_IMPORTED_MODULE_3__.stackedContent)().matches) {
+      return {
+        sticky: false,
+        top: 0,
+        left: 0,
+        width: 'auto'
+      };
+    }
+
+    const stickyOffset = offset ? this.getOffset(stickyNode) + parseInt(_shopify_polaris_tokens__WEBPACK_IMPORTED_MODULE_1__.spacingLoose, 10) : this.getOffset(stickyNode);
+    const scrollPosition = scrollTop + stickyOffset;
+    const placeHolderNodeCurrentTop = placeHolderNode.getBoundingClientRect().top - containerTop + scrollTop;
+    const top = containerTop + stickyOffset;
+    const width = placeHolderNode.getBoundingClientRect().width;
+    const left = placeHolderNode.getBoundingClientRect().left;
+    let sticky;
+
+    if (boundingElement == null) {
+      sticky = scrollPosition >= placeHolderNodeCurrentTop;
+    } else {
+      var _stickyNode$firstElem;
+
+      const stickyItemHeight = stickyNode.getBoundingClientRect().height || ((_stickyNode$firstElem = stickyNode.firstElementChild) == null ? void 0 : _stickyNode$firstElem.getBoundingClientRect().height) || 0;
+      const stickyItemBottomPosition = boundingElement.getBoundingClientRect().bottom - stickyItemHeight + scrollTop - containerTop;
+      sticky = scrollPosition >= placeHolderNodeCurrentTop && scrollPosition < stickyItemBottomPosition;
+    }
+
+    return {
+      sticky,
+      top,
+      left,
+      width
+    };
+  }
+
+  updateStuckItems(item, sticky) {
+    const {
+      stickyNode
+    } = item;
+
+    if (sticky && !this.isNodeStuck(stickyNode)) {
+      this.addStuckItem(item);
+    } else if (!sticky && this.isNodeStuck(stickyNode)) {
+      this.removeStuckItem(item);
+    }
+  }
+
+  addStuckItem(stickyItem) {
+    this.stuckItems.push(stickyItem);
+  }
+
+  removeStuckItem(stickyItem) {
+    const {
+      stickyNode: nodeToRemove
+    } = stickyItem;
+    const nodeIndex = this.stuckItems.findIndex(({
+      stickyNode
+    }) => nodeToRemove === stickyNode);
+    this.stuckItems.splice(nodeIndex, 1);
+  }
+
+  getOffset(node) {
+    if (this.stuckItems.length === 0) {
+      return 0;
+    }
+
+    let offset = 0;
+    let count = 0;
+    const stuckNodesLength = this.stuckItems.length;
+    const nodeRect = (0,_geometry_js__WEBPACK_IMPORTED_MODULE_2__.getRectForNode)(node);
+
+    while (count < stuckNodesLength) {
+      const stuckNode = this.stuckItems[count].stickyNode;
+
+      if (stuckNode !== node) {
+        const stuckNodeRect = (0,_geometry_js__WEBPACK_IMPORTED_MODULE_2__.getRectForNode)(stuckNode);
+
+        if (!horizontallyOverlaps(nodeRect, stuckNodeRect)) {
+          offset += (0,_geometry_js__WEBPACK_IMPORTED_MODULE_2__.getRectForNode)(stuckNode).height;
+        }
+      } else {
+        break;
+      }
+
+      count++;
+    }
+
+    return offset;
+  }
+
+  isNodeStuck(node) {
+    const nodeFound = this.stuckItems.findIndex(({
+      stickyNode
+    }) => node === stickyNode);
+    return nodeFound >= 0;
+  }
+
+  setTopBarOffset(container) {
+    const topbarElement = container.querySelector(`:not(${_components_shared_js__WEBPACK_IMPORTED_MODULE_4__.scrollable.selector}) ${_components_shared_js__WEBPACK_IMPORTED_MODULE_4__.dataPolarisTopBar.selector}`);
+    this.topBarOffset = topbarElement ? topbarElement.clientHeight : 0;
+  }
+
+}
+
+function isDocument(node) {
+  return node === document;
+}
+
+function scrollTopFor(container) {
+  return isDocument(container) ? document.body.scrollTop || document.documentElement.scrollTop : container.scrollTop;
+}
+
+function horizontallyOverlaps(rect1, rect2) {
+  const rect1Left = rect1.left;
+  const rect1Right = rect1.left + rect1.width;
+  const rect2Left = rect2.left;
+  const rect2Right = rect2.left + rect2.width;
+  return rect2Right < rect1Left || rect1Right < rect2Left;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/theme/context.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/theme/context.js ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ThemeContext": () => (/* binding */ ThemeContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+const ThemeContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(undefined);
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/theme/tokens.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/theme/tokens.js ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Tokens": () => (/* binding */ Tokens)
+/* harmony export */ });
+const Tokens = {
+  // Border Radiuses
+  borderRadiusBase: rem('4px'),
+  borderRadiusWide: rem('8px'),
+  borderRadiusFull: '50%',
+  // Shadows
+  cardShadow: '0px 0px 5px var(--p-shadow-from-ambient-light), 0px 1px 2px var(--p-shadow-from-direct-light)',
+  popoverShadow: '-1px 0px 20px var(--p-shadow-from-ambient-light), 0px 1px 5px var(--p-shadow-from-direct-light)',
+  modalShadow: '0px 26px 80px var(--p-shadow-from-dim-light), 0px 0px 1px var(--p-shadow-from-dim-light)',
+  topBarShadow: '0 2px 2px -1px var(--p-shadow-from-direct-light)',
+  buttonDropShadow: '0 1px 0 rgba(0, 0, 0, 0.05)',
+  buttonInnerShadow: 'inset 0 -1px 0 rgba(0, 0, 0, 0.2)',
+  buttonPressedInnerShadow: 'inset 0 1px 0 rgba(0, 0, 0, 0.15)',
+  // Overrides
+  overrideNone: 'none',
+  overrideTransparent: 'transparent',
+  overrideOne: '1',
+  overrideVisible: 'visible',
+  overrideZero: '0',
+  overrideLoadingZIndex: '514',
+  buttonFontWeight: '500',
+  nonNullContent: "''",
+  choiceSize: rem('20px'),
+  iconSize: rem('10px'),
+  choiceMargin: rem('1px'),
+  controlBorderWidth: rem('2px'),
+  bannerBorderDefault: buildBannerBorder('--p-border-neutral-subdued'),
+  bannerBorderSuccess: buildBannerBorder('--p-border-success-subdued'),
+  bannerBorderHighlight: buildBannerBorder('--p-border-highlight-subdued'),
+  bannerBorderWarning: buildBannerBorder('--p-border-warning-subdued'),
+  bannerBorderCritical: buildBannerBorder('--p-border-critical-subdued'),
+  badgeMixBlendMode: 'luminosity',
+  thinBorderSubdued: `${rem('1px')} solid var(--p-border-subdued)`,
+  textFieldSpinnerOffset: rem('2px'),
+  textFieldFocusRingOffset: rem('-4px'),
+  textFieldFocusRingBorderRadius: rem('7px'),
+  buttonGroupItemSpacing: rem('-1px'),
+  duration100: '100ms',
+  duration150: '150ms',
+  easeIn: 'cubic-bezier(0.5, 0.1, 1, 1)',
+  ease: 'cubic-bezier(0.4, 0.22, 0.28, 1)',
+  rangeSliderThumbSizeBase: rem('16px'),
+  rangeSliderThumbSizeActive: rem('24px'),
+  rangeSliderThumbScale: '1.5',
+  badgeFontWeight: '400'
+};
+
+function rem(px) {
+  const baseFontSize = 10;
+  return `${parseInt(px, 10) / baseFontSize}rem`;
+}
+
+function buildBannerBorder(cssVar) {
+  return `inset 0 ${rem('1px')} 0 0 var(${cssVar}), inset 0 0 0 ${rem('1px')} var(${cssVar})`;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/theme/utils.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/theme/utils.js ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "buildCustomProperties": () => (/* binding */ buildCustomProperties),
+/* harmony export */   "buildCustomPropertiesNoMemo": () => (/* binding */ buildCustomPropertiesNoMemo),
+/* harmony export */   "buildThemeContext": () => (/* binding */ buildThemeContext),
+/* harmony export */   "toCssCustomPropertySyntax": () => (/* binding */ toCssCustomPropertySyntax),
+/* harmony export */   "toString": () => (/* binding */ toString)
+/* harmony export */ });
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+/* harmony import */ var _shopify_polaris_tokens_dist_modern__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @shopify/polaris-tokens/dist-modern */ "./node_modules/@shopify/polaris-tokens/dist-modern/index.js");
+/* harmony import */ var _shopify_polaris_tokens_dist_modern_configs_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @shopify/polaris-tokens/dist-modern/configs/base */ "./node_modules/@shopify/polaris-tokens/dist-modern/configs/base.js");
+
+
+
+
+function buildCustomPropertiesNoMemo(themeConfig, tokens) {
+  const {
+    colors = {},
+    colorScheme,
+    config: config$1,
+    frameOffset = '0px'
+  } = themeConfig;
+  const mergedConfig = (0,_shopify_polaris_tokens_dist_modern__WEBPACK_IMPORTED_MODULE_0__.mergeConfigs)(_shopify_polaris_tokens_dist_modern_configs_base__WEBPACK_IMPORTED_MODULE_1__.config, config$1 || {});
+  return customPropertyTransformer((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_2__.objectSpread2)((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_2__.objectSpread2)((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_2__.objectSpread2)({}, (0,_shopify_polaris_tokens_dist_modern__WEBPACK_IMPORTED_MODULE_0__.colorFactory)(colors, colorScheme, mergedConfig)), tokens), {}, {
+    frameOffset
+  }));
+}
+function buildThemeContext(themeConfig, cssCustomProperties) {
+  const {
+    logo,
+    colors = {},
+    colorScheme
+  } = themeConfig;
+  return {
+    logo,
+    cssCustomProperties: toString(cssCustomProperties),
+    colors,
+    colorScheme
+  };
+}
+function toString(obj) {
+  if (obj) {
+    return Object.entries(obj).map(pair => pair.join(':')).join(';');
+  } else {
+    return '';
+  }
+}
+
+function customPropertyTransformer(properties) {
+  return Object.entries(properties).reduce((transformed, [key, value]) => (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_2__.objectSpread2)((0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_2__.objectSpread2)({}, transformed), {}, {
+    [toCssCustomPropertySyntax(key)]: value
+  }), {});
+}
+
+function toCssCustomPropertySyntax(camelCase) {
+  return `--p-${camelCase.replace(/([A-Z0-9])/g, '-$1').toLowerCase()}`;
+} // eslint-disable-next-line @typescript-eslint/ban-types
+
+function memoize(fnToMemoize) {
+  const cache = new Map();
+  return function (...args) {
+    const key = JSON.stringify([fnToMemoize.name, args]);
+
+    if (cache.get(key) === undefined) {
+      cache.set(key, fnToMemoize(...args));
+    }
+
+    return cache.get(key);
+  };
+}
+
+const buildCustomProperties = memoize(buildCustomPropertiesNoMemo);
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/context.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/context.js ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "UniqueIdFactoryContext": () => (/* binding */ UniqueIdFactoryContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+const UniqueIdFactoryContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(undefined);
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/hooks.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/hooks.js ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "useUniqueId": () => (/* binding */ useUniqueId)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _errors_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../errors.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/errors.js");
+/* harmony import */ var _context_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/context.js");
+
+
+
+
+/**
+ * Returns a unique id that remains consistent across multiple re-renders of the
+ * same hook
+ * @param prefix Defines a prefix for the ID. You probably want to set this to
+ *   the name of the component you're calling `useUniqueId` in.
+ * @param overrideId Defines a fixed value to use instead of generating a unique
+ *   ID. Useful for components that allow consumers to specify their own ID.
+ */
+
+function useUniqueId(prefix = '', overrideId = '') {
+  const idFactory = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_js__WEBPACK_IMPORTED_MODULE_1__.UniqueIdFactoryContext); // By using a ref to store the uniqueId for each invocation of the hook and
+  // checking that it is not already populated we ensure that we don’t generate
+  // a new ID on every re-render of a component.
+
+  const uniqueIdRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+
+  if (!idFactory) {
+    throw new _errors_js__WEBPACK_IMPORTED_MODULE_2__.MissingAppProviderError('No UniqueIdFactory was provided.');
+  } // If an override was specified, then use that instead of using a unique ID
+  // Hooks can’t be called conditionally so this has to go after all use* calls
+
+
+  if (overrideId) {
+    return overrideId;
+  } // If a unique id has not yet been generated, then get a new one
+
+
+  if (!uniqueIdRef.current) {
+    uniqueIdRef.current = idFactory.nextId(prefix);
+  }
+
+  return uniqueIdRef.current;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/use-is-after-initial-mount.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/use-is-after-initial-mount.js ***!
+  \****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "useIsAfterInitialMount": () => (/* binding */ useIsAfterInitialMount)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+/**
+ * useIsAfterInitialMount will trigger a re-render to provide
+ * you with an updated value. Using this you enhance server-side
+ * code that can only run on the client.
+ * @returns MutableRefObject<T> - Returns a ref object with the
+ * results from invoking initial value
+ * @example
+ * function ComponentExample({children}) {
+ *  const isMounted = useIsAfterInitialMount();
+ *  const content = isMounted ? children : null;
+ *
+ *  return <>{content}</>;
+ * }
+ */
+
+function useIsAfterInitialMount() {
+  const [isAfterInitialMount, setIsAfterInitialMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    setIsAfterInitialMount(true);
+  }, []);
+  return isAfterInitialMount;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/use-toggle.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/use-toggle.js ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "useToggle": () => (/* binding */ useToggle)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+/**
+ * Returns a stateful value, and a set of memoized functions to toggle it,
+ * set it to true and set it to false
+ */
+
+function useToggle(initialState) {
+  const [value, setState] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(initialState);
+  return {
+    value,
+    toggle: (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(() => setState(state => !state), []),
+    setTrue: (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(() => setState(true), []),
+    setFalse: (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(() => setState(false), [])
+  };
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/within-filter-context.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/within-filter-context.js ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "WithinFilterContext": () => (/* binding */ WithinFilterContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+const WithinFilterContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(false);
+
+
+
 
 /***/ }),
 
@@ -2144,21 +10245,21 @@ function App() {
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_9__.default, {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_8__.default.Brand, {
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
-                to: "/create-expense",
+                to: "/users-listing",
                 className: "nav-link",
-                children: "Expense manager"
+                children: "User manager"
               })
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_10__.default, {
               className: "justify-content-end",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_10__.default, {
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
-                  to: "/create-expense",
+                  to: "/create-user",
                   className: "nav-link",
-                  children: "Create Expense"
+                  children: "Create User"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
-                  to: "/expenses-listing",
+                  to: "/users-listing",
                   className: "nav-link",
-                  children: "Expenses List"
+                  children: "Users List"
                 })]
               })
             })]
@@ -2174,7 +10275,7 @@ function App() {
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_13__.Route, {
                   exact: true,
                   path: "/",
-                  component: _components_create_user_component__WEBPACK_IMPORTED_MODULE_5__.default
+                  component: _components_users_listing_component__WEBPACK_IMPORTED_MODULE_4__.default
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_13__.Route, {
                   path: "/create-user",
                   component: _components_create_user_component__WEBPACK_IMPORTED_MODULE_5__.default
@@ -2322,18 +10423,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ CreateUser)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Form */ "./node_modules/react-bootstrap/esm/Form.js");
-/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
-/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Row */ "./node_modules/react-bootstrap/esm/Row.js");
-/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _users_listing_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./users-listing.component */ "./resources/js/components/users-listing.component.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Form */ "./node_modules/react-bootstrap/esm/Form.js");
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Row */ "./node_modules/react-bootstrap/esm/Row.js");
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _users_listing_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./users-listing.component */ "./resources/js/components/users-listing.component.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -2378,116 +10487,162 @@ var CreateUser = /*#__PURE__*/function (_Component) {
 
     _this = _super.call(this, props); // Setting up functions
 
-    _this.onChangeUsersName = _this.onChangeUsersName.bind(_assertThisInitialized(_this));
-    _this.onChangeUsersAmount = _this.onChangeUsersAmount.bind(_assertThisInitialized(_this));
-    _this.onChangeUsersDescription = _this.onChangeUsersDescription.bind(_assertThisInitialized(_this));
+    _this.onChangeUserFullName = _this.onChangeUserFullName.bind(_assertThisInitialized(_this));
+    _this.onChangeUserAddress = _this.onChangeUserAddress.bind(_assertThisInitialized(_this));
+    _this.onChangeUserPhoneNumber = _this.onChangeUserPhoneNumber.bind(_assertThisInitialized(_this));
+    _this.onChangeUserEmail = _this.onChangeUserEmail.bind(_assertThisInitialized(_this));
     _this.onSubmit = _this.onSubmit.bind(_assertThisInitialized(_this)); // Setting up state
 
     _this.state = {
-      name: '',
-      description: '',
-      amount: ''
+      full_name: '',
+      address: '',
+      phone_number: '',
+      email: ''
     };
     return _this;
   }
 
   _createClass(CreateUser, [{
-    key: "onChangeUsersName",
-    value: function onChangeUsersName(e) {
+    key: "onChangeUserFullName",
+    value: function onChangeUserFullName(e) {
       this.setState({
-        name: e.target.value
+        full_name: e.target.value
       });
     }
   }, {
-    key: "onChangeUsersAmount",
-    value: function onChangeUsersAmount(e) {
+    key: "onChangeUserAddress",
+    value: function onChangeUserAddress(e) {
       this.setState({
-        amount: e.target.value
+        address: e.target.value
       });
     }
   }, {
-    key: "onChangeUsersDescription",
-    value: function onChangeUsersDescription(e) {
+    key: "onChangeUserPhoneNumber",
+    value: function onChangeUserPhoneNumber(e) {
       this.setState({
-        description: e.target.value
+        phone_number: e.target.value
+      });
+    }
+  }, {
+    key: "onChangeUserEmail",
+    value: function onChangeUserEmail(e) {
+      this.setState({
+        email: e.target.value
       });
     }
   }, {
     key: "onSubmit",
-    value: function onSubmit(e) {
-      e.preventDefault();
-      var user = {
-        name: this.state.name,
-        amount: this.state.amount,
-        description: this.state.description
-      };
-      axios__WEBPACK_IMPORTED_MODULE_1___default().post('http://localhost:8000/api/users/', user).then(function (res) {
-        return console.log(res.data);
-      });
-      sweetalert2__WEBPACK_IMPORTED_MODULE_3___default().fire('Good job!', 'User Added Successfully', 'success');
-      this.setState({
-        name: '',
-        amount: '',
-        description: ''
-      });
-    }
+    value: function () {
+      var _onSubmit = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee(e) {
+        var user, res;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                e.preventDefault();
+                user = {
+                  full_name: this.state.full_name,
+                  address: this.state.address,
+                  phone_number: this.state.phone_number,
+                  email: this.state.email
+                };
+                _context.next = 4;
+                return axios__WEBPACK_IMPORTED_MODULE_2___default().post('http://localhost:8000/api/users/', user);
+
+              case 4:
+                res = _context.sent;
+                debugger;
+
+                if (res.status === 200) {
+                  sweetalert2__WEBPACK_IMPORTED_MODULE_4___default().fire('Amazing, Good job!', 'User Added Successfully', 'success');
+                  this.props.history.push('/users-listing?page=1');
+                } else {
+                  console.log(res);
+                }
+
+              case 7:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      function onSubmit(_x) {
+        return _onSubmit.apply(this, arguments);
+      }
+
+      return onSubmit;
+    }()
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
         className: "form-wrapper",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_5__.default, {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default, {
           onSubmit: this.onSubmit,
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__.default, {
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__.default, {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_5__.default.Group, {
-                controlId: "Name",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_5__.default.Label, {
-                  children: "Name"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_5__.default.Control, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_7__.default, {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_8__.default, {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default.Group, {
+                controlId: "name",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default.Label, {
+                  children: "Full Name"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default.Control, {
                   type: "text",
-                  value: this.state.name,
-                  onChange: this.onChangeUsersName
+                  value: this.state.full_name,
+                  onChange: this.onChangeUserFullName
                 })]
               })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__.default, {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_5__.default.Group, {
-                controlId: "Amount",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_5__.default.Label, {
-                  children: "Amount"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_5__.default.Control, {
-                  type: "number",
-                  value: this.state.amount,
-                  onChange: this.onChangeUsersAmount
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_8__.default, {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default.Group, {
+                controlId: "address",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default.Label, {
+                  children: "Address"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default.Control, {
+                  type: "textarea",
+                  value: this.state.address,
+                  onChange: this.onChangeUserAddress
                 })]
               })
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_5__.default.Group, {
-            controlId: "description",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_5__.default.Label, {
-              children: "Description"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_5__.default.Control, {
-              as: "textarea",
-              type: "textarea",
-              value: this.state.description,
-              onChange: this.onChangeUsersDescription
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_7__.default, {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_8__.default, {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default.Group, {
+                controlId: "phone",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default.Label, {
+                  children: "Phone Number"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default.Control, {
+                  type: "text",
+                  value: this.state.phone_number,
+                  onChange: this.onChangeUserPhoneNumber
+                })]
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_8__.default, {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default.Group, {
+                controlId: "email",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default.Label, {
+                  children: "Email"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_6__.default.Control, {
+                  type: "text",
+                  value: this.state.email,
+                  onChange: this.onChangeUserEmail
+                })]
+              })
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_8__.default, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_9__.default, {
             variant: "primary",
             size: "lg",
             block: "block",
             type: "submit",
             children: "Add Users"
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_users_listing_component__WEBPACK_IMPORTED_MODULE_2__.default, {
-          children: " "
-        })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("br", {})]
       });
     }
   }]);
 
   return CreateUser;
-}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
+}(react__WEBPACK_IMPORTED_MODULE_1__.Component);
 
 
 
@@ -2504,13 +10659,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ EditUser)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Form */ "./node_modules/react-bootstrap/esm/Form.js");
-/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Form */ "./node_modules/react-bootstrap/esm/Form.js");
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -2550,113 +10713,182 @@ var EditUser = /*#__PURE__*/function (_Component) {
     _classCallCheck(this, EditUser);
 
     _this = _super.call(this, props);
-    _this.onChangeExpenseName = _this.onChangeExpenseName.bind(_assertThisInitialized(_this));
-    _this.onChangeExpenseAmount = _this.onChangeExpenseAmount.bind(_assertThisInitialized(_this));
-    _this.onChangeExpenseDescription = _this.onChangeExpenseDescription.bind(_assertThisInitialized(_this));
+    _this.onChangeUserFullName = _this.onChangeUserFullName.bind(_assertThisInitialized(_this));
+    _this.onChangeUserAddress = _this.onChangeUserAddress.bind(_assertThisInitialized(_this));
+    _this.onChangeUserPhoneNumber = _this.onChangeUserPhoneNumber.bind(_assertThisInitialized(_this));
+    _this.onChangeUserEmail = _this.onChangeUserEmail.bind(_assertThisInitialized(_this));
     _this.onSubmit = _this.onSubmit.bind(_assertThisInitialized(_this)); // State
 
     _this.state = {
-      name: '',
-      amount: '',
-      description: ''
+      full_name: '',
+      address: '',
+      phone_number: '',
+      email: ''
     };
     return _this;
   }
 
   _createClass(EditUser, [{
     key: "componentDidMount",
-    value: function componentDidMount() {
-      var _this2 = this;
+    value: function () {
+      var _componentDidMount = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        var res;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.next = 2;
+                return axios__WEBPACK_IMPORTED_MODULE_2___default().get('http://localhost:8000/api/users/' + this.props.match.params.id);
 
-      axios__WEBPACK_IMPORTED_MODULE_1___default().get('http://localhost:8000/api/users/' + this.props.match.params.id).then(function (res) {
-        _this2.setState({
-          name: res.data.name,
-          amount: res.data.amount,
-          description: res.data.description
-        });
-      })["catch"](function (error) {
-        console.log(error);
+              case 2:
+                res = _context.sent;
+                console.log(res.data);
+
+                if (res.status === 200) {
+                  this.setState({
+                    full_name: res.data.full_name,
+                    address: res.data.address,
+                    phone_number: res.data.phone_number,
+                    email: res.data.email
+                  });
+                } else {
+                  console.log(res);
+                }
+
+              case 5:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      }
+
+      return componentDidMount;
+    }()
+  }, {
+    key: "onChangeUserFullName",
+    value: function onChangeUserFullName(e) {
+      this.setState({
+        full_name: e.target.value
       });
     }
   }, {
-    key: "onChangeExpenseName",
-    value: function onChangeExpenseName(e) {
+    key: "onChangeUserAddress",
+    value: function onChangeUserAddress(e) {
       this.setState({
-        name: e.target.value
+        address: e.target.value
       });
     }
   }, {
-    key: "onChangeExpenseAmount",
-    value: function onChangeExpenseAmount(e) {
+    key: "onChangeUserPhoneNumber",
+    value: function onChangeUserPhoneNumber(e) {
       this.setState({
-        amount: e.target.value
+        phone_number: e.target.value
       });
     }
   }, {
-    key: "onChangeExpenseDescription",
-    value: function onChangeExpenseDescription(e) {
+    key: "onChangeUserEmail",
+    value: function onChangeUserEmail(e) {
       this.setState({
-        description: e.target.value
+        email: e.target.value
       });
     }
   }, {
     key: "onSubmit",
-    value: function onSubmit(e) {
-      e.preventDefault();
-      var expenseObject = {
-        name: this.state.name,
-        amount: this.state.amount,
-        description: this.state.description
-      };
-      axios__WEBPACK_IMPORTED_MODULE_1___default().put('http://localhost:8000/api/users/' + this.props.match.params.id, expenseObject).then(function (res) {
-        console.log(res.data);
-        console.log('User successfully updated');
-      })["catch"](function (error) {
-        console.log(error);
-      }); // Redirect to Expense List
+    value: function () {
+      var _onSubmit = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee2(e) {
+        var userObject, res;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                e.preventDefault();
+                userObject = {
+                  full_name: this.state.full_name,
+                  address: this.state.address,
+                  phone_number: this.state.phone_number,
+                  email: this.state.email
+                };
+                _context2.next = 4;
+                return axios__WEBPACK_IMPORTED_MODULE_2___default().put('http://localhost:8000/api/users/' + this.props.match.params.id, userObject);
 
-      this.props.history.push('/users-listing');
-    }
+              case 4:
+                res = _context2.sent;
+
+                if (res.status === 200) {
+                  // Redirect to user List
+                  this.props.history.push('/users-listing?page=1');
+                } else {
+                  console.log(res.errors);
+                }
+
+              case 6:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this);
+      }));
+
+      function onSubmit(_x) {
+        return _onSubmit.apply(this, arguments);
+      }
+
+      return onSubmit;
+    }()
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         className: "form-wrapper",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_3__.default, {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default, {
           onSubmit: this.onSubmit,
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_3__.default.Group, {
-            controlId: "Name",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_3__.default.Label, {
-              children: "Name"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_3__.default.Control, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default.Group, {
+            controlId: "name",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default.Label, {
+              children: "Full Name"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default.Control, {
               type: "text",
-              value: this.state.name,
-              onChange: this.onChangeExpenseName
+              value: this.state.full_name,
+              onChange: this.onChangeUserFullName
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_3__.default.Group, {
-            controlId: "Amount",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_3__.default.Label, {
-              children: "Amount"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_3__.default.Control, {
-              type: "number",
-              value: this.state.amount,
-              onChange: this.onChangeExpenseAmount
-            })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_3__.default.Group, {
-            controlId: "Description",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_3__.default.Label, {
-              children: "Description"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_3__.default.Control, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default.Group, {
+            controlId: "address",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default.Label, {
+              children: "Address"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default.Control, {
               type: "text",
-              value: this.state.description,
-              onChange: this.onChangeExpenseDescription
+              value: this.state.address,
+              onChange: this.onChangeUserAddress
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_4__.default, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default.Group, {
+            controlId: "phone",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default.Label, {
+              children: "Phone Number"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default.Control, {
+              type: "text",
+              value: this.state.phone_number,
+              onChange: this.onChangeUserPhoneNumber
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default.Group, {
+            controlId: "email",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default.Label, {
+              children: "Email"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__.default.Control, {
+              type: "text",
+              value: this.state.email,
+              onChange: this.onChangeUserEmail
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5__.default, {
             variant: "danger",
             size: "lg",
             block: "block",
             type: "submit",
-            children: "Update Expense"
+            children: "Update User"
           })]
         })
       });
@@ -2664,7 +10896,7 @@ var EditUser = /*#__PURE__*/function (_Component) {
   }]);
 
   return EditUser;
-}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
+}(react__WEBPACK_IMPORTED_MODULE_1__.Component);
 
 
 
@@ -2681,13 +10913,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ UserList)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap_Table__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Table */ "./node_modules/react-bootstrap/esm/Table.js");
-/* harmony import */ var _UserTableRow__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./UserTableRow */ "./resources/js/components/UserTableRow.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap_Table__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Table */ "./node_modules/react-bootstrap/esm/Table.js");
+/* harmony import */ var _UserTableRow__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./UserTableRow */ "./resources/js/components/UserTableRow.js");
+/* harmony import */ var _shopify_polaris__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @shopify/polaris */ "./node_modules/@shopify/polaris/dist/esm/components/Page/Page.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -2716,6 +10957,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
+
 var UserList = /*#__PURE__*/function (_Component) {
   _inherits(UserList, _Component);
 
@@ -2735,22 +10977,46 @@ var UserList = /*#__PURE__*/function (_Component) {
 
   _createClass(UserList, [{
     key: "componentDidMount",
-    value: function componentDidMount() {
-      var _this2 = this;
+    value: function () {
+      var _componentDidMount = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        var res;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.next = 2;
+                return axios__WEBPACK_IMPORTED_MODULE_2___default().get('http://localhost:8000/api/users/');
 
-      axios__WEBPACK_IMPORTED_MODULE_1___default().get('http://localhost:8000/api/users/').then(function (res) {
-        _this2.setState({
-          users: res.data
-        });
-      })["catch"](function (error) {
-        console.log(error);
-      });
-    }
+              case 2:
+                res = _context.sent;
+
+                if (res.status === 200) {
+                  this.setState({
+                    users: res.data.data
+                  });
+                } else {
+                  console.log(res);
+                }
+
+              case 4:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      }
+
+      return componentDidMount;
+    }()
   }, {
     key: "DataTable",
     value: function DataTable() {
       return this.state.users.map(function (res, i) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_UserTableRow__WEBPACK_IMPORTED_MODULE_2__.default, {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_UserTableRow__WEBPACK_IMPORTED_MODULE_3__.default, {
           obj: res
         }, i);
       });
@@ -2758,36 +11024,60 @@ var UserList = /*#__PURE__*/function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-        className: "table-wrapper",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_bootstrap_Table__WEBPACK_IMPORTED_MODULE_4__.default, {
-          striped: true,
-          bordered: true,
-          hover: true,
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("thead", {
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("tr", {
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("th", {
-                children: "Full Name"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("th", {
-                children: "Address"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("th", {
-                children: "Phone Number"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("th", {
-                children: "Email"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("th", {
-                children: "Action"
+      return (
+        /*#__PURE__*/
+        // <Page title="List Users">
+        //     <Card>
+        //         <DataTable
+        //             columnContentTypes={[
+        //                 'text',
+        //                 'text',
+        //                 'text',
+        //                 'text',
+        //             ]}
+        //             headings={[
+        //                 'Full Name',
+        //                 'Address',
+        //                 'Phone Number',
+        //                 'Email',
+        //             ]}
+        //             rows={users}
+        //         />
+        //     </Card>
+        // </Page>
+        (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+          className: "table-wrapper",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_shopify_polaris__WEBPACK_IMPORTED_MODULE_5__.Page, {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_bootstrap_Table__WEBPACK_IMPORTED_MODULE_6__.default, {
+              striped: true,
+              bordered: true,
+              hover: true,
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("thead", {
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("tr", {
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("th", {
+                    children: "Full Name"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("th", {
+                    children: "Address"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("th", {
+                    children: "Phone Number"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("th", {
+                    children: "Email"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("th", {
+                    children: "Action"
+                  })]
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("tbody", {
+                children: this.DataTable()
               })]
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("tbody", {
-            children: this.DataTable()
-          })]
+          })
         })
-      });
+      );
     }
   }]);
 
   return UserList;
-}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
+}(react__WEBPACK_IMPORTED_MODULE_1__.Component);
 
 
 
@@ -3429,6 +11719,345 @@ function triggerEvent(node, eventName, bubbles, cancelable) {
 
 /***/ }),
 
+/***/ "./node_modules/hsluv/hsluv.js":
+/*!*************************************!*\
+  !*** ./node_modules/hsluv/hsluv.js ***!
+  \*************************************/
+/***/ ((module) => {
+
+// Generated by Haxe 3.4.4
+var hsluv = hsluv || {};
+hsluv.Geometry = function() { };
+hsluv.Geometry.intersectLineLine = function(a,b) {
+	var x = (a.intercept - b.intercept) / (b.slope - a.slope);
+	var y = a.slope * x + a.intercept;
+	return { x : x, y : y};
+};
+hsluv.Geometry.distanceFromOrigin = function(point) {
+	return Math.sqrt(Math.pow(point.x,2) + Math.pow(point.y,2));
+};
+hsluv.Geometry.distanceLineFromOrigin = function(line) {
+	return Math.abs(line.intercept) / Math.sqrt(Math.pow(line.slope,2) + 1);
+};
+hsluv.Geometry.perpendicularThroughPoint = function(line,point) {
+	var slope = -1 / line.slope;
+	var intercept = point.y - slope * point.x;
+	return { slope : slope, intercept : intercept};
+};
+hsluv.Geometry.angleFromOrigin = function(point) {
+	return Math.atan2(point.y,point.x);
+};
+hsluv.Geometry.normalizeAngle = function(angle) {
+	var m = 2 * Math.PI;
+	return (angle % m + m) % m;
+};
+hsluv.Geometry.lengthOfRayUntilIntersect = function(theta,line) {
+	return line.intercept / (Math.sin(theta) - line.slope * Math.cos(theta));
+};
+hsluv.Hsluv = function() { };
+hsluv.Hsluv.getBounds = function(L) {
+	var result = [];
+	var sub1 = Math.pow(L + 16,3) / 1560896;
+	var sub2 = sub1 > hsluv.Hsluv.epsilon ? sub1 : L / hsluv.Hsluv.kappa;
+	var _g = 0;
+	while(_g < 3) {
+		var c = _g++;
+		var m1 = hsluv.Hsluv.m[c][0];
+		var m2 = hsluv.Hsluv.m[c][1];
+		var m3 = hsluv.Hsluv.m[c][2];
+		var _g1 = 0;
+		while(_g1 < 2) {
+			var t = _g1++;
+			var top1 = (284517 * m1 - 94839 * m3) * sub2;
+			var top2 = (838422 * m3 + 769860 * m2 + 731718 * m1) * L * sub2 - 769860 * t * L;
+			var bottom = (632260 * m3 - 126452 * m2) * sub2 + 126452 * t;
+			result.push({ slope : top1 / bottom, intercept : top2 / bottom});
+		}
+	}
+	return result;
+};
+hsluv.Hsluv.maxSafeChromaForL = function(L) {
+	var bounds = hsluv.Hsluv.getBounds(L);
+	var min = Infinity;
+	var _g = 0;
+	while(_g < bounds.length) {
+		var bound = bounds[_g];
+		++_g;
+		var length = hsluv.Geometry.distanceLineFromOrigin(bound);
+		min = Math.min(min,length);
+	}
+	return min;
+};
+hsluv.Hsluv.maxChromaForLH = function(L,H) {
+	var hrad = H / 360 * Math.PI * 2;
+	var bounds = hsluv.Hsluv.getBounds(L);
+	var min = Infinity;
+	var _g = 0;
+	while(_g < bounds.length) {
+		var bound = bounds[_g];
+		++_g;
+		var length = hsluv.Geometry.lengthOfRayUntilIntersect(hrad,bound);
+		if(length >= 0) {
+			min = Math.min(min,length);
+		}
+	}
+	return min;
+};
+hsluv.Hsluv.dotProduct = function(a,b) {
+	var sum = 0;
+	var _g1 = 0;
+	var _g = a.length;
+	while(_g1 < _g) {
+		var i = _g1++;
+		sum += a[i] * b[i];
+	}
+	return sum;
+};
+hsluv.Hsluv.fromLinear = function(c) {
+	if(c <= 0.0031308) {
+		return 12.92 * c;
+	} else {
+		return 1.055 * Math.pow(c,0.416666666666666685) - 0.055;
+	}
+};
+hsluv.Hsluv.toLinear = function(c) {
+	if(c > 0.04045) {
+		return Math.pow((c + 0.055) / 1.055,2.4);
+	} else {
+		return c / 12.92;
+	}
+};
+hsluv.Hsluv.xyzToRgb = function(tuple) {
+	return [hsluv.Hsluv.fromLinear(hsluv.Hsluv.dotProduct(hsluv.Hsluv.m[0],tuple)),hsluv.Hsluv.fromLinear(hsluv.Hsluv.dotProduct(hsluv.Hsluv.m[1],tuple)),hsluv.Hsluv.fromLinear(hsluv.Hsluv.dotProduct(hsluv.Hsluv.m[2],tuple))];
+};
+hsluv.Hsluv.rgbToXyz = function(tuple) {
+	var rgbl = [hsluv.Hsluv.toLinear(tuple[0]),hsluv.Hsluv.toLinear(tuple[1]),hsluv.Hsluv.toLinear(tuple[2])];
+	return [hsluv.Hsluv.dotProduct(hsluv.Hsluv.minv[0],rgbl),hsluv.Hsluv.dotProduct(hsluv.Hsluv.minv[1],rgbl),hsluv.Hsluv.dotProduct(hsluv.Hsluv.minv[2],rgbl)];
+};
+hsluv.Hsluv.yToL = function(Y) {
+	if(Y <= hsluv.Hsluv.epsilon) {
+		return Y / hsluv.Hsluv.refY * hsluv.Hsluv.kappa;
+	} else {
+		return 116 * Math.pow(Y / hsluv.Hsluv.refY,0.333333333333333315) - 16;
+	}
+};
+hsluv.Hsluv.lToY = function(L) {
+	if(L <= 8) {
+		return hsluv.Hsluv.refY * L / hsluv.Hsluv.kappa;
+	} else {
+		return hsluv.Hsluv.refY * Math.pow((L + 16) / 116,3);
+	}
+};
+hsluv.Hsluv.xyzToLuv = function(tuple) {
+	var X = tuple[0];
+	var Y = tuple[1];
+	var Z = tuple[2];
+	var divider = X + 15 * Y + 3 * Z;
+	var varU = 4 * X;
+	var varV = 9 * Y;
+	if(divider != 0) {
+		varU /= divider;
+		varV /= divider;
+	} else {
+		varU = NaN;
+		varV = NaN;
+	}
+	var L = hsluv.Hsluv.yToL(Y);
+	if(L == 0) {
+		return [0,0,0];
+	}
+	var U = 13 * L * (varU - hsluv.Hsluv.refU);
+	var V = 13 * L * (varV - hsluv.Hsluv.refV);
+	return [L,U,V];
+};
+hsluv.Hsluv.luvToXyz = function(tuple) {
+	var L = tuple[0];
+	var U = tuple[1];
+	var V = tuple[2];
+	if(L == 0) {
+		return [0,0,0];
+	}
+	var varU = U / (13 * L) + hsluv.Hsluv.refU;
+	var varV = V / (13 * L) + hsluv.Hsluv.refV;
+	var Y = hsluv.Hsluv.lToY(L);
+	var X = 0 - 9 * Y * varU / ((varU - 4) * varV - varU * varV);
+	var Z = (9 * Y - 15 * varV * Y - varV * X) / (3 * varV);
+	return [X,Y,Z];
+};
+hsluv.Hsluv.luvToLch = function(tuple) {
+	var L = tuple[0];
+	var U = tuple[1];
+	var V = tuple[2];
+	var C = Math.sqrt(U * U + V * V);
+	var H;
+	if(C < 0.00000001) {
+		H = 0;
+	} else {
+		var Hrad = Math.atan2(V,U);
+		H = Hrad * 180.0 / Math.PI;
+		if(H < 0) {
+			H = 360 + H;
+		}
+	}
+	return [L,C,H];
+};
+hsluv.Hsluv.lchToLuv = function(tuple) {
+	var L = tuple[0];
+	var C = tuple[1];
+	var H = tuple[2];
+	var Hrad = H / 360.0 * 2 * Math.PI;
+	var U = Math.cos(Hrad) * C;
+	var V = Math.sin(Hrad) * C;
+	return [L,U,V];
+};
+hsluv.Hsluv.hsluvToLch = function(tuple) {
+	var H = tuple[0];
+	var S = tuple[1];
+	var L = tuple[2];
+	if(L > 99.9999999) {
+		return [100,0,H];
+	}
+	if(L < 0.00000001) {
+		return [0,0,H];
+	}
+	var max = hsluv.Hsluv.maxChromaForLH(L,H);
+	var C = max / 100 * S;
+	return [L,C,H];
+};
+hsluv.Hsluv.lchToHsluv = function(tuple) {
+	var L = tuple[0];
+	var C = tuple[1];
+	var H = tuple[2];
+	if(L > 99.9999999) {
+		return [H,0,100];
+	}
+	if(L < 0.00000001) {
+		return [H,0,0];
+	}
+	var max = hsluv.Hsluv.maxChromaForLH(L,H);
+	var S = C / max * 100;
+	return [H,S,L];
+};
+hsluv.Hsluv.hpluvToLch = function(tuple) {
+	var H = tuple[0];
+	var S = tuple[1];
+	var L = tuple[2];
+	if(L > 99.9999999) {
+		return [100,0,H];
+	}
+	if(L < 0.00000001) {
+		return [0,0,H];
+	}
+	var max = hsluv.Hsluv.maxSafeChromaForL(L);
+	var C = max / 100 * S;
+	return [L,C,H];
+};
+hsluv.Hsluv.lchToHpluv = function(tuple) {
+	var L = tuple[0];
+	var C = tuple[1];
+	var H = tuple[2];
+	if(L > 99.9999999) {
+		return [H,0,100];
+	}
+	if(L < 0.00000001) {
+		return [H,0,0];
+	}
+	var max = hsluv.Hsluv.maxSafeChromaForL(L);
+	var S = C / max * 100;
+	return [H,S,L];
+};
+hsluv.Hsluv.rgbToHex = function(tuple) {
+	var h = "#";
+	var _g = 0;
+	while(_g < 3) {
+		var i = _g++;
+		var chan = tuple[i];
+		var c = Math.round(chan * 255);
+		var digit2 = c % 16;
+		var digit1 = (c - digit2) / 16 | 0;
+		h += hsluv.Hsluv.hexChars.charAt(digit1) + hsluv.Hsluv.hexChars.charAt(digit2);
+	}
+	return h;
+};
+hsluv.Hsluv.hexToRgb = function(hex) {
+	hex = hex.toLowerCase();
+	var ret = [];
+	var _g = 0;
+	while(_g < 3) {
+		var i = _g++;
+		var digit1 = hsluv.Hsluv.hexChars.indexOf(hex.charAt(i * 2 + 1));
+		var digit2 = hsluv.Hsluv.hexChars.indexOf(hex.charAt(i * 2 + 2));
+		var n = digit1 * 16 + digit2;
+		ret.push(n / 255.0);
+	}
+	return ret;
+};
+hsluv.Hsluv.lchToRgb = function(tuple) {
+	return hsluv.Hsluv.xyzToRgb(hsluv.Hsluv.luvToXyz(hsluv.Hsluv.lchToLuv(tuple)));
+};
+hsluv.Hsluv.rgbToLch = function(tuple) {
+	return hsluv.Hsluv.luvToLch(hsluv.Hsluv.xyzToLuv(hsluv.Hsluv.rgbToXyz(tuple)));
+};
+hsluv.Hsluv.hsluvToRgb = function(tuple) {
+	return hsluv.Hsluv.lchToRgb(hsluv.Hsluv.hsluvToLch(tuple));
+};
+hsluv.Hsluv.rgbToHsluv = function(tuple) {
+	return hsluv.Hsluv.lchToHsluv(hsluv.Hsluv.rgbToLch(tuple));
+};
+hsluv.Hsluv.hpluvToRgb = function(tuple) {
+	return hsluv.Hsluv.lchToRgb(hsluv.Hsluv.hpluvToLch(tuple));
+};
+hsluv.Hsluv.rgbToHpluv = function(tuple) {
+	return hsluv.Hsluv.lchToHpluv(hsluv.Hsluv.rgbToLch(tuple));
+};
+hsluv.Hsluv.hsluvToHex = function(tuple) {
+	return hsluv.Hsluv.rgbToHex(hsluv.Hsluv.hsluvToRgb(tuple));
+};
+hsluv.Hsluv.hpluvToHex = function(tuple) {
+	return hsluv.Hsluv.rgbToHex(hsluv.Hsluv.hpluvToRgb(tuple));
+};
+hsluv.Hsluv.hexToHsluv = function(s) {
+	return hsluv.Hsluv.rgbToHsluv(hsluv.Hsluv.hexToRgb(s));
+};
+hsluv.Hsluv.hexToHpluv = function(s) {
+	return hsluv.Hsluv.rgbToHpluv(hsluv.Hsluv.hexToRgb(s));
+};
+hsluv.Hsluv.m = [[3.240969941904521,-1.537383177570093,-0.498610760293],[-0.96924363628087,1.87596750150772,0.041555057407175],[0.055630079696993,-0.20397695888897,1.056971514242878]];
+hsluv.Hsluv.minv = [[0.41239079926595,0.35758433938387,0.18048078840183],[0.21263900587151,0.71516867876775,0.072192315360733],[0.019330818715591,0.11919477979462,0.95053215224966]];
+hsluv.Hsluv.refY = 1.0;
+hsluv.Hsluv.refU = 0.19783000664283;
+hsluv.Hsluv.refV = 0.46831999493879;
+hsluv.Hsluv.kappa = 903.2962962;
+hsluv.Hsluv.epsilon = 0.0088564516;
+hsluv.Hsluv.hexChars = "0123456789abcdef";
+var root = {
+    "hsluvToRgb": hsluv.Hsluv.hsluvToRgb,
+    "rgbToHsluv": hsluv.Hsluv.rgbToHsluv,
+    "hpluvToRgb": hsluv.Hsluv.hpluvToRgb,
+    "rgbToHpluv": hsluv.Hsluv.rgbToHpluv,
+    "hsluvToHex": hsluv.Hsluv.hsluvToHex,
+    "hexToHsluv": hsluv.Hsluv.hexToHsluv,
+    "hpluvToHex": hsluv.Hsluv.hpluvToHex,
+    "hexToHpluv": hsluv.Hsluv.hexToHpluv,
+    "lchToHpluv": hsluv.Hsluv.lchToHpluv,
+    "hpluvToLch": hsluv.Hsluv.hpluvToLch,
+    "lchToHsluv": hsluv.Hsluv.lchToHsluv,
+    "hsluvToLch": hsluv.Hsluv.hsluvToLch,
+    "lchToLuv": hsluv.Hsluv.lchToLuv,
+    "luvToLch": hsluv.Hsluv.luvToLch,
+    "xyzToLuv": hsluv.Hsluv.xyzToLuv,
+    "luvToXyz": hsluv.Hsluv.luvToXyz,
+    "xyzToRgb": hsluv.Hsluv.xyzToRgb,
+    "rgbToXyz": hsluv.Hsluv.rgbToXyz,
+    "lchToRgb": hsluv.Hsluv.lchToRgb,
+    "rgbToLch": hsluv.Hsluv.rgbToLch
+};
+
+module.exports = root;
+
+
+/***/ }),
+
 /***/ "./node_modules/invariant/browser.js":
 /*!*******************************************!*\
   !*** ./node_modules/invariant/browser.js ***!
@@ -3485,6 +12114,666 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 };
 
 module.exports = invariant;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_Symbol.js":
+/*!****************************************!*\
+  !*** ./node_modules/lodash/_Symbol.js ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
+
+/** Built-in value references. */
+var Symbol = root.Symbol;
+
+module.exports = Symbol;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_baseGetTag.js":
+/*!********************************************!*\
+  !*** ./node_modules/lodash/_baseGetTag.js ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js"),
+    getRawTag = __webpack_require__(/*! ./_getRawTag */ "./node_modules/lodash/_getRawTag.js"),
+    objectToString = __webpack_require__(/*! ./_objectToString */ "./node_modules/lodash/_objectToString.js");
+
+/** `Object#toString` result references. */
+var nullTag = '[object Null]',
+    undefinedTag = '[object Undefined]';
+
+/** Built-in value references. */
+var symToStringTag = Symbol ? Symbol.toStringTag : undefined;
+
+/**
+ * The base implementation of `getTag` without fallbacks for buggy environments.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the `toStringTag`.
+ */
+function baseGetTag(value) {
+  if (value == null) {
+    return value === undefined ? undefinedTag : nullTag;
+  }
+  return (symToStringTag && symToStringTag in Object(value))
+    ? getRawTag(value)
+    : objectToString(value);
+}
+
+module.exports = baseGetTag;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_baseTrim.js":
+/*!******************************************!*\
+  !*** ./node_modules/lodash/_baseTrim.js ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var trimmedEndIndex = __webpack_require__(/*! ./_trimmedEndIndex */ "./node_modules/lodash/_trimmedEndIndex.js");
+
+/** Used to match leading whitespace. */
+var reTrimStart = /^\s+/;
+
+/**
+ * The base implementation of `_.trim`.
+ *
+ * @private
+ * @param {string} string The string to trim.
+ * @returns {string} Returns the trimmed string.
+ */
+function baseTrim(string) {
+  return string
+    ? string.slice(0, trimmedEndIndex(string) + 1).replace(reTrimStart, '')
+    : string;
+}
+
+module.exports = baseTrim;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_freeGlobal.js":
+/*!********************************************!*\
+  !*** ./node_modules/lodash/_freeGlobal.js ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+/** Detect free variable `global` from Node.js. */
+var freeGlobal = typeof __webpack_require__.g == 'object' && __webpack_require__.g && __webpack_require__.g.Object === Object && __webpack_require__.g;
+
+module.exports = freeGlobal;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_getRawTag.js":
+/*!*******************************************!*\
+  !*** ./node_modules/lodash/_getRawTag.js ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js");
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var nativeObjectToString = objectProto.toString;
+
+/** Built-in value references. */
+var symToStringTag = Symbol ? Symbol.toStringTag : undefined;
+
+/**
+ * A specialized version of `baseGetTag` which ignores `Symbol.toStringTag` values.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the raw `toStringTag`.
+ */
+function getRawTag(value) {
+  var isOwn = hasOwnProperty.call(value, symToStringTag),
+      tag = value[symToStringTag];
+
+  try {
+    value[symToStringTag] = undefined;
+    var unmasked = true;
+  } catch (e) {}
+
+  var result = nativeObjectToString.call(value);
+  if (unmasked) {
+    if (isOwn) {
+      value[symToStringTag] = tag;
+    } else {
+      delete value[symToStringTag];
+    }
+  }
+  return result;
+}
+
+module.exports = getRawTag;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_objectToString.js":
+/*!************************************************!*\
+  !*** ./node_modules/lodash/_objectToString.js ***!
+  \************************************************/
+/***/ ((module) => {
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var nativeObjectToString = objectProto.toString;
+
+/**
+ * Converts `value` to a string using `Object.prototype.toString`.
+ *
+ * @private
+ * @param {*} value The value to convert.
+ * @returns {string} Returns the converted string.
+ */
+function objectToString(value) {
+  return nativeObjectToString.call(value);
+}
+
+module.exports = objectToString;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_root.js":
+/*!**************************************!*\
+  !*** ./node_modules/lodash/_root.js ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "./node_modules/lodash/_freeGlobal.js");
+
+/** Detect free variable `self`. */
+var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
+
+/** Used as a reference to the global object. */
+var root = freeGlobal || freeSelf || Function('return this')();
+
+module.exports = root;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_trimmedEndIndex.js":
+/*!*************************************************!*\
+  !*** ./node_modules/lodash/_trimmedEndIndex.js ***!
+  \*************************************************/
+/***/ ((module) => {
+
+/** Used to match a single whitespace character. */
+var reWhitespace = /\s/;
+
+/**
+ * Used by `_.trim` and `_.trimEnd` to get the index of the last non-whitespace
+ * character of `string`.
+ *
+ * @private
+ * @param {string} string The string to inspect.
+ * @returns {number} Returns the index of the last non-whitespace character.
+ */
+function trimmedEndIndex(string) {
+  var index = string.length;
+
+  while (index-- && reWhitespace.test(string.charAt(index))) {}
+  return index;
+}
+
+module.exports = trimmedEndIndex;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/debounce.js":
+/*!*****************************************!*\
+  !*** ./node_modules/lodash/debounce.js ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var isObject = __webpack_require__(/*! ./isObject */ "./node_modules/lodash/isObject.js"),
+    now = __webpack_require__(/*! ./now */ "./node_modules/lodash/now.js"),
+    toNumber = __webpack_require__(/*! ./toNumber */ "./node_modules/lodash/toNumber.js");
+
+/** Error message constants. */
+var FUNC_ERROR_TEXT = 'Expected a function';
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMax = Math.max,
+    nativeMin = Math.min;
+
+/**
+ * Creates a debounced function that delays invoking `func` until after `wait`
+ * milliseconds have elapsed since the last time the debounced function was
+ * invoked. The debounced function comes with a `cancel` method to cancel
+ * delayed `func` invocations and a `flush` method to immediately invoke them.
+ * Provide `options` to indicate whether `func` should be invoked on the
+ * leading and/or trailing edge of the `wait` timeout. The `func` is invoked
+ * with the last arguments provided to the debounced function. Subsequent
+ * calls to the debounced function return the result of the last `func`
+ * invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the debounced function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.debounce` and `_.throttle`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to debounce.
+ * @param {number} [wait=0] The number of milliseconds to delay.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=false]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {number} [options.maxWait]
+ *  The maximum time `func` is allowed to be delayed before it's invoked.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new debounced function.
+ * @example
+ *
+ * // Avoid costly calculations while the window size is in flux.
+ * jQuery(window).on('resize', _.debounce(calculateLayout, 150));
+ *
+ * // Invoke `sendMail` when clicked, debouncing subsequent calls.
+ * jQuery(element).on('click', _.debounce(sendMail, 300, {
+ *   'leading': true,
+ *   'trailing': false
+ * }));
+ *
+ * // Ensure `batchLog` is invoked once after 1 second of debounced calls.
+ * var debounced = _.debounce(batchLog, 250, { 'maxWait': 1000 });
+ * var source = new EventSource('/stream');
+ * jQuery(source).on('message', debounced);
+ *
+ * // Cancel the trailing debounced invocation.
+ * jQuery(window).on('popstate', debounced.cancel);
+ */
+function debounce(func, wait, options) {
+  var lastArgs,
+      lastThis,
+      maxWait,
+      result,
+      timerId,
+      lastCallTime,
+      lastInvokeTime = 0,
+      leading = false,
+      maxing = false,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  wait = toNumber(wait) || 0;
+  if (isObject(options)) {
+    leading = !!options.leading;
+    maxing = 'maxWait' in options;
+    maxWait = maxing ? nativeMax(toNumber(options.maxWait) || 0, wait) : maxWait;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+
+  function invokeFunc(time) {
+    var args = lastArgs,
+        thisArg = lastThis;
+
+    lastArgs = lastThis = undefined;
+    lastInvokeTime = time;
+    result = func.apply(thisArg, args);
+    return result;
+  }
+
+  function leadingEdge(time) {
+    // Reset any `maxWait` timer.
+    lastInvokeTime = time;
+    // Start the timer for the trailing edge.
+    timerId = setTimeout(timerExpired, wait);
+    // Invoke the leading edge.
+    return leading ? invokeFunc(time) : result;
+  }
+
+  function remainingWait(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime,
+        timeWaiting = wait - timeSinceLastCall;
+
+    return maxing
+      ? nativeMin(timeWaiting, maxWait - timeSinceLastInvoke)
+      : timeWaiting;
+  }
+
+  function shouldInvoke(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime;
+
+    // Either this is the first call, activity has stopped and we're at the
+    // trailing edge, the system time has gone backwards and we're treating
+    // it as the trailing edge, or we've hit the `maxWait` limit.
+    return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
+      (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait));
+  }
+
+  function timerExpired() {
+    var time = now();
+    if (shouldInvoke(time)) {
+      return trailingEdge(time);
+    }
+    // Restart the timer.
+    timerId = setTimeout(timerExpired, remainingWait(time));
+  }
+
+  function trailingEdge(time) {
+    timerId = undefined;
+
+    // Only invoke if we have `lastArgs` which means `func` has been
+    // debounced at least once.
+    if (trailing && lastArgs) {
+      return invokeFunc(time);
+    }
+    lastArgs = lastThis = undefined;
+    return result;
+  }
+
+  function cancel() {
+    if (timerId !== undefined) {
+      clearTimeout(timerId);
+    }
+    lastInvokeTime = 0;
+    lastArgs = lastCallTime = lastThis = timerId = undefined;
+  }
+
+  function flush() {
+    return timerId === undefined ? result : trailingEdge(now());
+  }
+
+  function debounced() {
+    var time = now(),
+        isInvoking = shouldInvoke(time);
+
+    lastArgs = arguments;
+    lastThis = this;
+    lastCallTime = time;
+
+    if (isInvoking) {
+      if (timerId === undefined) {
+        return leadingEdge(lastCallTime);
+      }
+      if (maxing) {
+        // Handle invocations in a tight loop.
+        clearTimeout(timerId);
+        timerId = setTimeout(timerExpired, wait);
+        return invokeFunc(lastCallTime);
+      }
+    }
+    if (timerId === undefined) {
+      timerId = setTimeout(timerExpired, wait);
+    }
+    return result;
+  }
+  debounced.cancel = cancel;
+  debounced.flush = flush;
+  return debounced;
+}
+
+module.exports = debounce;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/isObject.js":
+/*!*****************************************!*\
+  !*** ./node_modules/lodash/isObject.js ***!
+  \*****************************************/
+/***/ ((module) => {
+
+/**
+ * Checks if `value` is the
+ * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value;
+  return value != null && (type == 'object' || type == 'function');
+}
+
+module.exports = isObject;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/isObjectLike.js":
+/*!*********************************************!*\
+  !*** ./node_modules/lodash/isObjectLike.js ***!
+  \*********************************************/
+/***/ ((module) => {
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return value != null && typeof value == 'object';
+}
+
+module.exports = isObjectLike;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/isSymbol.js":
+/*!*****************************************!*\
+  !*** ./node_modules/lodash/isSymbol.js ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./node_modules/lodash/_baseGetTag.js"),
+    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./node_modules/lodash/isObjectLike.js");
+
+/** `Object#toString` result references. */
+var symbolTag = '[object Symbol]';
+
+/**
+ * Checks if `value` is classified as a `Symbol` primitive or object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
+ * @example
+ *
+ * _.isSymbol(Symbol.iterator);
+ * // => true
+ *
+ * _.isSymbol('abc');
+ * // => false
+ */
+function isSymbol(value) {
+  return typeof value == 'symbol' ||
+    (isObjectLike(value) && baseGetTag(value) == symbolTag);
+}
+
+module.exports = isSymbol;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/now.js":
+/*!************************************!*\
+  !*** ./node_modules/lodash/now.js ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
+
+/**
+ * Gets the timestamp of the number of milliseconds that have elapsed since
+ * the Unix epoch (1 January 1970 00:00:00 UTC).
+ *
+ * @static
+ * @memberOf _
+ * @since 2.4.0
+ * @category Date
+ * @returns {number} Returns the timestamp.
+ * @example
+ *
+ * _.defer(function(stamp) {
+ *   console.log(_.now() - stamp);
+ * }, _.now());
+ * // => Logs the number of milliseconds it took for the deferred invocation.
+ */
+var now = function() {
+  return root.Date.now();
+};
+
+module.exports = now;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/toNumber.js":
+/*!*****************************************!*\
+  !*** ./node_modules/lodash/toNumber.js ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseTrim = __webpack_require__(/*! ./_baseTrim */ "./node_modules/lodash/_baseTrim.js"),
+    isObject = __webpack_require__(/*! ./isObject */ "./node_modules/lodash/isObject.js"),
+    isSymbol = __webpack_require__(/*! ./isSymbol */ "./node_modules/lodash/isSymbol.js");
+
+/** Used as references for various `Number` constants. */
+var NAN = 0 / 0;
+
+/** Used to detect bad signed hexadecimal string values. */
+var reIsBadHex = /^[-+]0x[0-9a-f]+$/i;
+
+/** Used to detect binary string values. */
+var reIsBinary = /^0b[01]+$/i;
+
+/** Used to detect octal string values. */
+var reIsOctal = /^0o[0-7]+$/i;
+
+/** Built-in method references without a dependency on `root`. */
+var freeParseInt = parseInt;
+
+/**
+ * Converts `value` to a number.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to process.
+ * @returns {number} Returns the number.
+ * @example
+ *
+ * _.toNumber(3.2);
+ * // => 3.2
+ *
+ * _.toNumber(Number.MIN_VALUE);
+ * // => 5e-324
+ *
+ * _.toNumber(Infinity);
+ * // => Infinity
+ *
+ * _.toNumber('3.2');
+ * // => 3.2
+ */
+function toNumber(value) {
+  if (typeof value == 'number') {
+    return value;
+  }
+  if (isSymbol(value)) {
+    return NAN;
+  }
+  if (isObject(value)) {
+    var other = typeof value.valueOf == 'function' ? value.valueOf() : value;
+    value = isObject(other) ? (other + '') : other;
+  }
+  if (typeof value != 'string') {
+    return value === 0 ? value : +value;
+  }
+  value = baseTrim(value);
+  var isBinary = reIsBinary.test(value);
+  return (isBinary || reIsOctal.test(value))
+    ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
+    : (reIsBadHex.test(value) ? NAN : +value);
+}
+
+module.exports = toNumber;
 
 
 /***/ }),
@@ -41029,6 +50318,764 @@ if (false) {} else {
 
 if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-jsx-runtime.development.js */ "./node_modules/react/cjs/react-jsx-runtime.development.js");
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/regenerator-runtime/runtime.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/regenerator-runtime/runtime.js ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+var runtime = (function (exports) {
+  "use strict";
+
+  var Op = Object.prototype;
+  var hasOwn = Op.hasOwnProperty;
+  var undefined; // More compressible than void 0.
+  var $Symbol = typeof Symbol === "function" ? Symbol : {};
+  var iteratorSymbol = $Symbol.iterator || "@@iterator";
+  var asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator";
+  var toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
+
+  function define(obj, key, value) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+    return obj[key];
+  }
+  try {
+    // IE 8 has a broken Object.defineProperty that only works on DOM objects.
+    define({}, "");
+  } catch (err) {
+    define = function(obj, key, value) {
+      return obj[key] = value;
+    };
+  }
+
+  function wrap(innerFn, outerFn, self, tryLocsList) {
+    // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
+    var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator;
+    var generator = Object.create(protoGenerator.prototype);
+    var context = new Context(tryLocsList || []);
+
+    // The ._invoke method unifies the implementations of the .next,
+    // .throw, and .return methods.
+    generator._invoke = makeInvokeMethod(innerFn, self, context);
+
+    return generator;
+  }
+  exports.wrap = wrap;
+
+  // Try/catch helper to minimize deoptimizations. Returns a completion
+  // record like context.tryEntries[i].completion. This interface could
+  // have been (and was previously) designed to take a closure to be
+  // invoked without arguments, but in all the cases we care about we
+  // already have an existing method we want to call, so there's no need
+  // to create a new function object. We can even get away with assuming
+  // the method takes exactly one argument, since that happens to be true
+  // in every case, so we don't have to touch the arguments object. The
+  // only additional allocation required is the completion record, which
+  // has a stable shape and so hopefully should be cheap to allocate.
+  function tryCatch(fn, obj, arg) {
+    try {
+      return { type: "normal", arg: fn.call(obj, arg) };
+    } catch (err) {
+      return { type: "throw", arg: err };
+    }
+  }
+
+  var GenStateSuspendedStart = "suspendedStart";
+  var GenStateSuspendedYield = "suspendedYield";
+  var GenStateExecuting = "executing";
+  var GenStateCompleted = "completed";
+
+  // Returning this object from the innerFn has the same effect as
+  // breaking out of the dispatch switch statement.
+  var ContinueSentinel = {};
+
+  // Dummy constructor functions that we use as the .constructor and
+  // .constructor.prototype properties for functions that return Generator
+  // objects. For full spec compliance, you may wish to configure your
+  // minifier not to mangle the names of these two functions.
+  function Generator() {}
+  function GeneratorFunction() {}
+  function GeneratorFunctionPrototype() {}
+
+  // This is a polyfill for %IteratorPrototype% for environments that
+  // don't natively support it.
+  var IteratorPrototype = {};
+  IteratorPrototype[iteratorSymbol] = function () {
+    return this;
+  };
+
+  var getProto = Object.getPrototypeOf;
+  var NativeIteratorPrototype = getProto && getProto(getProto(values([])));
+  if (NativeIteratorPrototype &&
+      NativeIteratorPrototype !== Op &&
+      hasOwn.call(NativeIteratorPrototype, iteratorSymbol)) {
+    // This environment has a native %IteratorPrototype%; use it instead
+    // of the polyfill.
+    IteratorPrototype = NativeIteratorPrototype;
+  }
+
+  var Gp = GeneratorFunctionPrototype.prototype =
+    Generator.prototype = Object.create(IteratorPrototype);
+  GeneratorFunction.prototype = Gp.constructor = GeneratorFunctionPrototype;
+  GeneratorFunctionPrototype.constructor = GeneratorFunction;
+  GeneratorFunction.displayName = define(
+    GeneratorFunctionPrototype,
+    toStringTagSymbol,
+    "GeneratorFunction"
+  );
+
+  // Helper for defining the .next, .throw, and .return methods of the
+  // Iterator interface in terms of a single ._invoke method.
+  function defineIteratorMethods(prototype) {
+    ["next", "throw", "return"].forEach(function(method) {
+      define(prototype, method, function(arg) {
+        return this._invoke(method, arg);
+      });
+    });
+  }
+
+  exports.isGeneratorFunction = function(genFun) {
+    var ctor = typeof genFun === "function" && genFun.constructor;
+    return ctor
+      ? ctor === GeneratorFunction ||
+        // For the native GeneratorFunction constructor, the best we can
+        // do is to check its .name property.
+        (ctor.displayName || ctor.name) === "GeneratorFunction"
+      : false;
+  };
+
+  exports.mark = function(genFun) {
+    if (Object.setPrototypeOf) {
+      Object.setPrototypeOf(genFun, GeneratorFunctionPrototype);
+    } else {
+      genFun.__proto__ = GeneratorFunctionPrototype;
+      define(genFun, toStringTagSymbol, "GeneratorFunction");
+    }
+    genFun.prototype = Object.create(Gp);
+    return genFun;
+  };
+
+  // Within the body of any async function, `await x` is transformed to
+  // `yield regeneratorRuntime.awrap(x)`, so that the runtime can test
+  // `hasOwn.call(value, "__await")` to determine if the yielded value is
+  // meant to be awaited.
+  exports.awrap = function(arg) {
+    return { __await: arg };
+  };
+
+  function AsyncIterator(generator, PromiseImpl) {
+    function invoke(method, arg, resolve, reject) {
+      var record = tryCatch(generator[method], generator, arg);
+      if (record.type === "throw") {
+        reject(record.arg);
+      } else {
+        var result = record.arg;
+        var value = result.value;
+        if (value &&
+            typeof value === "object" &&
+            hasOwn.call(value, "__await")) {
+          return PromiseImpl.resolve(value.__await).then(function(value) {
+            invoke("next", value, resolve, reject);
+          }, function(err) {
+            invoke("throw", err, resolve, reject);
+          });
+        }
+
+        return PromiseImpl.resolve(value).then(function(unwrapped) {
+          // When a yielded Promise is resolved, its final value becomes
+          // the .value of the Promise<{value,done}> result for the
+          // current iteration.
+          result.value = unwrapped;
+          resolve(result);
+        }, function(error) {
+          // If a rejected Promise was yielded, throw the rejection back
+          // into the async generator function so it can be handled there.
+          return invoke("throw", error, resolve, reject);
+        });
+      }
+    }
+
+    var previousPromise;
+
+    function enqueue(method, arg) {
+      function callInvokeWithMethodAndArg() {
+        return new PromiseImpl(function(resolve, reject) {
+          invoke(method, arg, resolve, reject);
+        });
+      }
+
+      return previousPromise =
+        // If enqueue has been called before, then we want to wait until
+        // all previous Promises have been resolved before calling invoke,
+        // so that results are always delivered in the correct order. If
+        // enqueue has not been called before, then it is important to
+        // call invoke immediately, without waiting on a callback to fire,
+        // so that the async generator function has the opportunity to do
+        // any necessary setup in a predictable way. This predictability
+        // is why the Promise constructor synchronously invokes its
+        // executor callback, and why async functions synchronously
+        // execute code before the first await. Since we implement simple
+        // async functions in terms of async generators, it is especially
+        // important to get this right, even though it requires care.
+        previousPromise ? previousPromise.then(
+          callInvokeWithMethodAndArg,
+          // Avoid propagating failures to Promises returned by later
+          // invocations of the iterator.
+          callInvokeWithMethodAndArg
+        ) : callInvokeWithMethodAndArg();
+    }
+
+    // Define the unified helper method that is used to implement .next,
+    // .throw, and .return (see defineIteratorMethods).
+    this._invoke = enqueue;
+  }
+
+  defineIteratorMethods(AsyncIterator.prototype);
+  AsyncIterator.prototype[asyncIteratorSymbol] = function () {
+    return this;
+  };
+  exports.AsyncIterator = AsyncIterator;
+
+  // Note that simple async functions are implemented on top of
+  // AsyncIterator objects; they just return a Promise for the value of
+  // the final result produced by the iterator.
+  exports.async = function(innerFn, outerFn, self, tryLocsList, PromiseImpl) {
+    if (PromiseImpl === void 0) PromiseImpl = Promise;
+
+    var iter = new AsyncIterator(
+      wrap(innerFn, outerFn, self, tryLocsList),
+      PromiseImpl
+    );
+
+    return exports.isGeneratorFunction(outerFn)
+      ? iter // If outerFn is a generator, return the full iterator.
+      : iter.next().then(function(result) {
+          return result.done ? result.value : iter.next();
+        });
+  };
+
+  function makeInvokeMethod(innerFn, self, context) {
+    var state = GenStateSuspendedStart;
+
+    return function invoke(method, arg) {
+      if (state === GenStateExecuting) {
+        throw new Error("Generator is already running");
+      }
+
+      if (state === GenStateCompleted) {
+        if (method === "throw") {
+          throw arg;
+        }
+
+        // Be forgiving, per 25.3.3.3.3 of the spec:
+        // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
+        return doneResult();
+      }
+
+      context.method = method;
+      context.arg = arg;
+
+      while (true) {
+        var delegate = context.delegate;
+        if (delegate) {
+          var delegateResult = maybeInvokeDelegate(delegate, context);
+          if (delegateResult) {
+            if (delegateResult === ContinueSentinel) continue;
+            return delegateResult;
+          }
+        }
+
+        if (context.method === "next") {
+          // Setting context._sent for legacy support of Babel's
+          // function.sent implementation.
+          context.sent = context._sent = context.arg;
+
+        } else if (context.method === "throw") {
+          if (state === GenStateSuspendedStart) {
+            state = GenStateCompleted;
+            throw context.arg;
+          }
+
+          context.dispatchException(context.arg);
+
+        } else if (context.method === "return") {
+          context.abrupt("return", context.arg);
+        }
+
+        state = GenStateExecuting;
+
+        var record = tryCatch(innerFn, self, context);
+        if (record.type === "normal") {
+          // If an exception is thrown from innerFn, we leave state ===
+          // GenStateExecuting and loop back for another invocation.
+          state = context.done
+            ? GenStateCompleted
+            : GenStateSuspendedYield;
+
+          if (record.arg === ContinueSentinel) {
+            continue;
+          }
+
+          return {
+            value: record.arg,
+            done: context.done
+          };
+
+        } else if (record.type === "throw") {
+          state = GenStateCompleted;
+          // Dispatch the exception by looping back around to the
+          // context.dispatchException(context.arg) call above.
+          context.method = "throw";
+          context.arg = record.arg;
+        }
+      }
+    };
+  }
+
+  // Call delegate.iterator[context.method](context.arg) and handle the
+  // result, either by returning a { value, done } result from the
+  // delegate iterator, or by modifying context.method and context.arg,
+  // setting context.delegate to null, and returning the ContinueSentinel.
+  function maybeInvokeDelegate(delegate, context) {
+    var method = delegate.iterator[context.method];
+    if (method === undefined) {
+      // A .throw or .return when the delegate iterator has no .throw
+      // method always terminates the yield* loop.
+      context.delegate = null;
+
+      if (context.method === "throw") {
+        // Note: ["return"] must be used for ES3 parsing compatibility.
+        if (delegate.iterator["return"]) {
+          // If the delegate iterator has a return method, give it a
+          // chance to clean up.
+          context.method = "return";
+          context.arg = undefined;
+          maybeInvokeDelegate(delegate, context);
+
+          if (context.method === "throw") {
+            // If maybeInvokeDelegate(context) changed context.method from
+            // "return" to "throw", let that override the TypeError below.
+            return ContinueSentinel;
+          }
+        }
+
+        context.method = "throw";
+        context.arg = new TypeError(
+          "The iterator does not provide a 'throw' method");
+      }
+
+      return ContinueSentinel;
+    }
+
+    var record = tryCatch(method, delegate.iterator, context.arg);
+
+    if (record.type === "throw") {
+      context.method = "throw";
+      context.arg = record.arg;
+      context.delegate = null;
+      return ContinueSentinel;
+    }
+
+    var info = record.arg;
+
+    if (! info) {
+      context.method = "throw";
+      context.arg = new TypeError("iterator result is not an object");
+      context.delegate = null;
+      return ContinueSentinel;
+    }
+
+    if (info.done) {
+      // Assign the result of the finished delegate to the temporary
+      // variable specified by delegate.resultName (see delegateYield).
+      context[delegate.resultName] = info.value;
+
+      // Resume execution at the desired location (see delegateYield).
+      context.next = delegate.nextLoc;
+
+      // If context.method was "throw" but the delegate handled the
+      // exception, let the outer generator proceed normally. If
+      // context.method was "next", forget context.arg since it has been
+      // "consumed" by the delegate iterator. If context.method was
+      // "return", allow the original .return call to continue in the
+      // outer generator.
+      if (context.method !== "return") {
+        context.method = "next";
+        context.arg = undefined;
+      }
+
+    } else {
+      // Re-yield the result returned by the delegate method.
+      return info;
+    }
+
+    // The delegate iterator is finished, so forget it and continue with
+    // the outer generator.
+    context.delegate = null;
+    return ContinueSentinel;
+  }
+
+  // Define Generator.prototype.{next,throw,return} in terms of the
+  // unified ._invoke helper method.
+  defineIteratorMethods(Gp);
+
+  define(Gp, toStringTagSymbol, "Generator");
+
+  // A Generator should always return itself as the iterator object when the
+  // @@iterator function is called on it. Some browsers' implementations of the
+  // iterator prototype chain incorrectly implement this, causing the Generator
+  // object to not be returned from this call. This ensures that doesn't happen.
+  // See https://github.com/facebook/regenerator/issues/274 for more details.
+  Gp[iteratorSymbol] = function() {
+    return this;
+  };
+
+  Gp.toString = function() {
+    return "[object Generator]";
+  };
+
+  function pushTryEntry(locs) {
+    var entry = { tryLoc: locs[0] };
+
+    if (1 in locs) {
+      entry.catchLoc = locs[1];
+    }
+
+    if (2 in locs) {
+      entry.finallyLoc = locs[2];
+      entry.afterLoc = locs[3];
+    }
+
+    this.tryEntries.push(entry);
+  }
+
+  function resetTryEntry(entry) {
+    var record = entry.completion || {};
+    record.type = "normal";
+    delete record.arg;
+    entry.completion = record;
+  }
+
+  function Context(tryLocsList) {
+    // The root entry object (effectively a try statement without a catch
+    // or a finally block) gives us a place to store values thrown from
+    // locations where there is no enclosing try statement.
+    this.tryEntries = [{ tryLoc: "root" }];
+    tryLocsList.forEach(pushTryEntry, this);
+    this.reset(true);
+  }
+
+  exports.keys = function(object) {
+    var keys = [];
+    for (var key in object) {
+      keys.push(key);
+    }
+    keys.reverse();
+
+    // Rather than returning an object with a next method, we keep
+    // things simple and return the next function itself.
+    return function next() {
+      while (keys.length) {
+        var key = keys.pop();
+        if (key in object) {
+          next.value = key;
+          next.done = false;
+          return next;
+        }
+      }
+
+      // To avoid creating an additional object, we just hang the .value
+      // and .done properties off the next function object itself. This
+      // also ensures that the minifier will not anonymize the function.
+      next.done = true;
+      return next;
+    };
+  };
+
+  function values(iterable) {
+    if (iterable) {
+      var iteratorMethod = iterable[iteratorSymbol];
+      if (iteratorMethod) {
+        return iteratorMethod.call(iterable);
+      }
+
+      if (typeof iterable.next === "function") {
+        return iterable;
+      }
+
+      if (!isNaN(iterable.length)) {
+        var i = -1, next = function next() {
+          while (++i < iterable.length) {
+            if (hasOwn.call(iterable, i)) {
+              next.value = iterable[i];
+              next.done = false;
+              return next;
+            }
+          }
+
+          next.value = undefined;
+          next.done = true;
+
+          return next;
+        };
+
+        return next.next = next;
+      }
+    }
+
+    // Return an iterator with no values.
+    return { next: doneResult };
+  }
+  exports.values = values;
+
+  function doneResult() {
+    return { value: undefined, done: true };
+  }
+
+  Context.prototype = {
+    constructor: Context,
+
+    reset: function(skipTempReset) {
+      this.prev = 0;
+      this.next = 0;
+      // Resetting context._sent for legacy support of Babel's
+      // function.sent implementation.
+      this.sent = this._sent = undefined;
+      this.done = false;
+      this.delegate = null;
+
+      this.method = "next";
+      this.arg = undefined;
+
+      this.tryEntries.forEach(resetTryEntry);
+
+      if (!skipTempReset) {
+        for (var name in this) {
+          // Not sure about the optimal order of these conditions:
+          if (name.charAt(0) === "t" &&
+              hasOwn.call(this, name) &&
+              !isNaN(+name.slice(1))) {
+            this[name] = undefined;
+          }
+        }
+      }
+    },
+
+    stop: function() {
+      this.done = true;
+
+      var rootEntry = this.tryEntries[0];
+      var rootRecord = rootEntry.completion;
+      if (rootRecord.type === "throw") {
+        throw rootRecord.arg;
+      }
+
+      return this.rval;
+    },
+
+    dispatchException: function(exception) {
+      if (this.done) {
+        throw exception;
+      }
+
+      var context = this;
+      function handle(loc, caught) {
+        record.type = "throw";
+        record.arg = exception;
+        context.next = loc;
+
+        if (caught) {
+          // If the dispatched exception was caught by a catch block,
+          // then let that catch block handle the exception normally.
+          context.method = "next";
+          context.arg = undefined;
+        }
+
+        return !! caught;
+      }
+
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        var record = entry.completion;
+
+        if (entry.tryLoc === "root") {
+          // Exception thrown outside of any try block that could handle
+          // it, so set the completion value of the entire function to
+          // throw the exception.
+          return handle("end");
+        }
+
+        if (entry.tryLoc <= this.prev) {
+          var hasCatch = hasOwn.call(entry, "catchLoc");
+          var hasFinally = hasOwn.call(entry, "finallyLoc");
+
+          if (hasCatch && hasFinally) {
+            if (this.prev < entry.catchLoc) {
+              return handle(entry.catchLoc, true);
+            } else if (this.prev < entry.finallyLoc) {
+              return handle(entry.finallyLoc);
+            }
+
+          } else if (hasCatch) {
+            if (this.prev < entry.catchLoc) {
+              return handle(entry.catchLoc, true);
+            }
+
+          } else if (hasFinally) {
+            if (this.prev < entry.finallyLoc) {
+              return handle(entry.finallyLoc);
+            }
+
+          } else {
+            throw new Error("try statement without catch or finally");
+          }
+        }
+      }
+    },
+
+    abrupt: function(type, arg) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc <= this.prev &&
+            hasOwn.call(entry, "finallyLoc") &&
+            this.prev < entry.finallyLoc) {
+          var finallyEntry = entry;
+          break;
+        }
+      }
+
+      if (finallyEntry &&
+          (type === "break" ||
+           type === "continue") &&
+          finallyEntry.tryLoc <= arg &&
+          arg <= finallyEntry.finallyLoc) {
+        // Ignore the finally entry if control is not jumping to a
+        // location outside the try/catch block.
+        finallyEntry = null;
+      }
+
+      var record = finallyEntry ? finallyEntry.completion : {};
+      record.type = type;
+      record.arg = arg;
+
+      if (finallyEntry) {
+        this.method = "next";
+        this.next = finallyEntry.finallyLoc;
+        return ContinueSentinel;
+      }
+
+      return this.complete(record);
+    },
+
+    complete: function(record, afterLoc) {
+      if (record.type === "throw") {
+        throw record.arg;
+      }
+
+      if (record.type === "break" ||
+          record.type === "continue") {
+        this.next = record.arg;
+      } else if (record.type === "return") {
+        this.rval = this.arg = record.arg;
+        this.method = "return";
+        this.next = "end";
+      } else if (record.type === "normal" && afterLoc) {
+        this.next = afterLoc;
+      }
+
+      return ContinueSentinel;
+    },
+
+    finish: function(finallyLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.finallyLoc === finallyLoc) {
+          this.complete(entry.completion, entry.afterLoc);
+          resetTryEntry(entry);
+          return ContinueSentinel;
+        }
+      }
+    },
+
+    "catch": function(tryLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc === tryLoc) {
+          var record = entry.completion;
+          if (record.type === "throw") {
+            var thrown = record.arg;
+            resetTryEntry(entry);
+          }
+          return thrown;
+        }
+      }
+
+      // The context.catch method must only be called with a location
+      // argument that corresponds to a known catch block.
+      throw new Error("illegal catch attempt");
+    },
+
+    delegateYield: function(iterable, resultName, nextLoc) {
+      this.delegate = {
+        iterator: values(iterable),
+        resultName: resultName,
+        nextLoc: nextLoc
+      };
+
+      if (this.method === "next") {
+        // Deliberately forget the last sent value so that we don't
+        // accidentally pass it on to the delegate.
+        this.arg = undefined;
+      }
+
+      return ContinueSentinel;
+    }
+  };
+
+  // Regardless of whether this script is executing as a CommonJS module
+  // or not, return the runtime object so that we can declare the variable
+  // regeneratorRuntime in the outer scope, which allows this module to be
+  // injected easily by `bin/regenerator --include-runtime script.js`.
+  return exports;
+
+}(
+  // If this script is executing as a CommonJS module, use module.exports
+  // as the regeneratorRuntime namespace. Otherwise create a new empty
+  // object. Either way, the resulting object will be used to initialize
+  // the regeneratorRuntime variable at the top of this file.
+   true ? module.exports : 0
+));
+
+try {
+  regeneratorRuntime = runtime;
+} catch (accidentalStrictMode) {
+  // This module should not be running in strict mode, so the above
+  // assignment should always work unless something is misconfigured. Just
+  // in case runtime.js accidentally runs in strict mode, we can escape
+  // strict mode using a global Function call. This could conceivably fail
+  // if a Content Security Policy forbids using Function, but in that case
+  // the proper solution is to fix the accidental strict mode problem. If
+  // you've misconfigured your bundler to force strict mode and applied a
+  // CSP to forbid Function, and you're not willing to fix either of those
+  // problems, please detail your unique predicament in a GitHub issue.
+  Function("r", "regeneratorRuntime = r")(runtime);
 }
 
 

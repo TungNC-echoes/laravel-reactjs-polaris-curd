@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\UserRequest;
+use App\Http\Requests\UserCreateRequest;
+use App\Http\Requests\UserUpdateRequest;
 use App\Models\User;
 
 class UserController extends Controller
@@ -12,15 +13,15 @@ class UserController extends Controller
      */
     public function index()
     {
-        $Users = User::paginate(1);
+        $Users = User::paginate(10);
         return response()->json($Users);
     }
 
     /**
-     * @param UserRequest $request
+     * @param UserCreateRequest $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function store(UserRequest $request)
+    public function store(UserCreateRequest $request)
     {
         $input = $request->all();
         $user = User::create($input);
@@ -29,22 +30,22 @@ class UserController extends Controller
     }
 
     /**
-     * @param User $user
-     * @return User
-     *
+     * @param $id
+     * @return mixed
      */
-    public function show(User $user)
+    public function show($id)
     {
-        return $user;
+        return User::findOrFail($id);;
     }
 
     /**
-     * @param UserRequest $request
+     * @param UserUpdateRequest $request
      * @param User $user
      * @return \Illuminate\Http\JsonResponse
      */
-    public function update(UserRequest $request, User $user)
+    public function update(UserUpdateRequest $request, User $user)
     {
+        var_dump($request);
         $user->full_name = $request->full_name();
         $user->address = $request->address();
         $user->phone_number = $request->phone_number();
@@ -67,6 +68,5 @@ class UserController extends Controller
         return response()->json([
             'message' => 'User deleted'
         ]);
-
     }
 }

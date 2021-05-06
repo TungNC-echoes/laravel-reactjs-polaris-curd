@@ -13,47 +13,57 @@ export default class CreateUser extends Component {
         super(props)
 
         // Setting up functions
-        this.onChangeUsersName = this.onChangeUsersName.bind(this);
-        this.onChangeUsersAmount = this.onChangeUsersAmount.bind(this);
-        this.onChangeUsersDescription = this.onChangeUsersDescription.bind(this);
+        this.onChangeUserFullName = this.onChangeUserFullName.bind(this);
+        this.onChangeUserAddress = this.onChangeUserAddress.bind(this);
+        this.onChangeUserPhoneNumber = this.onChangeUserPhoneNumber.bind(this);
+        this.onChangeUserEmail = this.onChangeUserEmail.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
 
         // Setting up state
         this.state = {
-            name: '',
-            description: '',
-            amount: ''
+            full_name: '',
+            address: '',
+            phone_number: '',
+            email: ''
         }
     }
 
-    onChangeUsersName(e) {
-        this.setState({name: e.target.value})
+    onChangeUserFullName(e) {
+        this.setState({full_name: e.target.value})
     }
 
-    onChangeUsersAmount(e) {
-        this.setState({amount: e.target.value})
+    onChangeUserAddress(e) {
+        this.setState({address: e.target.value})
     }
 
-    onChangeUsersDescription(e) {
-        this.setState({description: e.target.value})
+    onChangeUserPhoneNumber(e) {
+        this.setState({phone_number: e.target.value})
     }
 
-    onSubmit(e) {
+    onChangeUserEmail(e) {
+        this.setState({email: e.target.value})
+    }
+
+    async onSubmit(e) {
         e.preventDefault()
         const user = {
-            name: this.state.name,
-            amount: this.state.amount,
-            description: this.state.description
+            full_name: this.state.full_name,
+            address: this.state.address,
+            phone_number: this.state.phone_number,
+            email: this.state.email
         };
-        axios.post('http://localhost:8000/api/users/', user)
-            .then(res => console.log(res.data));
-        Swal.fire(
-            'Good job!',
-            'User Added Successfully',
-            'success'
-        )
-
-        this.setState({name: '', amount: '', description: ''})
+        const res = await axios.post('http://localhost:8000/api/users/', user);
+        debugger
+        if (res.status === 200) {
+            Swal.fire(
+                'Amazing, Good job!',
+                'User Added Successfully',
+                'success'
+            )
+            this.props.history.push('/users-listing?page=1')
+        } else {
+            console.log(res)
+        }
     }
 
     render() {
@@ -61,38 +71,48 @@ export default class CreateUser extends Component {
             <Form onSubmit={this.onSubmit}>
                 <Row>
                     <Col>
-                        <Form.Group controlId="Name">
-                            <Form.Label>Name</Form.Label>
-                            <Form.Control type="text" value={this.state.name} onChange={this.onChangeUsersName}/>
+                        <Form.Group controlId="name">
+                            <Form.Label>Full Name</Form.Label>
+                            <Form.Control type="text" value={this.state.full_name}
+                                          onChange={this.onChangeUserFullName}/>
                         </Form.Group>
 
                     </Col>
 
                     <Col>
-                        <Form.Group controlId="Amount">
-                            <Form.Label>Amount</Form.Label>
-                            <Form.Control type="number" value={this.state.amount}
-                                          onChange={this.onChangeUsersAmount}/>
+                        <Form.Group controlId="address">
+                            <Form.Label>Address</Form.Label>
+                            <Form.Control type="textarea" value={this.state.address}
+                                          onChange={this.onChangeUserAddress}/>
+                        </Form.Group>
+                    </Col>
+
+                </Row>
+                <Row>
+                    <Col>
+                        <Form.Group controlId="phone">
+                            <Form.Label>Phone Number</Form.Label>
+                            <Form.Control type="text" value={this.state.phone_number}
+                                          onChange={this.onChangeUserPhoneNumber}/>
+                        </Form.Group>
+
+                    </Col>
+                    <Col>
+                        <Form.Group controlId="email">
+                            <Form.Label>Email</Form.Label>
+                            <Form.Control type="text" value={this.state.email}
+                                          onChange={this.onChangeUserEmail}/>
                         </Form.Group>
                     </Col>
 
                 </Row>
 
 
-                <Form.Group controlId="description">
-                    <Form.Label>Description</Form.Label>
-                    <Form.Control as="textarea" type="textarea" value={this.state.description}
-                                  onChange={this.onChangeUsersDescription}/>
-                </Form.Group>
-
                 <Button variant="primary" size="lg" block="block" type="submit">
                     Add Users
                 </Button>
             </Form>
             <br></br>
-            <br></br>
-
-            <UsersList> </UsersList>
         </div>);
     }
 }
