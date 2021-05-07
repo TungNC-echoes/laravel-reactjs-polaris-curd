@@ -3474,6 +3474,131 @@ var styles = {
 
 /***/ }),
 
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/AppProvider/AppProvider.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/AppProvider/AppProvider.js ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AppProvider": () => (/* binding */ AppProvider)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var focus_visible_dist_focus_visible__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! focus-visible/dist/focus-visible */ "./node_modules/focus-visible/dist/focus-visible.js");
+/* harmony import */ var focus_visible_dist_focus_visible__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(focus_visible_dist_focus_visible__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ThemeProvider_ThemeProvider_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../ThemeProvider/ThemeProvider.js */ "./node_modules/@shopify/polaris/dist/esm/components/ThemeProvider/ThemeProvider.js");
+/* harmony import */ var _MediaQueryProvider_MediaQueryProvider_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../MediaQueryProvider/MediaQueryProvider.js */ "./node_modules/@shopify/polaris/dist/esm/components/MediaQueryProvider/MediaQueryProvider.js");
+/* harmony import */ var _utilities_unique_id_context_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../utilities/unique-id/context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/context.js");
+/* harmony import */ var _utilities_unique_id_unique_id_factory_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utilities/unique-id/unique-id-factory.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/unique-id-factory.js");
+/* harmony import */ var _FocusManager_FocusManager_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../FocusManager/FocusManager.js */ "./node_modules/@shopify/polaris/dist/esm/components/FocusManager/FocusManager.js");
+/* harmony import */ var _PortalsManager_PortalsManager_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../PortalsManager/PortalsManager.js */ "./node_modules/@shopify/polaris/dist/esm/components/PortalsManager/PortalsManager.js");
+/* harmony import */ var _utilities_i18n_context_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../utilities/i18n/context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/i18n/context.js");
+/* harmony import */ var _utilities_i18n_I18n_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../utilities/i18n/I18n.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/i18n/I18n.js");
+/* harmony import */ var _utilities_scroll_lock_manager_context_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../utilities/scroll-lock-manager/context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/scroll-lock-manager/context.js");
+/* harmony import */ var _utilities_scroll_lock_manager_scroll_lock_manager_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utilities/scroll-lock-manager/scroll-lock-manager.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/scroll-lock-manager/scroll-lock-manager.js");
+/* harmony import */ var _utilities_sticky_manager_context_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../utilities/sticky-manager/context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/sticky-manager/context.js");
+/* harmony import */ var _utilities_sticky_manager_sticky_manager_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utilities/sticky-manager/sticky-manager.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/sticky-manager/sticky-manager.js");
+/* harmony import */ var _utilities_link_context_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../utilities/link/context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/link/context.js");
+/* harmony import */ var _utilities_features_context_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../utilities/features/context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/features/context.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class AppProvider extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
+  constructor(props) {
+    super(props);
+    this.stickyManager = void 0;
+    this.scrollLockManager = void 0;
+    this.uniqueIdFactory = void 0;
+    this.stickyManager = new _utilities_sticky_manager_sticky_manager_js__WEBPACK_IMPORTED_MODULE_2__.StickyManager();
+    this.scrollLockManager = new _utilities_scroll_lock_manager_scroll_lock_manager_js__WEBPACK_IMPORTED_MODULE_3__.ScrollLockManager();
+    this.uniqueIdFactory = new _utilities_unique_id_unique_id_factory_js__WEBPACK_IMPORTED_MODULE_4__.UniqueIdFactory(_utilities_unique_id_unique_id_factory_js__WEBPACK_IMPORTED_MODULE_4__.globalIdGeneratorFactory);
+    const {
+      i18n,
+      linkComponent
+    } = this.props; // eslint-disable-next-line react/state-in-constructor
+
+    this.state = {
+      link: linkComponent,
+      intl: new _utilities_i18n_I18n_js__WEBPACK_IMPORTED_MODULE_5__.I18n(i18n)
+    };
+  }
+
+  componentDidMount() {
+    if (document != null) {
+      this.stickyManager.setContainer(document);
+    }
+  }
+
+  componentDidUpdate({
+    i18n: prevI18n,
+    linkComponent: prevLinkComponent
+  }) {
+    const {
+      i18n,
+      linkComponent
+    } = this.props;
+
+    if (i18n === prevI18n && linkComponent === prevLinkComponent) {
+      return;
+    } // eslint-disable-next-line react/no-did-update-set-state
+
+
+    this.setState({
+      link: linkComponent,
+      intl: new _utilities_i18n_I18n_js__WEBPACK_IMPORTED_MODULE_5__.I18n(i18n)
+    });
+  }
+
+  render() {
+    const {
+      theme = {},
+      children
+    } = this.props;
+    const {
+      intl,
+      link
+    } = this.state;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_features_context_js__WEBPACK_IMPORTED_MODULE_6__.FeaturesContext.Provider, {
+      value: this.props.features || {}
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_i18n_context_js__WEBPACK_IMPORTED_MODULE_7__.I18nContext.Provider, {
+      value: intl
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_scroll_lock_manager_context_js__WEBPACK_IMPORTED_MODULE_8__.ScrollLockManagerContext.Provider, {
+      value: this.scrollLockManager
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_sticky_manager_context_js__WEBPACK_IMPORTED_MODULE_9__.StickyManagerContext.Provider, {
+      value: this.stickyManager
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_unique_id_context_js__WEBPACK_IMPORTED_MODULE_10__.UniqueIdFactoryContext.Provider, {
+      value: this.uniqueIdFactory
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_link_context_js__WEBPACK_IMPORTED_MODULE_11__.LinkContext.Provider, {
+      value: link
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ThemeProvider_ThemeProvider_js__WEBPACK_IMPORTED_MODULE_12__.ThemeProvider, {
+      theme: theme
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_MediaQueryProvider_MediaQueryProvider_js__WEBPACK_IMPORTED_MODULE_13__.MediaQueryProvider, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_PortalsManager_PortalsManager_js__WEBPACK_IMPORTED_MODULE_14__.PortalsManager, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_FocusManager_FocusManager_js__WEBPACK_IMPORTED_MODULE_15__.FocusManager, null, children))))))))));
+  }
+
+}
+
+
+
+
+/***/ }),
+
 /***/ "./node_modules/@shopify/polaris/dist/esm/components/Badge/Badge.js":
 /*!**************************************************************************!*\
   !*** ./node_modules/@shopify/polaris/dist/esm/components/Badge/Badge.js ***!
@@ -3711,122 +3836,6 @@ var styles = {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
-
-
-/***/ }),
-
-/***/ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.js":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.js ***!
-  \**************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ButtonGroup": () => (/* binding */ ButtonGroup)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
-/* harmony import */ var _utilities_components_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utilities/components.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/components.js");
-/* harmony import */ var _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ButtonGroup.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.scss.js");
-/* harmony import */ var _components_Item_Item_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Item/Item.js */ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/components/Item/Item.js");
-
-
-
-
-
-
-function ButtonGroup({
-  children,
-  spacing,
-  segmented,
-  fullWidth,
-  connectedTop
-}) {
-  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_1__.classNames)(_ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.ButtonGroup, spacing && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__.default[spacing], segmented && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.segmented, fullWidth && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.fullWidth);
-  const contents = (0,_utilities_components_js__WEBPACK_IMPORTED_MODULE_3__.elementChildren)(children).map((child, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Item_Item_js__WEBPACK_IMPORTED_MODULE_4__.Item, {
-    button: child,
-    key: index
-  }));
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: className,
-    "data-buttongroup-segmented": segmented,
-    "data-buttongroup-connected-top": connectedTop,
-    "data-buttongroup-full-width": fullWidth
-  }, contents);
-}
-
-
-
-
-/***/ }),
-
-/***/ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.scss.js":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.scss.js ***!
-  \*******************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-var styles = {
-  "ButtonGroup": "Polaris-ButtonGroup",
-  "Item": "Polaris-ButtonGroup__Item",
-  "Item-plain": "Polaris-ButtonGroup__Item--plain",
-  "segmented": "Polaris-ButtonGroup--segmented",
-  "Item-focused": "Polaris-ButtonGroup__Item--focused",
-  "fullWidth": "Polaris-ButtonGroup--fullWidth",
-  "extraTight": "Polaris-ButtonGroup--extraTight",
-  "tight": "Polaris-ButtonGroup--tight",
-  "loose": "Polaris-ButtonGroup--loose"
-};
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
-
-
-/***/ }),
-
-/***/ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/components/Item/Item.js":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/components/Item/Item.js ***!
-  \***********************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Item": () => (/* binding */ Item)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
-/* harmony import */ var _utilities_use_toggle_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../utilities/use-toggle.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/use-toggle.js");
-/* harmony import */ var _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../ButtonGroup.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.scss.js");
-
-
-
-
-
-function Item({
-  button
-}) {
-  const {
-    value: focused,
-    setTrue: forceTrueFocused,
-    setFalse: forceFalseFocused
-  } = (0,_utilities_use_toggle_js__WEBPACK_IMPORTED_MODULE_1__.useToggle)(false);
-  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_2__.classNames)(_ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Item, focused && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["Item-focused"], button.props.plain && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["Item-plain"]);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: className,
-    onFocus: forceTrueFocused,
-    onBlur: forceFalseFocused
-  }, button);
-}
-
-
 
 
 /***/ }),
@@ -4112,6 +4121,122 @@ function buttonFrom(_ref, overrides, key) {
 
 /***/ }),
 
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.js ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ButtonGroup": () => (/* binding */ ButtonGroup)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _utilities_components_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utilities/components.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/components.js");
+/* harmony import */ var _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ButtonGroup.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.scss.js");
+/* harmony import */ var _components_Item_Item_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Item/Item.js */ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/components/Item/Item.js");
+
+
+
+
+
+
+function ButtonGroup({
+  children,
+  spacing,
+  segmented,
+  fullWidth,
+  connectedTop
+}) {
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_1__.classNames)(_ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.ButtonGroup, spacing && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__.default[spacing], segmented && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.segmented, fullWidth && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_2__.default.fullWidth);
+  const contents = (0,_utilities_components_js__WEBPACK_IMPORTED_MODULE_3__.elementChildren)(children).map((child, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Item_Item_js__WEBPACK_IMPORTED_MODULE_4__.Item, {
+    button: child,
+    key: index
+  }));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: className,
+    "data-buttongroup-segmented": segmented,
+    "data-buttongroup-connected-top": connectedTop,
+    "data-buttongroup-full-width": fullWidth
+  }, contents);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.scss.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.scss.js ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var styles = {
+  "ButtonGroup": "Polaris-ButtonGroup",
+  "Item": "Polaris-ButtonGroup__Item",
+  "Item-plain": "Polaris-ButtonGroup__Item--plain",
+  "segmented": "Polaris-ButtonGroup--segmented",
+  "Item-focused": "Polaris-ButtonGroup__Item--focused",
+  "fullWidth": "Polaris-ButtonGroup--fullWidth",
+  "extraTight": "Polaris-ButtonGroup--extraTight",
+  "tight": "Polaris-ButtonGroup--tight",
+  "loose": "Polaris-ButtonGroup--loose"
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (styles);
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/components/Item/Item.js":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/components/Item/Item.js ***!
+  \***********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Item": () => (/* binding */ Item)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_css_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../utilities/css.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/css.js");
+/* harmony import */ var _utilities_use_toggle_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../utilities/use-toggle.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/use-toggle.js");
+/* harmony import */ var _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../ButtonGroup.scss.js */ "./node_modules/@shopify/polaris/dist/esm/components/ButtonGroup/ButtonGroup.scss.js");
+
+
+
+
+
+function Item({
+  button
+}) {
+  const {
+    value: focused,
+    setTrue: forceTrueFocused,
+    setFalse: forceFalseFocused
+  } = (0,_utilities_use_toggle_js__WEBPACK_IMPORTED_MODULE_1__.useToggle)(false);
+  const className = (0,_utilities_css_js__WEBPACK_IMPORTED_MODULE_2__.classNames)(_ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_3__.default.Item, focused && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["Item-focused"], button.props.plain && _ButtonGroup_scss_js__WEBPACK_IMPORTED_MODULE_3__.default["Item-plain"]);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: className,
+    onFocus: forceTrueFocused,
+    onBlur: forceFalseFocused
+  }, button);
+}
+
+
+
+
+/***/ }),
+
 /***/ "./node_modules/@shopify/polaris/dist/esm/components/EventListener/EventListener.js":
 /*!******************************************************************************************!*\
   !*** ./node_modules/@shopify/polaris/dist/esm/components/EventListener/EventListener.js ***!
@@ -4171,6 +4296,60 @@ class EventListener extends react__WEBPACK_IMPORTED_MODULE_0__.PureComponent {
     window.removeEventListener(event, handler, capture);
   }
 
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/FocusManager/FocusManager.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/FocusManager/FocusManager.js ***!
+  \****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "FocusManager": () => (/* binding */ FocusManager)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_focus_manager_context_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/focus-manager/context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/focus-manager/context.js");
+
+
+
+function FocusManager({
+  children
+}) {
+  const [trapFocusList, setTrapFocusList] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
+  const add = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(id => {
+    setTrapFocusList(list => [...list, id]);
+  }, []);
+  const remove = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(id => {
+    let removed = true;
+    setTrapFocusList(list => {
+      const clone = [...list];
+      const index = clone.indexOf(id);
+
+      if (index === -1) {
+        removed = false;
+      } else {
+        clone.splice(index, 1);
+      }
+
+      return clone;
+    });
+    return removed;
+  }, []);
+  const value = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => ({
+    trapFocusList,
+    add,
+    remove
+  }), [add, trapFocusList, remove]);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_focus_manager_context_js__WEBPACK_IMPORTED_MODULE_1__.FocusManagerContext.Provider, {
+    value: value
+  }, children);
 }
 
 
@@ -4318,6 +4497,61 @@ function KeypressListener({
   });
   return null;
 }
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/MediaQueryProvider/MediaQueryProvider.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/MediaQueryProvider/MediaQueryProvider.js ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "MediaQueryProvider": () => (/* binding */ MediaQueryProvider)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/debounce */ "./node_modules/lodash/debounce.js");
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _utilities_media_query_context_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utilities/media-query/context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/media-query/context.js");
+/* harmony import */ var _utilities_breakpoints_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utilities/breakpoints.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/breakpoints.js");
+/* harmony import */ var _EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../EventListener/EventListener.js */ "./node_modules/@shopify/polaris/dist/esm/components/EventListener/EventListener.js");
+
+
+
+
+
+
+const MediaQueryProvider = function MediaQueryProvider({
+  children
+}) {
+  const [isNavigationCollapsed, setIsNavigationCollapsed] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)((0,_utilities_breakpoints_js__WEBPACK_IMPORTED_MODULE_2__.navigationBarCollapsed)().matches); // eslint-disable-next-line react-hooks/exhaustive-deps
+
+  const handleResize = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(lodash_debounce__WEBPACK_IMPORTED_MODULE_1___default()(() => {
+    if (isNavigationCollapsed !== (0,_utilities_breakpoints_js__WEBPACK_IMPORTED_MODULE_2__.navigationBarCollapsed)().matches) {
+      setIsNavigationCollapsed(!isNavigationCollapsed);
+    }
+  }, 40, {
+    trailing: true,
+    leading: true,
+    maxWait: 40
+  }), [isNavigationCollapsed]);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    setIsNavigationCollapsed((0,_utilities_breakpoints_js__WEBPACK_IMPORTED_MODULE_2__.navigationBarCollapsed)().matches);
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_media_query_context_js__WEBPACK_IMPORTED_MODULE_3__.MediaQueryContext.Provider, {
+    value: {
+      isNavigationCollapsed
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_4__.EventListener, {
+    event: "resize",
+    handler: handleResize
+  }), children);
+};
 
 
 
@@ -5548,6 +5782,73 @@ function Portal({
 }
 
 function noop() {}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/PortalsManager/PortalsManager.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/PortalsManager/PortalsManager.js ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PortalsManager": () => (/* binding */ PortalsManager)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utilities_portals_context_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utilities/portals/context.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/portals/context.js");
+/* harmony import */ var _components_PortalsContainer_PortalsContainer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/PortalsContainer/PortalsContainer.js */ "./node_modules/@shopify/polaris/dist/esm/components/PortalsManager/components/PortalsContainer/PortalsContainer.js");
+
+
+
+
+function PortalsManager({
+  children,
+  container
+}) {
+  const [portalContainerElement, setPortalContainerElement] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null);
+  const currentContainer = container != null ? container : portalContainerElement;
+  const contextValue = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => ({
+    container: currentContainer
+  }), [currentContainer]);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_utilities_portals_context_js__WEBPACK_IMPORTED_MODULE_1__.PortalsManagerContext.Provider, {
+    value: contextValue
+  }, children, container ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_PortalsContainer_PortalsContainer_js__WEBPACK_IMPORTED_MODULE_2__.PortalsContainer, {
+    ref: setPortalContainerElement
+  }));
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/components/PortalsManager/components/PortalsContainer/PortalsContainer.js":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/components/PortalsManager/components/PortalsContainer/PortalsContainer.js ***!
+  \**************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PortalsContainer": () => (/* binding */ PortalsContainer)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+function PortalsContainerComponent(_props, ref) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "PolarisPortalsContainer",
+    ref: ref
+  });
+}
+
+const PortalsContainer = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(PortalsContainerComponent);
 
 
 
@@ -7298,6 +7599,48 @@ class MissingAppProviderError extends Error {
 
 /***/ }),
 
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/features/context.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/features/context.js ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "FeaturesContext": () => (/* binding */ FeaturesContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+const FeaturesContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(undefined);
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/focus-manager/context.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/focus-manager/context.js ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "FocusManagerContext": () => (/* binding */ FocusManagerContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+const FocusManagerContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(undefined);
+
+
+
+
+/***/ }),
+
 /***/ "./node_modules/@shopify/polaris/dist/esm/utilities/focus.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/@shopify/polaris/dist/esm/utilities/focus.js ***!
@@ -7479,6 +7822,114 @@ function getRectForNode(node) {
     width: rect.width,
     height: rect.height
   });
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/get.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/get.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "get": () => (/* binding */ get)
+/* harmony export */ });
+const OBJECT_NOTATION_MATCHER = /\[(.*?)\]|(\w+)/g;
+function get(obj, keypath, defaultValue) {
+  if (obj == null) return undefined;
+  const keys = Array.isArray(keypath) ? keypath : getKeypath(keypath);
+  let acc = obj; // eslint-disable-next-line @typescript-eslint/prefer-for-of
+
+  for (let i = 0; i < keys.length; i++) {
+    const val = acc[keys[i]];
+    if (val === undefined) return defaultValue;
+    acc = val;
+  }
+
+  return acc;
+}
+
+function getKeypath(str) {
+  const path = [];
+  let result;
+
+  while (result = OBJECT_NOTATION_MATCHER.exec(str)) {
+    const [, first, second] = result;
+    path.push(first || second);
+  }
+
+  return path;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/i18n/I18n.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/i18n/I18n.js ***!
+  \***********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "I18n": () => (/* binding */ I18n)
+/* harmony export */ });
+/* harmony import */ var _get_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../get.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/get.js");
+/* harmony import */ var _merge_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../merge.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/merge.js");
+
+
+
+const REPLACE_REGEX = /{([^}]*)}/g;
+class I18n {
+  /**
+   * @param translation A locale object or array of locale objects that overrides default translations. If specifying an array then your desired language dictionary should come first, followed by your fallback language dictionaries
+   */
+  constructor(translation) {
+    this.translation = {};
+    // slice the array to make a shallow copy of it, so we don't accidentally
+    // modify the original translation array
+    this.translation = Array.isArray(translation) ? (0,_merge_js__WEBPACK_IMPORTED_MODULE_0__.merge)(...translation.slice().reverse()) : translation;
+  }
+
+  translate(id, replacements) {
+    const text = (0,_get_js__WEBPACK_IMPORTED_MODULE_1__.get)(this.translation, id, '');
+
+    if (!text) {
+      return '';
+    }
+
+    if (replacements) {
+      return text.replace(REPLACE_REGEX, match => {
+        const replacement = match.substring(1, match.length - 1);
+
+        if (replacements[replacement] === undefined) {
+          const replacementData = JSON.stringify(replacements);
+          throw new Error(`Error in translation for key '${id}'. No replacement found for key '${replacement}'. The following replacements were passed: '${replacementData}'`);
+        } // This could be a string or a number, but JS doesn't mind which it gets
+        // and can handle that cast internally. So let it, to save us calling
+        // toString() on what's already a string in 90% of cases.
+
+
+        return replacements[replacement];
+      });
+    }
+
+    return text;
+  }
+
+  translationKeyExists(path) {
+    return Boolean((0,_get_js__WEBPACK_IMPORTED_MODULE_1__.get)(this.translation, path));
+  }
+
 }
 
 
@@ -7700,6 +8151,58 @@ function useMediaQuery() {
 
 /***/ }),
 
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/merge.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/merge.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "merge": () => (/* binding */ merge)
+/* harmony export */ });
+/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_virtual/_rollupPluginBabelHelpers.js */ "./node_modules/@shopify/polaris/dist/esm/_virtual/_rollupPluginBabelHelpers.js");
+
+
+// Unfortunately, this is how we have to type this at the moment.
+// There is currently a proposal to support variadic kinds.
+// https://github.com/Microsoft/TypeScript/issues/5453
+function merge(...objs) {
+  let final = {};
+
+  for (const obj of objs) {
+    final = mergeRecursively(final, obj);
+  }
+
+  return final;
+}
+
+function mergeRecursively(inputObjA, objB) {
+  const objA = Array.isArray(inputObjA) ? [...inputObjA] : (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_0__.objectSpread2)({}, inputObjA);
+
+  for (const key in objB) {
+    if (!Object.prototype.hasOwnProperty.call(objB, key)) {
+      continue;
+    } else if (isMergeableValue(objB[key]) && isMergeableValue(objA[key])) {
+      objA[key] = mergeRecursively(objA[key], objB[key]);
+    } else {
+      objA[key] = objB[key];
+    }
+  }
+
+  return objA;
+}
+
+function isMergeableValue(value) {
+  return value !== null && typeof value === 'object';
+}
+
+
+
+
+/***/ }),
+
 /***/ "./node_modules/@shopify/polaris/dist/esm/utilities/portals/context.js":
 /*!*****************************************************************************!*\
   !*** ./node_modules/@shopify/polaris/dist/esm/utilities/portals/context.js ***!
@@ -7745,6 +8248,104 @@ function usePortalsManager() {
   }
 
   return portalsManager;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/scroll-lock-manager/context.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/scroll-lock-manager/context.js ***!
+  \*****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ScrollLockManagerContext": () => (/* binding */ ScrollLockManagerContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+const ScrollLockManagerContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(undefined);
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/scroll-lock-manager/scroll-lock-manager.js":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/scroll-lock-manager/scroll-lock-manager.js ***!
+  \*****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "SCROLL_LOCKING_ATTRIBUTE": () => (/* binding */ SCROLL_LOCKING_ATTRIBUTE),
+/* harmony export */   "ScrollLockManager": () => (/* binding */ ScrollLockManager)
+/* harmony export */ });
+/* harmony import */ var _target_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../target.js */ "./node_modules/@shopify/polaris/dist/esm/utilities/target.js");
+
+
+const SCROLL_LOCKING_ATTRIBUTE = 'data-lock-scrolling';
+const SCROLL_LOCKING_WRAPPER_ATTRIBUTE = 'data-lock-scrolling-wrapper';
+let scrollPosition = 0;
+class ScrollLockManager {
+  constructor() {
+    this.scrollLocks = 0;
+    this.locked = false;
+  }
+
+  registerScrollLock() {
+    this.scrollLocks += 1;
+    this.handleScrollLocking();
+  }
+
+  unregisterScrollLock() {
+    this.scrollLocks -= 1;
+    this.handleScrollLocking();
+  }
+
+  handleScrollLocking() {
+    if (_target_js__WEBPACK_IMPORTED_MODULE_0__.isServer) return;
+    const {
+      scrollLocks
+    } = this;
+    const {
+      body
+    } = document;
+    const wrapper = body.firstElementChild;
+
+    if (scrollLocks === 0) {
+      body.removeAttribute(SCROLL_LOCKING_ATTRIBUTE);
+
+      if (wrapper) {
+        wrapper.removeAttribute(SCROLL_LOCKING_WRAPPER_ATTRIBUTE);
+      }
+
+      window.scroll(0, scrollPosition);
+      this.locked = false;
+    } else if (scrollLocks > 0 && !this.locked) {
+      scrollPosition = window.pageYOffset;
+      body.setAttribute(SCROLL_LOCKING_ATTRIBUTE, '');
+
+      if (wrapper) {
+        wrapper.setAttribute(SCROLL_LOCKING_WRAPPER_ATTRIBUTE, '');
+        wrapper.scrollTop = scrollPosition;
+      }
+
+      this.locked = true;
+    }
+  }
+
+  resetScrollPosition() {
+    scrollPosition = 0;
+  }
+
 }
 
 
@@ -8009,6 +8610,24 @@ function horizontallyOverlaps(rect1, rect2) {
 
 /***/ }),
 
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/target.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/target.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "isServer": () => (/* binding */ isServer)
+/* harmony export */ });
+const isServer = typeof window === 'undefined' || typeof document === 'undefined';
+
+
+
+
+/***/ }),
+
 /***/ "./node_modules/@shopify/polaris/dist/esm/utilities/theme/context.js":
 /*!***************************************************************************!*\
   !*** ./node_modules/@shopify/polaris/dist/esm/utilities/theme/context.js ***!
@@ -8265,6 +8884,44 @@ function useUniqueId(prefix = '', overrideId = '') {
 
 /***/ }),
 
+/***/ "./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/unique-id-factory.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/esm/utilities/unique-id/unique-id-factory.js ***!
+  \*****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "UniqueIdFactory": () => (/* binding */ UniqueIdFactory),
+/* harmony export */   "globalIdGeneratorFactory": () => (/* binding */ globalIdGeneratorFactory)
+/* harmony export */ });
+class UniqueIdFactory {
+  constructor(idGeneratorFactory) {
+    this.idGeneratorFactory = void 0;
+    this.idGenerators = {};
+    this.idGeneratorFactory = idGeneratorFactory;
+  }
+
+  nextId(prefix) {
+    if (!this.idGenerators[prefix]) {
+      this.idGenerators[prefix] = this.idGeneratorFactory(prefix);
+    }
+
+    return this.idGenerators[prefix]();
+  }
+
+}
+function globalIdGeneratorFactory(prefix = '') {
+  let index = 1;
+  return () => `Polaris${prefix}${index++}`;
+}
+
+
+
+
+/***/ }),
+
 /***/ "./node_modules/@shopify/polaris/dist/esm/utilities/use-is-after-initial-mount.js":
 /*!****************************************************************************************!*\
   !*** ./node_modules/@shopify/polaris/dist/esm/utilities/use-is-after-initial-mount.js ***!
@@ -8359,6 +9016,17 @@ const WithinFilterContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.c
 
 
 
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/locales/en.json":
+/*!*******************************************************!*\
+  !*** ./node_modules/@shopify/polaris/locales/en.json ***!
+  \*******************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"Polaris":{"Actions":{"moreActions":"More actions"},"Avatar":{"label":"Avatar","labelWithInitials":"Avatar with initials {initials}"},"Autocomplete":{"spinnerAccessibilityLabel":"Loading"},"Badge":{"PROGRESS_LABELS":{"incomplete":"Incomplete","partiallyComplete":"Partially complete","complete":"Complete"},"STATUS_LABELS":{"info":"Info","success":"Success","warning":"Warning","critical":"Critical","attention":"Attention","new":"New"},"progressAndStatus":"{statusLabel} {progressLabel}"},"Button":{"spinnerAccessibilityLabel":"Loading","connectedDisclosureAccessibilityLabel":"Related actions"},"Common":{"checkbox":"checkbox","undo":"Undo","cancel":"Cancel","newWindowAccessibilityHint":"(opens a new window)","clear":"Clear","close":"Close","submit":"Submit","more":"More"},"ContextualSaveBar":{"save":"Save","discard":"Discard"},"DataTable":{"sortAccessibilityLabel":"sort {direction} by","navAccessibilityLabel":"Scroll table {direction} one column","totalsRowHeading":"Totals","totalRowHeading":"Total"},"DatePicker":{"previousMonth":"Show previous month, {previousMonthName} {showPreviousYear}","nextMonth":"Show next month, {nextMonth} {nextYear}","today":"Today ","start":"Start of range","end":"End of range","months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"days":{"monday":"Monday","tuesday":"Tuesday","wednesday":"Wednesday","thursday":"Thursday","friday":"Friday","saturday":"Saturday","sunday":"Sunday"},"daysAbbreviated":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"}},"DiscardConfirmationModal":{"title":"Discard all unsaved changes","message":"If you discard changes, you’ll delete any edits you made since you last saved.","primaryAction":"Discard changes","secondaryAction":"Continue editing"},"DropZone":{"single":{"overlayTextFile":"Drop file to upload","overlayTextImage":"Drop image to upload","actionTitleFile":"Add file","actionTitleImage":"Add image","actionHintFile":"or drop file to upload","actionHintImage":"or drop image to upload","labelFile":"Upload file","labelImage":"Upload image"},"allowMultiple":{"overlayTextFile":"Drop files to upload","overlayTextImage":"Drop images to upload","actionTitleFile":"Add files","actionTitleImage":"Add images","actionHintFile":"or drop files to upload","actionHintImage":"or drop images to upload","labelFile":"Upload files","labelImage":"Upload images"},"errorOverlayTextFile":"File type is not valid","errorOverlayTextImage":"Image type is not valid"},"EmptySearchResult":{"altText":"Empty search results"},"Frame":{"skipToContent":"Skip to content","navigationLabel":"Navigation","Navigation":{"closeMobileNavigationLabel":"Close navigation"}},"ActionMenu":{"RollupActions":{"rollupButton":"Actions"}},"Filters":{"moreFilters":"More filters","moreFiltersWithCount":"More filters ({count})","filter":"Filter {resourceName}","noFiltersApplied":"No filters applied","cancel":"Cancel","done":"Done","clearAllFilters":"Clear all filters","clear":"Clear","clearLabel":"Clear {filterName}"},"IndexProvider":{"defaultItemSingular":"Item","defaultItemPlural":"Items","allItemsSelected":"All {itemsLength}+ {resourceNamePlural} are selected.","selected":"{selectedItemsCount} selected","a11yCheckboxDeselectAllSingle":"Deselect {resourceNameSingular}","a11yCheckboxSelectAllSingle":"Select {resourceNameSingular}","a11yCheckboxDeselectAllMultiple":"Deselect all {itemsLength} {resourceNamePlural}","a11yCheckboxSelectAllMultiple":"Select all {itemsLength} {resourceNamePlural}"},"IndexTable":{"emptySearchTitle":"No {resourceNamePlural} found","emptySearchDescription":"Try changing the filters or search term","onboardingBadgeText":"New","resourceLoadingAccessibilityLabel":"Loading {resourceNamePlural}…","selectAllLabel":"Select all {resourceNamePlural}","selected":"{selectedItemsCount} selected","undo":"Undo","selectAllItems":"Select all {itemsLength}+ {resourceNamePlural}","selectItem":"Select {resourceName}","selectButtonText":"Select"},"Loading":{"label":"Page loading bar"},"Modal":{"iFrameTitle":"body markup","modalWarning":"These required properties are missing from Modal: {missingProps}"},"Pagination":{"previous":"Previous","next":"Next","pagination":"Pagination"},"ProgressBar":{"negativeWarningMessage":"Values passed to the progress prop shouldn’t be negative. Resetting {progress} to 0.","exceedWarningMessage":"Values passed to the progress prop shouldn’t exceed 100. Setting {progress} to 100."},"ResourceList":{"sortingLabel":"Sort by","defaultItemSingular":"item","defaultItemPlural":"items","showing":"Showing {itemsCount} {resource}","showingTotalCount":"Showing {itemsCount} of {totalItemsCount} {resource}","loading":"Loading {resource}","selected":"{selectedItemsCount} selected","allItemsSelected":"All {itemsLength}+ {resourceNamePlural} in your store are selected.","allFilteredItemsSelected":"All {itemsLength}+ {resourceNamePlural} in this filter are selected.","selectAllItems":"Select all {itemsLength}+ {resourceNamePlural} in your store","selectAllFilteredItems":"Select all {itemsLength}+ {resourceNamePlural} in this filter","emptySearchResultTitle":"No {resourceNamePlural} found","emptySearchResultDescription":"Try changing the filters or search term","selectButtonText":"Select","a11yCheckboxDeselectAllSingle":"Deselect {resourceNameSingular}","a11yCheckboxSelectAllSingle":"Select {resourceNameSingular}","a11yCheckboxDeselectAllMultiple":"Deselect all {itemsLength} {resourceNamePlural}","a11yCheckboxSelectAllMultiple":"Select all {itemsLength} {resourceNamePlural}","ariaLiveSingular":"{itemsLength} item","ariaLivePlural":"{itemsLength} items","Item":{"actionsDropdownLabel":"Actions for {accessibilityLabel}","actionsDropdown":"Actions dropdown","viewItem":"View details for {itemName}"},"BulkActions":{"actionsActivatorLabel":"Actions","moreActionsActivatorLabel":"More actions","warningMessage":"To provide a better user experience. There should only be a maximum of {maxPromotedActions} promoted actions."},"FilterCreator":{"filterButtonLabel":"Filter","selectFilterKeyPlaceholder":"Select a filter…","addFilterButtonLabel":"Add filter","showAllWhere":"Show all {resourceNamePlural} where:"},"FilterControl":{"textFieldLabel":"Search {resourceNamePlural}"},"FilterValueSelector":{"selectFilterValuePlaceholder":"Select a filter…"},"DateSelector":{"dateFilterLabel":"Select a value","dateValueLabel":"Date","dateValueError":"Match YYYY-MM-DD format","dateValuePlaceholder":"YYYY-MM-DD","SelectOptions":{"PastWeek":"in the last week","PastMonth":"in the last month","PastQuarter":"in the last 3 months","PastYear":"in the last year","ComingWeek":"next week","ComingMonth":"next month","ComingQuarter":"in the next 3 months","ComingYear":"in the next year","OnOrBefore":"on or before","OnOrAfter":"on or after"},"FilterLabelForValue":{"past_week":"in the last week","past_month":"in the last month","past_quarter":"in the last 3 months","past_year":"in the last year","coming_week":"next week","coming_month":"next month","coming_quarter":"in the next 3 months","coming_year":"in the next year","on_or_before":"before {date}","on_or_after":"after {date}"}}},"SkeletonPage":{"loadingLabel":"Page loading"},"Tabs":{"toggleTabsLabel":"More tabs"},"Tag":{"ariaLabel":"Remove {children}"},"TextField":{"characterCount":"{count} characters","characterCountWithMaxLength":"{count} of {limit} characters used"},"TooltipOverlay":{"accessibilityLabel":"Tooltip: {label}"},"TopBar":{"toggleMenuLabel":"Toggle menu","SearchField":{"clearButtonLabel":"Clear","search":"Search"}},"MediaCard":{"popoverButton":"Actions"},"VideoThumbnail":{"playButtonA11yLabel":{"default":"Play video","defaultWithDuration":"Play video of length {duration}","duration":{"hours":{"other":{"only":"{hourCount} hours","andMinutes":"{hourCount} hours and {minuteCount} minutes","andMinute":"{hourCount} hours and {minuteCount} minute","minutesAndSeconds":"{hourCount} hours, {minuteCount} minutes, and {secondCount} seconds","minutesAndSecond":"{hourCount} hours, {minuteCount} minutes, and {secondCount} second","minuteAndSeconds":"{hourCount} hours, {minuteCount} minute, and {secondCount} seconds","minuteAndSecond":"{hourCount} hours, {minuteCount} minute, and {secondCount} second","andSeconds":"{hourCount} hours and {secondCount} seconds","andSecond":"{hourCount} hours and {secondCount} second"},"one":{"only":"{hourCount} hour","andMinutes":"{hourCount} hour and {minuteCount} minutes","andMinute":"{hourCount} hour and {minuteCount} minute","minutesAndSeconds":"{hourCount} hour, {minuteCount} minutes, and {secondCount} seconds","minutesAndSecond":"{hourCount} hour, {minuteCount} minutes, and {secondCount} second","minuteAndSeconds":"{hourCount} hour, {minuteCount} minute, and {secondCount} seconds","minuteAndSecond":"{hourCount} hour, {minuteCount} minute, and {secondCount} second","andSeconds":"{hourCount} hour and {secondCount} seconds","andSecond":"{hourCount} hour and {secondCount} second"}},"minutes":{"other":{"only":"{minuteCount} minutes","andSeconds":"{minuteCount} minutes and {secondCount} seconds","andSecond":"{minuteCount} minutes and {secondCount} second"},"one":{"only":"{minuteCount} minute","andSeconds":"{minuteCount} minute and {secondCount} seconds","andSecond":"{minuteCount} minute and {secondCount} second"}},"seconds":{"other":"{secondCount} seconds","one":"{secondCount} second"}}}}}}');
 
 /***/ }),
 
@@ -10216,10 +10884,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/node_modules/react-router/esm/react-router.js");
+/* harmony import */ var _shopify_polaris__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @shopify/polaris */ "./node_modules/@shopify/polaris/dist/esm/components/AppProvider/AppProvider.js");
+/* harmony import */ var _shopify_polaris_locales_en_json__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @shopify/polaris/locales/en.json */ "./node_modules/@shopify/polaris/locales/en.json");
 /* harmony import */ var _components_edit_user_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/edit-user.component */ "./resources/js/components/edit-user.component.js");
 /* harmony import */ var _components_users_listing_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/users-listing.component */ "./resources/js/components/users-listing.component.js");
 /* harmony import */ var _components_create_user_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/create-user.component */ "./resources/js/components/create-user.component.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
 
 
 
@@ -10298,7 +10970,13 @@ function App() {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
 if (document.getElementById('app')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(App, {}), document.getElementById('app'));
+  react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_shopify_polaris__WEBPACK_IMPORTED_MODULE_14__.AppProvider, {
+    i18n: _shopify_polaris_locales_en_json__WEBPACK_IMPORTED_MODULE_15__,
+    theme: {
+      colorScheme: "light"
+    },
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(App, {})
+  }), document.getElementById('app'));
 }
 
 /***/ }),
@@ -11753,6 +12431,327 @@ function triggerEvent(node, eventName, bubbles, cancelable) {
     node.dispatchEvent(event);
   }
 }
+
+/***/ }),
+
+/***/ "./node_modules/focus-visible/dist/focus-visible.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/focus-visible/dist/focus-visible.js ***!
+  \**********************************************************/
+/***/ (function() {
+
+(function (global, factory) {
+   true ? factory() :
+  0;
+}(this, (function () { 'use strict';
+
+  /**
+   * Applies the :focus-visible polyfill at the given scope.
+   * A scope in this case is either the top-level Document or a Shadow Root.
+   *
+   * @param {(Document|ShadowRoot)} scope
+   * @see https://github.com/WICG/focus-visible
+   */
+  function applyFocusVisiblePolyfill(scope) {
+    var hadKeyboardEvent = true;
+    var hadFocusVisibleRecently = false;
+    var hadFocusVisibleRecentlyTimeout = null;
+
+    var inputTypesAllowlist = {
+      text: true,
+      search: true,
+      url: true,
+      tel: true,
+      email: true,
+      password: true,
+      number: true,
+      date: true,
+      month: true,
+      week: true,
+      time: true,
+      datetime: true,
+      'datetime-local': true
+    };
+
+    /**
+     * Helper function for legacy browsers and iframes which sometimes focus
+     * elements like document, body, and non-interactive SVG.
+     * @param {Element} el
+     */
+    function isValidFocusTarget(el) {
+      if (
+        el &&
+        el !== document &&
+        el.nodeName !== 'HTML' &&
+        el.nodeName !== 'BODY' &&
+        'classList' in el &&
+        'contains' in el.classList
+      ) {
+        return true;
+      }
+      return false;
+    }
+
+    /**
+     * Computes whether the given element should automatically trigger the
+     * `focus-visible` class being added, i.e. whether it should always match
+     * `:focus-visible` when focused.
+     * @param {Element} el
+     * @return {boolean}
+     */
+    function focusTriggersKeyboardModality(el) {
+      var type = el.type;
+      var tagName = el.tagName;
+
+      if (tagName === 'INPUT' && inputTypesAllowlist[type] && !el.readOnly) {
+        return true;
+      }
+
+      if (tagName === 'TEXTAREA' && !el.readOnly) {
+        return true;
+      }
+
+      if (el.isContentEditable) {
+        return true;
+      }
+
+      return false;
+    }
+
+    /**
+     * Add the `focus-visible` class to the given element if it was not added by
+     * the author.
+     * @param {Element} el
+     */
+    function addFocusVisibleClass(el) {
+      if (el.classList.contains('focus-visible')) {
+        return;
+      }
+      el.classList.add('focus-visible');
+      el.setAttribute('data-focus-visible-added', '');
+    }
+
+    /**
+     * Remove the `focus-visible` class from the given element if it was not
+     * originally added by the author.
+     * @param {Element} el
+     */
+    function removeFocusVisibleClass(el) {
+      if (!el.hasAttribute('data-focus-visible-added')) {
+        return;
+      }
+      el.classList.remove('focus-visible');
+      el.removeAttribute('data-focus-visible-added');
+    }
+
+    /**
+     * If the most recent user interaction was via the keyboard;
+     * and the key press did not include a meta, alt/option, or control key;
+     * then the modality is keyboard. Otherwise, the modality is not keyboard.
+     * Apply `focus-visible` to any current active element and keep track
+     * of our keyboard modality state with `hadKeyboardEvent`.
+     * @param {KeyboardEvent} e
+     */
+    function onKeyDown(e) {
+      if (e.metaKey || e.altKey || e.ctrlKey) {
+        return;
+      }
+
+      if (isValidFocusTarget(scope.activeElement)) {
+        addFocusVisibleClass(scope.activeElement);
+      }
+
+      hadKeyboardEvent = true;
+    }
+
+    /**
+     * If at any point a user clicks with a pointing device, ensure that we change
+     * the modality away from keyboard.
+     * This avoids the situation where a user presses a key on an already focused
+     * element, and then clicks on a different element, focusing it with a
+     * pointing device, while we still think we're in keyboard modality.
+     * @param {Event} e
+     */
+    function onPointerDown(e) {
+      hadKeyboardEvent = false;
+    }
+
+    /**
+     * On `focus`, add the `focus-visible` class to the target if:
+     * - the target received focus as a result of keyboard navigation, or
+     * - the event target is an element that will likely require interaction
+     *   via the keyboard (e.g. a text box)
+     * @param {Event} e
+     */
+    function onFocus(e) {
+      // Prevent IE from focusing the document or HTML element.
+      if (!isValidFocusTarget(e.target)) {
+        return;
+      }
+
+      if (hadKeyboardEvent || focusTriggersKeyboardModality(e.target)) {
+        addFocusVisibleClass(e.target);
+      }
+    }
+
+    /**
+     * On `blur`, remove the `focus-visible` class from the target.
+     * @param {Event} e
+     */
+    function onBlur(e) {
+      if (!isValidFocusTarget(e.target)) {
+        return;
+      }
+
+      if (
+        e.target.classList.contains('focus-visible') ||
+        e.target.hasAttribute('data-focus-visible-added')
+      ) {
+        // To detect a tab/window switch, we look for a blur event followed
+        // rapidly by a visibility change.
+        // If we don't see a visibility change within 100ms, it's probably a
+        // regular focus change.
+        hadFocusVisibleRecently = true;
+        window.clearTimeout(hadFocusVisibleRecentlyTimeout);
+        hadFocusVisibleRecentlyTimeout = window.setTimeout(function() {
+          hadFocusVisibleRecently = false;
+        }, 100);
+        removeFocusVisibleClass(e.target);
+      }
+    }
+
+    /**
+     * If the user changes tabs, keep track of whether or not the previously
+     * focused element had .focus-visible.
+     * @param {Event} e
+     */
+    function onVisibilityChange(e) {
+      if (document.visibilityState === 'hidden') {
+        // If the tab becomes active again, the browser will handle calling focus
+        // on the element (Safari actually calls it twice).
+        // If this tab change caused a blur on an element with focus-visible,
+        // re-apply the class when the user switches back to the tab.
+        if (hadFocusVisibleRecently) {
+          hadKeyboardEvent = true;
+        }
+        addInitialPointerMoveListeners();
+      }
+    }
+
+    /**
+     * Add a group of listeners to detect usage of any pointing devices.
+     * These listeners will be added when the polyfill first loads, and anytime
+     * the window is blurred, so that they are active when the window regains
+     * focus.
+     */
+    function addInitialPointerMoveListeners() {
+      document.addEventListener('mousemove', onInitialPointerMove);
+      document.addEventListener('mousedown', onInitialPointerMove);
+      document.addEventListener('mouseup', onInitialPointerMove);
+      document.addEventListener('pointermove', onInitialPointerMove);
+      document.addEventListener('pointerdown', onInitialPointerMove);
+      document.addEventListener('pointerup', onInitialPointerMove);
+      document.addEventListener('touchmove', onInitialPointerMove);
+      document.addEventListener('touchstart', onInitialPointerMove);
+      document.addEventListener('touchend', onInitialPointerMove);
+    }
+
+    function removeInitialPointerMoveListeners() {
+      document.removeEventListener('mousemove', onInitialPointerMove);
+      document.removeEventListener('mousedown', onInitialPointerMove);
+      document.removeEventListener('mouseup', onInitialPointerMove);
+      document.removeEventListener('pointermove', onInitialPointerMove);
+      document.removeEventListener('pointerdown', onInitialPointerMove);
+      document.removeEventListener('pointerup', onInitialPointerMove);
+      document.removeEventListener('touchmove', onInitialPointerMove);
+      document.removeEventListener('touchstart', onInitialPointerMove);
+      document.removeEventListener('touchend', onInitialPointerMove);
+    }
+
+    /**
+     * When the polfyill first loads, assume the user is in keyboard modality.
+     * If any event is received from a pointing device (e.g. mouse, pointer,
+     * touch), turn off keyboard modality.
+     * This accounts for situations where focus enters the page from the URL bar.
+     * @param {Event} e
+     */
+    function onInitialPointerMove(e) {
+      // Work around a Safari quirk that fires a mousemove on <html> whenever the
+      // window blurs, even if you're tabbing out of the page. ¯\_(ツ)_/¯
+      if (e.target.nodeName && e.target.nodeName.toLowerCase() === 'html') {
+        return;
+      }
+
+      hadKeyboardEvent = false;
+      removeInitialPointerMoveListeners();
+    }
+
+    // For some kinds of state, we are interested in changes at the global scope
+    // only. For example, global pointer input, global key presses and global
+    // visibility change should affect the state at every scope:
+    document.addEventListener('keydown', onKeyDown, true);
+    document.addEventListener('mousedown', onPointerDown, true);
+    document.addEventListener('pointerdown', onPointerDown, true);
+    document.addEventListener('touchstart', onPointerDown, true);
+    document.addEventListener('visibilitychange', onVisibilityChange, true);
+
+    addInitialPointerMoveListeners();
+
+    // For focus and blur, we specifically care about state changes in the local
+    // scope. This is because focus / blur events that originate from within a
+    // shadow root are not re-dispatched from the host element if it was already
+    // the active element in its own scope:
+    scope.addEventListener('focus', onFocus, true);
+    scope.addEventListener('blur', onBlur, true);
+
+    // We detect that a node is a ShadowRoot by ensuring that it is a
+    // DocumentFragment and also has a host property. This check covers native
+    // implementation and polyfill implementation transparently. If we only cared
+    // about the native implementation, we could just check if the scope was
+    // an instance of a ShadowRoot.
+    if (scope.nodeType === Node.DOCUMENT_FRAGMENT_NODE && scope.host) {
+      // Since a ShadowRoot is a special kind of DocumentFragment, it does not
+      // have a root element to add a class to. So, we add this attribute to the
+      // host element instead:
+      scope.host.setAttribute('data-js-focus-visible', '');
+    } else if (scope.nodeType === Node.DOCUMENT_NODE) {
+      document.documentElement.classList.add('js-focus-visible');
+      document.documentElement.setAttribute('data-js-focus-visible', '');
+    }
+  }
+
+  // It is important to wrap all references to global window and document in
+  // these checks to support server-side rendering use cases
+  // @see https://github.com/WICG/focus-visible/issues/199
+  if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+    // Make the polyfill helper globally available. This can be used as a signal
+    // to interested libraries that wish to coordinate with the polyfill for e.g.,
+    // applying the polyfill to a shadow root:
+    window.applyFocusVisiblePolyfill = applyFocusVisiblePolyfill;
+
+    // Notify interested libraries of the polyfill's presence, in case the
+    // polyfill was loaded lazily:
+    var event;
+
+    try {
+      event = new CustomEvent('focus-visible-polyfill-ready');
+    } catch (error) {
+      // IE11 does not support using CustomEvent as a constructor directly:
+      event = document.createEvent('CustomEvent');
+      event.initCustomEvent('focus-visible-polyfill-ready', false, false, {});
+    }
+
+    window.dispatchEvent(event);
+  }
+
+  if (typeof document !== 'undefined') {
+    // Apply the polyfill to the global document, so that no JavaScript
+    // coordination is required to use the polyfill in the top-level document:
+    applyFocusVisiblePolyfill(document);
+  }
+
+})));
+
 
 /***/ }),
 

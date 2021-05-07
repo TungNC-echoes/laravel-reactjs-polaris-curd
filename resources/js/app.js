@@ -8,7 +8,8 @@ import Col from "react-bootstrap/Col";
 import "bootstrap/dist/css/bootstrap.css";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import {AppProvider} from "@shopify/polaris";
+import en from '@shopify/polaris/locales/en.json';
 import EditUser from "./components/edit-user.component";
 import UsersList from "./components/users-listing.component";
 import CreateUser from "./components/create-user.component";
@@ -62,5 +63,5 @@ function App() {
 export default App;
 
 if (document.getElementById('app')) {
-    ReactDOM.render(<App />, document.getElementById('app'));
+    ReactDOM.render(<AppProvider i18n={en} theme={{colorScheme: "light"}}><App /></AppProvider>, document.getElementById('app'));
 }
